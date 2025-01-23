@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'FT Expo Black';
+    src: url('../fonts/FT EXPO Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FT Expo Outline';
+    src: url('../fonts/FT EXPO Black Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
