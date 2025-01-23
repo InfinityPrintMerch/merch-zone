@@ -1,0 +1,101 @@
+[
+    {
+        "sku": "STW03501",
+        "keywords": "1 streetwear 1",
+        "name": "MOD: STW-03501",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/zFMgSsQ/STREETWEAR-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03501%22"
+    },
+    {
+        "sku": "STW03502",
+        "keywords": "2 streetwear 2",
+        "name": "MOD: STW-03502",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/fvHLxWS/STREETWEAR-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03502%22"
+    },
+    {
+        "sku": "STW03503",
+        "keywords": "3 streetwear 3",
+        "name": "MOD: STW-03503",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/sRFsJhX/STREETWEAR-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03503%22"
+    },
+    {
+        "sku": "STW03504",
+        "keywords": "4 streetwear 4",
+        "name": "MOD: STW-03504",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/c3dgq3W/STREETWEAR-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03504%22"
+    },
+    {
+        "sku": "STW03505",
+        "keywords": "5 streetwear 5",
+        "name": "MOD: STW-03505",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/SxfjWTz/STREETWEAR-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03505%22"
+    },
+    {
+        "sku": "STW03506",
+        "keywords": "6 streetwear 6",
+        "name": "MOD: STW-03506",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/4gFY4q6/STREETWEAR-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03506%22"
+    },
+    {
+        "sku": "STW03507",
+        "keywords": "7 streetwear 7",
+        "name": "MOD: STW-03507",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/N9xYdGS/STREETWEAR-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03507%22"
+    },
+    {
+        "sku": "STW03508",
+        "keywords": "8 streetwear 8",
+        "name": "MOD: STW-03508",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/1q6P5TN/STREETWEAR-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03508%22"
+    },
+    {
+        "sku": "STW03509",
+        "keywords": "9 streetwear 9",
+        "name": "MOD: STW-03509",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Vw5mnKj/STREETWEAR-09.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03509%22"
+    },
+    {
+        "sku": "STW03510",
+        "keywords": "10 streetwear 10",
+        "name": "MOD: STW-03510",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/72hWcxR/STREETWEAR-10.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03510%22"
+    },
+    {
+        "sku": "STW03511",
+        "keywords": "11 streetwear 11",
+        "name": "MOD: STW-03511",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/4YDDvn5/STREETWEAR-11.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW03511%22"
+    }
+]

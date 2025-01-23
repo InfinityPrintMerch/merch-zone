@@ -1,0 +1,92 @@
+[
+    {
+        "sku": "ANB01001",
+        "keywords": "1 angel beats 1",
+        "name": "MOD: ANB-01001",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/SvRr0RJ/ANGEL-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01001%22"
+    },
+    {
+        "sku": "ANB01002",
+        "keywords": "2 angel beats 2",
+        "name": "MOD: ANB-01002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Hrcmps6/ANGEL-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01002%22"
+    },
+    {
+        "sku": "ANB01003",
+        "keywords": "3 angel beats 3",
+        "name": "MOD: ANB-01003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/zQHF3ZW/ANGEL-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01003%22"
+    },
+    {
+        "sku": "ANB01004",
+        "keywords": "4 angel beats 4",
+        "name": "MOD: ANB-01004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/CzdHBBy/ANGEL-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01004%22"
+    },
+    {
+        "sku": "ANB01005",
+        "keywords": "5 angel beats 5",
+        "name": "MOD: ANB-01005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/f24vgtp/ANGEL-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01005%22"
+    },
+    {
+        "sku": "ANB01006",
+        "keywords": "6 angel beats 6",
+        "name": "MOD: ANB-01006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/pb2pdM4/ANGEL-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01006%22"
+    },
+    {
+        "sku": "ANB01007",
+        "keywords": "7 angel beats 7",
+        "name": "MOD: ANB-01007",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/tc0pbf6/ANGEL-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01007%22"
+    },
+    {
+        "sku": "ANB01008",
+        "keywords": "8 angel beats 8",
+        "name": "MOD: ANB-01008",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/zshqV4b/ANGEL-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01008%22"
+    },
+    {
+        "sku": "ANB01009",
+        "keywords": "9 angel beats 9",
+        "name": "MOD: ANB-01009",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/4WgjXjh/ANGEL-09.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01009%22"
+    },
+    {
+        "sku": "ANB01010",
+        "keywords": "10 angel beats 10",
+        "name": "MOD: ANB-01010",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/HFG9svW/ANGEL-10.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22ANB01010%22"
+    }
+]

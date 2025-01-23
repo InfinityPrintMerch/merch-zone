@@ -1,0 +1,92 @@
+[
+    {
+        "sku": "STW020001",
+        "keywords": "1 streetwear D 1",
+        "name": "MOD: STW-020001",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/GW8vmrQ/STREETWEAR-D-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020001%22"
+    },
+    {
+        "sku": "STW020002",
+        "keywords": "2 streetwear D 2",
+        "name": "MOD: STW-020002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Zxzcs8v/STREETWEAR-D-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020002%22"
+    },
+    {
+        "sku": "STW020003",
+        "keywords": "3 streetwear D 3",
+        "name": "MOD: STW-020003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/s3bTVR1/STREETWEAR-D-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020003%22"
+    },
+    {
+        "sku": "STW020004",
+        "keywords": "4 streetwear D 4",
+        "name": "MOD: STW-020004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/SNbKdQw/STREETWEAR-D-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020004%22"
+    },
+    {
+        "sku": "STW020005",
+        "keywords": "5 streetwear D 5",
+        "name": "MOD: STW-020005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/zb14c32/STREETWEAR-D-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020005%22"
+    },
+    {
+        "sku": "STW020006",
+        "keywords": "6 streetwear D 6",
+        "name": "MOD: STW-020006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/G2myWR5/STREETWEAR-D-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020006%22"
+    },
+    {
+        "sku": "STW020007",
+        "keywords": "7 streetwear D 7",
+        "name": "MOD: STW-020007",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/vQ2CSKh/STREETWEAR-D-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020007%22"
+    },
+    {
+        "sku": "STW020008",
+        "keywords": "8 streetwear D 8",
+        "name": "MOD: STW-020008",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/4M8mCWJ/STREETWEAR-D-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020008%22"
+    },
+    {
+        "sku": "STW020009",
+        "keywords": "9 streetwear D 9",
+        "name": "MOD: STW-020009",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ZgvjCFL/STREETWEAR-D-09.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020009%22"
+    },
+    {
+        "sku": "STW020010",
+        "keywords": "10 streetwear D 10",
+        "name": "MOD: STW-020010",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/82KWnHS/STREETWEAR-D-10.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW020010%22"
+    }
+]

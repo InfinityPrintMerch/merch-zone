@@ -1,0 +1,29 @@
+[
+    {
+        "sku": "STW0701",
+        "keywords": "1 streetwear 1",
+        "name": "MOD: STW-07001",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/M1yfpjM/STREETWEAR-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW0701%22"
+    },
+    {
+        "sku": "STW0702",
+        "keywords": "2 streetwear 2",
+        "name": "MOD: STW-07002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/mbtW0MB/STREETWEAR-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW0702%22"
+    },
+    {
+        "sku": "STW0703",
+        "keywords": "3 streetwear 3",
+        "name": "MOD: STW-07003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/NSmL4pt/STREETWEAR-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW0703%22"
+    }
+]

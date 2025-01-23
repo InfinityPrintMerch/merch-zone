@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetWear</title>
+    <link id="favicon" rel="icon" href="https://i.ibb.co/zR6M2p2/icon-c.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/media_query_phone.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+    <script src="../js/teme_toogle.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/results.js"></script>
+    <script src="../js/filter.js"></script>
+    <script src="../js/dinamic_tag.js"></script>
+    <script src="../js/page.js"></script>
+    <script src="../js/linking.js"></script>
+    <script src="../js/dinamic_icons_a.js"></script>
+    <script src="../js/dinamic_image.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+        <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
+    <div class="navbar-links">
+        <a href="../index.html">Inicio</a>
+        <a href="../merch.html">Merch</a>
+        <a href="../contacto.html">Contacto</a>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/infinityprinthub" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/infinityprintmerchmx/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=2411576300" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+    <section class="banner-merch banner-3">
+      <div>
+          <img src="https://i.ibb.co/mC66495/merch-streetwear.png" alt="banner-text">
+</div>
+    </section>
+
+    <section class="section-merch">
+      <div class="text-box-merch">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h1>Diseños disponibles para toda Merch</h1>
+        </div>
+
+        <div class="text-box-merch">
+        <i class="fa-solid fa-pen-ruler"></i>
+          <h1>100% Editables para su Gusto.</h1>
+          </div>
+
+          <div class="text-box-merch">
+          <i class="fa-solid fa-layer-group"></i>
+            <h1>Organizados por Colecciones</h1>
+            </div>
+    </section>
+
+    <section class="productos-personalizables-b">
+      <h2>STREETWEAR</h2>
+    </section>
+
+      <div class="search-container">
+        <button class="back-btn" onclick="window.location.href='../merch.html'">
+          <i class="fa-solid fa-left-long"></i>
+      </button>
+         <input type="text" id="search-bar" class="search-bar" placeholder="Buscar...">
+         <button class="filter-btn" id="filter-btn">Filtrar</button>
+         <button class="filter-btn" id="reset-btn" style="display: none;"><i class="fa-regular fa-circle-xmark"></i></button>
+      </div>
+
+<!-- Ventana emergente -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <button id="hot">HOT</button>
+        <button id="new">NUEVO</button>
+        <button id="newest">RECIENTES</button>
+        <button id="az">A - Z</button>
+        <button id="za">Z - A</button>
+        <button class="close-btn" id="close-popup">CERRAR</button>
+    </div>
+</div>
+
+<!-- Paginación -->
+<div class="pagination">
+  <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+  <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+  <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+</div>
+
+<div id="no-results" style="display:none; color: red;"></div>
+
+      <section class="section-catalog-a">
+      <div class="container-a">
+
+        <div class="box-a" data-name="streetwear 1" data-designs="236" data-hot="true" data-new="true" data-date="2025-01-18" data-image="https://i.ibb.co/vqgJRdP/streetwear-01.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_1">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.01</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 2" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/hgNRfzd/streetwear-02.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_2">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.02</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 3" data-designs="14" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/NVmDZPH/streetwear-03.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_3">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.03</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 4" data-designs="2" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/bLj25xR/streetwear-04.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_4">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.04</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 5" data-designs="40" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/2cXbmym/streetwear-05.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_5">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.05</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 6" data-designs="1" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/y4xmfZL/streetwear-06.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_6">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.06</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 7" data-designs="3" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/1G24rvM/streetwear-07.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_7">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.07</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 8" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/0yx74Gh/streetwear-08.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_8">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.08</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 9" data-designs="33" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/BsWvgdp/streetwear-09.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_9">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.09</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 10" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/QC3S2cL/streetwear-10.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_10">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.10</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 11" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/VWCcSD5/streetwear-11.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_11">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.11</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 12" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/gSzHv6X/streetwear-12.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_12">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.12</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 13" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/X4pCfn1/streetwear-13.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_13">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.13</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 14" data-designs="13" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/hZwSRYN/streetwear-14.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_14">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.14</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 15" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/sv4J0Ph/streetwear-15.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_15">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.15</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 16" data-designs="70" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/njmhqdm/streetwear-16.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_16">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.16</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 17" data-designs="31" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/jMZM5dY/streetwear-17.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_17">
+        <img src="h" alt="Hover" class="hover-img">
+        <p class="overlay-text">StreetWear Vol.17</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 18" data-designs="63" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/JqQy0K6/streetwear-18.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_18">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.18</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 19" data-designs="54" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/5cWBZ7F/streetwear-19.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_19">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.19</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 20" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/WyWhMpB/streetwear-20.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_20">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.20</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 21" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/DYXtXR2/streetwear-21.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_21">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.21</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 22" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/PG9KJCC/streetwear-22.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_22">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.22</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 23" data-designs="200" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ZgbF5xr/streetwear-23.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_23">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.23</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 24" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/q7VMqTj/streetwear-24.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_24">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.24</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 25" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/1mHHsbw/streetwear-25.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_25">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.25</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 26" data-designs="24" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ccgXzzz/streetwear-26.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_26">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.26</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 27" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/9cbW9FW/streetwear-27.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_27">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.27</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 28" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/YQgmrxp/streetwear-28.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_28">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.28</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 29" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/Y73yLCz/streetwear-29.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_29">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.29</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 30" data-designs="71" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/mFG0Xr1/streetwear-30.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_30">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.30</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 31" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/566YfH1/streetwear-31.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_31">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.31</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 32" data-designs="77" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/b7q3rGY/streetwear-32.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_32">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.32</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 33" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/6J4k7ZH/streetwear-33.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_33">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.33</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 34" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/7t64Gvj/streetwear-34.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_34">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.34</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 35" data-designs="11" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/0nbLLF2/streetwear-35.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_35">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.35</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 36" data-designs="55" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/hB30zNs/streetwear-36.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_36">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.36</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 37" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/gmPgS19/streetwear-37.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_37">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.37</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 38" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/gZmv4qg/streetwear-38.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_38">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.38</p>
+        </div>
+
+        <div class="box-a" data-name="streetwear 39" data-designs="71" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/DDXCQB9/streetwear-39.png" data-link="catalogo.html?category=streetwear&vol=streetwear_vol_39">
+        <img class="hover-img">
+        <p class="overlay-text">StreetWear Vol.39</p>
+        </div>
+
+      </div>
+
+
+        <!-- Modal para ampliar imagen -->
+        <div id="imageModal-b" class="modal-b" onclick="closeModal()">
+            <span class="close-b">&times;</span>
+            <img class="modal-content-b" id="modalImage-b">
+            <div id="caption"></div>
+        </div>
+
+      <!-- Paginación -->
+      <div class="pagination">
+        <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+        <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+        <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+      </div>
+
+      <div class="blank-section">
+  <p></p>
+</div>
+
+
+  </body>
+
+  <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>Sobre Nosotros</h3>
+              <p>Infinity Print Hub es tu mejor opción para personalización de productos. Calidad y creatividad en cada diseño.</p>
+          </div>
+          <div class="footer-section">
+              <h3>Enlaces Rápidos</h3>
+              <ul>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../tecnicas.html">Tecnicas</a></li>
+                  <li><a href="../merch.html">Merch</a></li>
+                  <li><a href="../contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Contáctanos</h3>
+              <p>Email: infinitydesigneralfa@gmail.com</p>
+              <p>Tel: +52 241 157 6300</p>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/infinityprinthub"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/infinityprintmerchmx/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=2411576300"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2025 Infinity Print Hub. Todos los derechos reservados.</p>
+      </div>
+  </footer>
+
+  <div class="floating-buttons">
+    <a href="https://api.whatsapp.com/send?phone=2411576300" target="_blank">
+      <button class="floating-button">
+        <i class="fa-brands fa-whatsapp"></i>
+      </button>
+    </a>
+  </div>
+
+
+  </html>

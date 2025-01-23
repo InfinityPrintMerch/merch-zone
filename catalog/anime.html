@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link id="favicon" rel="icon" href="https://i.ibb.co/zR6M2p2/icon-c.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/media_query_phone.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+    <script src="../js/teme_toogle.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/results.js"></script>
+    <script src="../js/filter.js"></script>
+    <script src="../js/dinamic_tag.js"></script>
+    <script src="../js/page.js"></script>
+    <script src="../js/linking.js"></script>
+    <script src="../js/dinamic_icons_a.js"></script>
+    <script src="../js/dinamic_image.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+        <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
+    <div class="navbar-links">
+        <a href="../index.html">Inicio</a>
+        <a href="../merch.html">Merch</a>
+        <a href="../contacto.html">Contacto</a>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/infinityprinthub" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/infinityprintmerchmx/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=2411576300" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+    <section class="banner-merch banner-2">
+      <div>
+          <img src="https://i.ibb.co/YWw1Qt4/anime-logo.png" alt="banner-text">
+</div>
+    </section>
+
+    <section class="section-merch">
+      <div class="text-box-merch">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h1>Diseños disponibles para toda Merch</h1>
+        </div>
+
+        <div class="text-box-merch">
+        <i class="fa-solid fa-pen-ruler"></i>
+          <h1>100% Editables para su Gusto.</h1>
+          </div>
+
+          <div class="text-box-merch">
+          <i class="fa-solid fa-layer-group"></i>
+            <h1>Organizados por Colecciones</h1>
+            </div>
+    </section>
+
+    <section class="productos-personalizables-b">
+      <h2>ANIME</h2>
+    </section>
+
+      <div class="search-container">
+        <button class="back-btn" onclick="window.location.href='../merch.html'">
+          <i class="fa-solid fa-left-long"></i>
+      </button>
+         <input type="text" id="search-bar" class="search-bar" placeholder="Buscar...">
+         <button class="filter-btn" id="filter-btn">Filtrar</button>
+         <button class="filter-btn" id="reset-btn" style="display: none;"><i class="fa-regular fa-circle-xmark"></i></button>
+      </div>
+
+<!-- Ventana emergente -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <button id="hot">HOT</button>
+        <button id="new">NUEVO</button>
+        <button id="newest">RECIENTES</button>
+        <button id="az">A - Z</button>
+        <button id="za">Z - A</button>
+        <button class="close-btn" id="close-popup">CERRAR</button>
+    </div>
+</div>
+
+<!-- Paginación -->
+<div class="pagination">
+  <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+  <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+  <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+</div>
+
+<div id="no-results" style="display:none; color: red;"></div>
+
+      <section class="section-catalog-a">
+      <div class="container-a">
+
+
+        <div class="box-a" data-name="akira robots 1" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/WWyrv1Z/akira-01.png" data-link="catalogo.html?category=anime&vol=akira_vol_1">
+        <img class="hover-img">
+        <p class="overlay-text">Akira Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="angels beats 1" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/g48kJxp/angel-beats-01.png" data-link="catalogo.html?category=anime&vol=angel_beats_vol_1">
+        <img class="hover-img">
+        <p class="overlay-text">Angel Beats! Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="girls 1" data-designs="36" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/J2gwmYg/girls-01.png" data-link="catalogo.html?category=anime&vol=girls_vol_1">
+        <img class="hover-img">
+        <p class="overlay-text">Girls Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="anime 1" data-designs="18" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/nBb04JB/anime-01.png" data-link="catalogo.html?category=anime&vol=anime_vol_1">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="anime 2" data-designs="52" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/F63g2sh/anime-02.png" data-link="catalogo.html?category=anime&vol=anime_vol_2">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.2</p>
+        </div>
+
+        <div class="box-a" data-name="anime  3" data-designs="46" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/jV0FgRF/anime-03.png" data-link="catalogo.html?category=anime&vol=anime_vol_3">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.3</p>
+        </div>
+
+        <div class="box-a" data-name="anime 4" data-designs="8" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/b1YjFn1/anime-04.png" data-link="catalogo.html?category=anime&vol=anime_vol_4">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.4</p>
+        </div>
+
+        <div class="box-a" data-name="anime 5" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/JQwcQ0n/anime-05.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.5</p>
+        </div>
+
+        <div class="box-a" data-name="anime 6" data-designs="24" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/2gnNVdq/anime-06.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.6</p>
+        </div>
+
+        <div class="box-a" data-name="anime 7" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/YNLvLnf/anime-07.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.7</p>
+        </div>
+
+        <div class="box-a" data-name="anime 8" data-designs="7" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/cF4fpqL/anime-08.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.8</p>
+        </div>
+
+        <div class="box-a" data-name="anime 9" data-designs="25" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/fS1J7RK/anime-09.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.9</p>
+        </div>
+
+        <div class="box-a" data-name="anime 10" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/WBBNV50/anime-010.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.10</p>
+        </div>
+
+        <div class="box-a" data-name="anime 11" data-designs="50" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/qkLhpzc/anime-011.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.11</p>
+        </div>
+
+        <div class="box-a" data-name="anime 12" data-designs="45" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/1f5fNLK/anime-012.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.12</p>
+        </div>
+
+        <div class="box-a" data-name="anime 13" data-designs="57" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/rFnQktK/anime-013.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.13</p>
+        </div>
+
+        <div class="box-a" data-name="anime 14" data-designs="6" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/bQLmFyS/anime-014.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.14</p>
+        </div>
+
+        <div class="box-a" data-name="anime 15" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/vVtt7yr/anime-015.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.15</p>
+        </div>
+
+        <div class="box-a" data-name="anime 16" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/PjxrTpB/anime-016.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.16</p>
+        </div>
+
+        <div class="box-a" data-name="anime 17" data-designs="6" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/1db2rKG/anime-017.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.17</p>
+        </div>
+
+        <div class="box-a" data-name="anime 18" data-designs="15" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/fYrmwf3/anime-18.png" data-link="">
+        <img class="hover-img">
+        <p class="overlay-text">Anime Vol.18</p>
+        </div>
+
+        <div class="box-a" data-name="exclusivos 1" data-designs="61" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/T4hNFQx/exclusivos-01.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.1</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 2" data-designs="13" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/1nC0RDZ/exclusivos-02.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.2</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 3" data-designs="11" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/rsWXqMD/exclusivos-03.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.3</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 4" data-designs="13" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/NpyWRcM/exclusivos-04.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.4</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 5" data-designs="13" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/g7hXLKt/exclusivos-05.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.5</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 6" data-designs="90" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/Jk6KW1q/exclusivos-06.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.6</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 7" data-designs="14" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/GVRXsBk/exclusivos-07.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.7</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 8" data-designs="27" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/b5xF9Vj/exclusivos-08.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.8</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 9" data-designs="145" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/2Fy8pVm/exclusivos-09.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.9</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 10" data-designs="14" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/7N1pnwY/exclusivos-10.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.10</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 11" data-designs="58" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/JRg8jvp/exclusivos-11.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.11</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 12" data-designs="108" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/PQYp5Y6/exclusivos-12.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.12</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 13" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/khNCFKC/exclusivos-13.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.13</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 14" data-designs="75" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/zZwPy2m/exclusivos-14.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.14</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 15 my hero academia attack on titan chainsaw alita akira demon slayer jujutsu kaisen one piece bleach naruto" data-designs="45" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/MDXs9jX/exclusivos-15.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.15</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 16 eren levi naruto all might sailor moon raphtalia vegeta luffy tanjiro goku" data-designs="11" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/gV8BTgZ/exclusivos-16.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.16</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 17" data-designs="5" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/p2qsfhY/exclusivos-17.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.17</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 18" data-designs="23" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/C84FvwW/exclusivos-18.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.18</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 19" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/G7MtNk6/exclusivos-19.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.19</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 20" data-designs="54" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/KL4sRd6/exclusivos-20.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.20</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 21" data-designs="18" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ThWWQXM/exclusivos-21.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.21</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 22" data-designs="153" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/F8JZG7R/exclusivos-22.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.22</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 23" data-designs="21" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/JprmDNB/exclusivos-23.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.23</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 24" data-designs="15" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/cDLXzTn/exclusivos-24.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.24</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 25" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/b2GB9vF/exclusivos-25.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.25</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 26" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/CMHhSc8/exclusivos-26.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.26</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 27" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/nDjVZ39/exclusivos-27.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.27</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 28" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/7GmMcZD/exclusivos-28.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.28</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 29" data-designs="24" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/XzCSDLj/exclusivos-29.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.29</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 30" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/GkX4qTJ/exclusivos-30.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.30</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 31" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/f2qB2nK/exclusivos-31.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.31</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 32" data-designs="13" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/2WPDBpC/exclusivos-32.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.32</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 33" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/CQhwKg7/exclusivos-33.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.33</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 34" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/H46TzVQ/exclusivos-34.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.34</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 35" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ck4K6fn/exclusivos-35.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.35</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 36" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ZJm67Rc/exclusivos-36.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.36</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 37" data-designs="14" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/JQWFmhc/exclusivos-37.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.37</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 38" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/b5jMH5D/exclusivos-38.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.38</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 39" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/HFdwLsR/exclusivos-39.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.39</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 40" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/GQd5BFV/exclusivos-40.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.40</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 41" data-designs="8" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/C9zX4LR/exclusivos-41.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.41</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 42" data-designs="15" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/3s52jJ9/exclusivos-42.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.42</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 43" data-designs="24" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/7v55cY7/exclusivos-43.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.43</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 44" data-designs="25" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/qxDDQrG/exclusivos-44.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.44</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 45" data-designs="17" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/MsVGsWs/exclusivos-45.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.45</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 46" data-designs="15" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/HFDGLpD/exclusivos-46.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.46</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 47" data-designs="8" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/QNY9VwX/exclusivos-47.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.47</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 48" data-designs="11" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/VmMVBv1/exclusivos-48.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.48</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 49" data-designs="14" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/WKCCmbJ/exclusivos-49.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.49</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 50" data-designs="11" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/CHcfx80/exclusivos-50.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.50</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 51" data-designs="11" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/TgBHY1F/exclusivos-51.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.51</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 52" data-designs="14" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/Db9TR36/exclusivos-52.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.52</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 53" data-designs="14" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/jhFtRGh/exclusivos-53.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.53</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 54" data-designs="6" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/cwFNjD9/exclusivos-54.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.54</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 55" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/PTVrVYq/exclusivos-55.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.55</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 56" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/sQHXN3Z/exclusivos-56.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.56</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 57" data-designs="13" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/CBdf8jD/exclusivos-57.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.57</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 58" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/fpyr7d9/exclusivos-58.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.58</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 59" data-designs="25" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/xHtnQ6M/exclusivos-59.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.59</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 60" data-designs="19" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/hBztPx2/exclusivos-60.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.60</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 61" data-designs="60" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/8sgZVFF/exclusivos-61.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.61</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 62" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/LnGX3PG/exclusivos-62.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.62</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 63" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/bmGcLsb/exclusivos-63.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.63</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 64" data-designs="11" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/gdhvw5H/exclusivos-64.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.64</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 65" data-designs="20" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/KLnCwhH/exclusivos-65.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.65</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 66" data-designs="19" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/sgMkQSL/exclusivos-66.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.66</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 67" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/mCkYqvs/exclusivos-67.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.67</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 68" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/n0jjjMb/exclusivos-68.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.68</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 69" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/3cZz5C3/exclusivos-69.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.69</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 70" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/NjzXV7G/exclusivos-70.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.70</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 71" data-designs="18" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/HYmXs4v/exclusivos-71.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.71</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 72" data-designs="21" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/YyF7mRQ/exclusivos-72.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.72</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 73" data-designs="12" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/4ZwDtCZ/exclusivos-73.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.73</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 74" data-designs="17" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/tQH8LNX/exclusivos-74.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.74</p>
+      </div>
+
+      <div class="box-a" data-name="exclusivos 75" data-designs="5" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/n6VcDq3/exclusivos-75.png" data-link="">
+          <img class="hover-img">
+          <p class="overlay-text">Exclusivos Vol.75</p>
+      </div>
+
+
+      </div>
+
+              <!-- Modal para ampliar imagen -->
+              <div id="imageModal-b" class="modal-b" onclick="closeModal()">
+                <span class="close-b">&times;</span>
+                <img class="modal-content-b" id="modalImage-b">
+                <div id="caption"></div>
+            </div>
+      <!-- Paginación -->
+      <div class="pagination">
+        <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+        <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+        <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+      </div>
+
+      <div class="blank-section">
+  <p></p>
+</div>
+
+
+  </body>
+
+  <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>Sobre Nosotros</h3>
+              <p>Infinity Print Hub es tu mejor opción para personalización de productos. Calidad y creatividad en cada diseño.</p>
+          </div>
+          <div class="footer-section">
+              <h3>Enlaces Rápidos</h3>
+              <ul>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../tecnicas.html">Tecnicas</a></li>
+                  <li><a href="../merch.html">Merch</a></li>
+                  <li><a href="../contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Contáctanos</h3>
+              <p>Email: infinitydesigneralfa@gmail.com</p>
+              <p>Tel: +52 241 157 6300</p>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/infinityprinthub"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/infinityprintmerchmx/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=2411576300"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2025 Infinity Print Hub. Todos los derechos reservados.</p>
+      </div>
+  </footer>
+
+  <div class="floating-buttons">
+    <a href="https://api.whatsapp.com/send?phone=2411576300" target="_blank">
+      <button class="floating-button">
+        <i class="fa-brands fa-whatsapp"></i>
+      </button>
+    </a>
+  </div>
+
+
+  </html>

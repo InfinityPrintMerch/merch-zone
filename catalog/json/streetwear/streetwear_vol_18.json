@@ -1,0 +1,569 @@
+[
+    {
+        "sku": "STW018001",
+        "keywords": "1 bear 1",
+        "name": "MOD: STW-018001",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/PYcXNPT/BEAR-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018001%22"
+    },
+    {
+        "sku": "STW018002",
+        "keywords": "2 bear 2",
+        "name": "MOD: STW-018002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/GHxVSyV/BEAR-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018002%22"
+    },
+    {
+        "sku": "STW018003",
+        "keywords": "3 bear 3",
+        "name": "MOD: STW-018003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/T1Hh6pt/BEAR-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018003%22"
+    },
+    {
+        "sku": "STW018004",
+        "keywords": "4 bear 4",
+        "name": "MOD: STW-018004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/yRszwY9/BEAR-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018004%22"
+    },
+    {
+        "sku": "STW018005",
+        "keywords": "5 bear 5",
+        "name": "MOD: STW-018005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/QfcFp9x/BEAR-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018005%22"
+    },
+    {
+        "sku": "STW018006",
+        "keywords": "6 bear 6",
+        "name": "MOD: STW-018006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/TLZxR0C/BEAR-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018006%22"
+    },
+    {
+        "sku": "STW018007",
+        "keywords": "7 bear 7",
+        "name": "MOD: STW-018007",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ngZzySB/BEAR-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018007%22"
+    },
+    {
+        "sku": "STW018008",
+        "keywords": "8 bear 8",
+        "name": "MOD: STW-018008",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/9stHybf/BEAR-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018008%22"
+    },
+    {
+        "sku": "STW018009",
+        "keywords": "9 bear 9",
+        "name": "MOD: STW-018009",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/LQNrctF/BEAR-09.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018009%22"
+    },
+    {
+        "sku": "STW018010",
+        "keywords": "10 bear 10",
+        "name": "MOD: STW-018010",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/xzYTczC/BEAR-10.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018010%22"
+    },
+    {
+        "sku": "STW018011",
+        "keywords": "11 bear 11",
+        "name": "MOD: STW-018011",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/YdxQnMm/BEAR-11.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018011%22"
+    },
+    {
+        "sku": "STW018012",
+        "keywords": "12 bear 12",
+        "name": "MOD: STW-018012",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ssGfnkg/BEAR-12.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018012%22"
+    },
+    {
+        "sku": "STW018013",
+        "keywords": "13 bear 13",
+        "name": "MOD: STW-018013",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/WySBvTf/BEAR-13.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018013%22"
+    },
+    {
+        "sku": "STW018014",
+        "keywords": "14 bear 14",
+        "name": "MOD: STW-018014",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/5nm7CWG/BEAR-14.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018014%22"
+    },
+    {
+        "sku": "STW018015",
+        "keywords": "15 bear 15",
+        "name": "MOD: STW-018015",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Th9zFXm/BEAR-15.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018015%22"
+    },
+    {
+        "sku": "STW018016",
+        "keywords": "16 bear 16",
+        "name": "MOD: STW-018016",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/WVbb9qR/BEAR-16.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018016%22"
+    },
+    {
+        "sku": "STW018017",
+        "keywords": "17 bear 17",
+        "name": "MOD: STW-018017",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/WpmhLFb/BEAR-17.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018017%22"
+    },
+    {
+        "sku": "STW018018",
+        "keywords": "18 bear 18",
+        "name": "MOD: STW-018018",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/7RkpQzp/BEAR-18.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018018%22"
+    },
+    {
+        "sku": "STW018019",
+        "keywords": "19 bear 19",
+        "name": "MOD: STW-018019",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ZN3BCCf/BEAR-19.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018019%22"
+    },
+    {
+        "sku": "STW018020",
+        "keywords": "20 bear 20",
+        "name": "MOD: STW-018020",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/C7N6cvW/BEAR-20.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018020%22"
+    },
+    {
+        "sku": "STW018021",
+        "keywords": "21 bear 21",
+        "name": "MOD: STW-018021",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/zQ0ZmSB/BEAR-21.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018021%22"
+    },
+    {
+        "sku": "STW018022",
+        "keywords": "22 bear 22",
+        "name": "MOD: STW-018022",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/bWpqz41/BEAR-22.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018022%22"
+    },
+    {
+        "sku": "STW018023",
+        "keywords": "23 bear 23",
+        "name": "MOD: STW-018023",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/MSckt9T/BEAR-23.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018023%22"
+    },
+    {
+        "sku": "STW018024",
+        "keywords": "24 bear 24",
+        "name": "MOD: STW-018024",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/H7j645Z/BEAR-24.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018024%22"
+    },
+    {
+        "sku": "STW018025",
+        "keywords": "25 bear 25",
+        "name": "MOD: STW-018025",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ZLxR20g/BEAR-25.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018025%22"
+    },
+    {
+        "sku": "STW018026",
+        "keywords": "26 bear 26",
+        "name": "MOD: STW-018026",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/xmpBDt5/BEAR-26.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018026%22"
+    },
+    {
+        "sku": "STW018027",
+        "keywords": "27 bear 27",
+        "name": "MOD: STW-018027",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/WsJgHc4/BEAR-27.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018027%22"
+    },
+    {
+        "sku": "STW018028",
+        "keywords": "28 bear 28",
+        "name": "MOD: STW-018028",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/85JzPKZ/BEAR-28.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018028%22"
+    },
+    {
+        "sku": "STW018029",
+        "keywords": "29 bear 29",
+        "name": "MOD: STW-018029",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/KsN8FmX/BEAR-29.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018029%22"
+    },
+    {
+        "sku": "STW018030",
+        "keywords": "30 bear 30",
+        "name": "MOD: STW-018030",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/f1Zbjw0/BEAR-30.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018030%22"
+    },
+    {
+        "sku": "STW018031",
+        "keywords": "31 bear 31",
+        "name": "MOD: STW-018031",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/RSJHBFp/BEAR-31.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018031%22"
+    },
+    {
+        "sku": "STW018032",
+        "keywords": "32 bear 32",
+        "name": "MOD: STW-018032",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/pnd6qsY/BEAR-32.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018032%22"
+    },
+    {
+        "sku": "STW018033",
+        "keywords": "33 bear 33",
+        "name": "MOD: STW-018033",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Z1CVbTm/BEAR-33.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018033%22"
+    },
+    {
+        "sku": "STW018034",
+        "keywords": "34 bear 34",
+        "name": "MOD: STW-018034",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/r6MDg0S/BEAR-34.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018034%22"
+    },
+    {
+        "sku": "STW018035",
+        "keywords": "35 bear 35",
+        "name": "MOD: STW-018035",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Fhz9zy5/BEAR-35.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018035%22"
+    },
+    {
+        "sku": "STW018036",
+        "keywords": "36 bear 36",
+        "name": "MOD: STW-018036",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/JjHRfzc/BEAR-36.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018036%22"
+    },
+    {
+        "sku": "STW018037",
+        "keywords": "37 bear 37",
+        "name": "MOD: STW-018037",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Z627BkM/BEAR-37.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018037%22"
+    },
+    {
+        "sku": "STW018038",
+        "keywords": "38 bear 38",
+        "name": "MOD: STW-018038",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/CB7WNxq/BEAR-38.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018038%22"
+    },
+    {
+        "sku": "STW018039",
+        "keywords": "39 bear 39",
+        "name": "MOD: STW-018039",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/nPRLWVh/BEAR-39.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018039%22"
+    },
+    {
+        "sku": "STW018040",
+        "keywords": "40 bear 40",
+        "name": "MOD: STW-018040",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/wh3pg4m/BEAR-40.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018040%22"
+    },
+    {
+        "sku": "STW018041",
+        "keywords": "41 bear 41",
+        "name": "MOD: STW-018041",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/VTmTrYV/BEAR-41.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018041%22"
+    },
+    {
+        "sku": "STW018042",
+        "keywords": "42 bear 42",
+        "name": "MOD: STW-018042",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/g9NWFy6/BEAR-42.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018042%22"
+    },
+    {
+        "sku": "STW018043",
+        "keywords": "43 bear 43",
+        "name": "MOD: STW-018043",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/RpNbnXh/BEAR-43.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018043%22"
+    },
+    {
+        "sku": "STW018044",
+        "keywords": "44 bear 44",
+        "name": "MOD: STW-018044",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/QbbG1PV/BEAR-44.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018044%22"
+    },
+    {
+        "sku": "STW018045",
+        "keywords": "45 bear 45",
+        "name": "MOD: STW-018045",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/dKDqxZ1/BEAR-45.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018045%22"
+    },
+    {
+        "sku": "STW018046",
+        "keywords": "46 bear 46",
+        "name": "MOD: STW-018046",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/NndDYxs/BEAR-46.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018046%22"
+    },
+    {
+        "sku": "STW018047",
+        "keywords": "47 bear 47",
+        "name": "MOD: STW-018047",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/GJkxhM1/BEAR-47.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018047%22"
+    },
+    {
+        "sku": "STW018048",
+        "keywords": "48 bear 48",
+        "name": "MOD: STW-018048",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/87yrgSH/BEAR-48.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018048%22"
+    },
+    {
+        "sku": "STW018049",
+        "keywords": "49 bear 49",
+        "name": "MOD: STW-018049",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/1Gk56DY/BEAR-49.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018049%22"
+    },
+    {
+        "sku": "STW018050",
+        "keywords": "50 bear 50",
+        "name": "MOD: STW-018050",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/x1mS7Cn/BEAR-50.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018050%22"
+    },
+    {
+        "sku": "STW018051",
+        "keywords": "51 bear 51",
+        "name": "MOD: STW-018051",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/9Ysg58d/BEAR-51.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018051%22"
+    },
+    {
+        "sku": "STW018052",
+        "keywords": "52 bear 52",
+        "name": "MOD: STW-018052",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/bW4spJF/BEAR-52.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018052%22"
+    },
+    {
+        "sku": "STW018053",
+        "keywords": "53 bear 53",
+        "name": "MOD: STW-018053",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/wKhjX90/BEAR-53.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018053%22"
+    },
+    {
+        "sku": "STW018054",
+        "keywords": "54 bear 54",
+        "name": "MOD: STW-018054",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/hWSqWWC/BEAR-54.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018054%22"
+    },
+    {
+        "sku": "STW018055",
+        "keywords": "55 bear 55",
+        "name": "MOD: STW-018055",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/f9mVcNT/BEAR-55.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018055%22"
+    },
+    {
+        "sku": "STW018056",
+        "keywords": "56 bear 56",
+        "name": "MOD: STW-018056",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/1KpNKB4/BEAR-56.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018056%22"
+    },
+    {
+        "sku": "STW018057",
+        "keywords": "57 bear 57",
+        "name": "MOD: STW-018057",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ZMcKr0D/BEAR-57.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018057%22"
+    },
+    {
+        "sku": "STW018058",
+        "keywords": "58 bear 58",
+        "name": "MOD: STW-018058",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/pQ8Xh6v/BEAR-58.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018058%22"
+    },
+    {
+        "sku": "STW018059",
+        "keywords": "59 bear 59",
+        "name": "MOD: STW-018059",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/xsjV0vM/BEAR-59.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018059%22"
+    },
+    {
+        "sku": "STW018060",
+        "keywords": "60 bear 60",
+        "name": "MOD: STW-018060",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Y33Xs64/BEAR-60.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018060%22"
+    },
+    {
+        "sku": "STW018061",
+        "keywords": "61 bear 61",
+        "name": "MOD: STW-018061",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/W5CTpqJ/BEAR-61.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018061%22"
+    },
+    {
+        "sku": "STW018062",
+        "keywords": "62 bear 62",
+        "name": "MOD: STW-018062",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/pL0FK8b/BEAR-62.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018062%22"
+    },
+    {
+        "sku": "STW018063",
+        "keywords": "63 bear 63",
+        "name": "MOD: STW-018063",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/F6gySxS/BEAR-63.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22STW018063%22"
+    }
+]

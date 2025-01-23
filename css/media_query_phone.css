@@ -1,0 +1,350 @@
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  /* Estilo base de la barra de navegación */
+  .navbar-links {
+      display: none; /* Oculta los enlaces por defecto */
+      flex-direction: column; /* Coloca los enlaces en columna */
+      position: fixed; /* Fija el menú en el lado izquierdo */
+      top: 0; /* Alinea al principio de la pantalla */
+      left: -250px; /* Lo oculta fuera de la pantalla */
+      width: 250px; /* Define el ancho del menú */
+      height: 100vh; /* Ocupa toda la altura de la pantalla */
+      background-color: #303030; /* Fondo del menú */
+      padding-top: 60px; /* Da espacio desde la parte superior */
+      z-index: 999;
+      transition: left 0.3s ease; /* Animación suave para el deslizamiento */
+  }
+
+  /* Cuando la barra de navegación está activa */
+  .navbar-links.active {
+      display: flex; /* Muestra el menú cuando está activo */
+      left: 0; /* Lo desplaza a la izquierda */
+  }
+
+  /* Estilo del botón de hamburguesa */
+  .hamburger {
+      display: block; /* Muestra el botón de hamburguesa en pantallas pequeñas */
+      cursor: pointer;
+  }
+
+  /* Estilo de los enlaces dentro del menú */
+  .navbar-links a {
+      color: white;
+      padding: 15px; /* Espaciado más amplio */
+      text-align: left; /* Alinea el texto a la izquierda */
+      width: 100%; /* Hace que los enlaces ocupen todo el ancho */
+      border-bottom: 1px solid #444; /* Agrega un borde sutil entre enlaces */
+      box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+      border-bottom: none;
+  }
+
+  .navbar-links a:hover {
+      background-color: #555; /* Resalta el fondo al pasar el cursor */
+  }
+
+  .navbar .active-a {
+      background-color: #101010;
+      border-radius: 0px;
+      padding: 17px;
+
+  }
+
+
+    .banner {
+        height: 280px;
+    }
+
+    .banner-merch {
+        height: 280px;
+    }
+
+    .navbar img {
+        height: 30px;
+    }
+
+
+    .banner img {
+      height: 60%;
+    }
+
+    .image-box-b {
+                  display: none;
+              }
+
+    .banner h1, .banner-merch h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .banner h2, .banner-merch h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .banner p, .banner-merch p {
+        font-size: 1.2rem;
+    }
+
+    .banner-4 {
+    background-image: url('https://i.ibb.co/h9MBXr5/banner-catalog-phone.png');
+    }
+
+
+      .cuadro {
+          height: 100px;
+          width: 130px;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .cuadro h3{
+        font-size: 20px;
+        padding-top: 7px;
+      }
+
+      .cuadro i{
+        font-size: 40px;
+        padding-top: 7px;
+      }
+
+      .cuadro p{
+        display: none;
+      }
+
+      .section-merch {
+        padding-top: 20px;
+      }
+
+      .text-box-merch h1 {
+          font-size: .8rem; /* Reducir el tamaño del encabezado */
+      }
+
+      .text-box-merch i {
+          font-size: 2rem; /* Reducir el tamaño del encabezado */
+          text-align: ri;
+      }
+
+      .text-box-merch {
+        height: 100px;
+        width: 250px;
+        border-radius: 15px;
+        padding: 5px;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+
+      .button-overlay {
+          position: absolute; /* Posiciona el botón dentro del contenedor de la imagen */
+          top: 85%; /* Centra el botón verticalmente */
+          left: 50%; /* Centra el botón horizontalmente */
+          transform: translate(-50%, -50%); /* Ajusta el botón para que quede exactamente centrado */
+          background-color: #C30000; /* Color de fondo del botón */
+          font-weight: bold;
+          color: white; /* Color del texto */
+          padding: 10px 20px; /* Espaciado interno */
+          font-size: 1rem; /* Tamaño de la fuente */
+          text-decoration: none; /* Elimina el subrayado */
+          border-radius: 25px; /* Bordes redondeados */
+          transition: background-color 0.3s ease; /* Transición suave */
+      }
+
+      .button-overlay:hover {
+          background-color: #808080; /* Cambia el color del botón al pasar el mouse */
+      }
+
+      .section-playeras h2,
+      .section-tazas h2,
+      .section-sudaderas h2 {
+          font-size: 1.8rem; /* Reducir el tamaño en pantallas más pequeñas */
+      }
+      .section-playeras p,
+      .section-tazas p,
+      .section-sudaderas p {
+          font-size: 0.9rem; /* Reducir aún más el tamaño en pantallas más pequeñas */
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+      }
+      .section-playeras .highlight,
+      .section-tazas .highlight,
+      .section-sudaderas .highlight {
+          font-size: 1rem; /* Reducir tamaño */
+      }
+      .section-playeras .subheading,
+      .section-tazas .subheading,
+      .section-sudaderas .subheading {
+          font-size: 1.2rem; /* Reducir tamaño */
+      }
+      .section-playeras .info,
+      .section-tazas .info,
+      .section-sudaderas .info {
+          font-size: 0.9rem; /* Reducir tamaño */
+      }
+      .section-playeras,
+      .section-tazas,
+      .section-sudaderas {
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+      }
+      .text-box, .image-box, .image-box-b,
+      .text-box-taza, .image-box-taza {
+          width: 80%;
+      }
+
+      .banner img {
+        height: 45px;
+      }
+
+      .banner-merch img {
+        height: 130px;
+      }
+
+      .boton-whatsapp, .boton-pedido {
+        display: none;
+      }
+
+      .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        padding: 20px 20px;
+      }
+
+      .container-a {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 10px;
+        padding: 20px 20px;
+      }
+
+      .box {
+        font-size: 1rem;
+        padding: 12px;
+      }
+
+      .box-a {
+          width: 198px;
+          height: 112px; /* Ajusta la altura según necesites */
+      }
+
+
+      .box svg {
+        width: 35px;
+        height: 35px;
+      }
+
+      .box-a img.default-img {
+        display: none; /* Oculta la imagen normal */
+      }
+
+      .box-a img.hover-img {
+        opacity: 1; /* Muestra la imagen de hover */
+        position: relative; /* Asegura que se muestre correctamente */
+       }
+
+      .hot-tag {
+        font-size: 9px;
+        padding: 5px 5px;
+
+      }
+
+
+      .hot-tag i {
+          margin-right: 5px;
+      }
+
+      .search-container {
+          padding-left: 20px;
+          padding-right: 20px
+      }
+
+      .box-a .overlay-text {
+          top: 30px; /* Ajusta el texto para que esté arriba */
+          font-size: 12px;
+      }
+
+      .box-a button {
+          width: 30px;
+          height: 30px;
+          font-size: 13px;
+      }
+
+      .box-a button {
+        opacity: 1; /* Hacer los botones visibles */
+        visibility: visible; /* Asegurarse de que los botones sean visibles */
+      }
+      .box-a:hover button {
+        opacity: 1; /* Asegurarse de que los botones no cambien al hacer hover */
+        visibility: visible;
+       }
+
+       .contador-num {
+         font-size: 2rem;
+       }
+
+       .contador-texto {
+         font-size:1rem;
+       }
+
+       .productos-personalizables-d {
+         padding: 0px 20px;
+         padding-bottom: 20px;
+
+       }
+
+       .productos-personalizables-d h2 {
+         font-size: 1.3rem;
+         padding-top: 20px;
+       }
+
+       .container-b {
+           grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+               max-width: 400px; /* Limita el ancho máximo */
+       }
+
+       .box-t {
+           width: 190px; /* Tamaño fijo para evitar expansión */
+           height: 125px; /* Mantiene proporción */
+           border-radius: 5px;
+       }
+
+       .box-t .overlay-text-b {
+           top: 50px; /* Ajusta el texto para que esté arriba */
+           font-size: 11px;
+       }
+
+       .box-a button.btn-text-icon {
+           font-size: 10px;
+           height: 20px;
+           padding-left: 8px; /* Espacio para el icono */
+           bottom: 5px; /* Ubicación en la esquina inferior */
+           left: 5px; /* Ubicación en la esquina inferior izquierda */
+       }
+
+       .box-a button.btn-text-icon::after {
+           font-size: 10px;
+           margin-left: 5px;
+       }
+
+       .box-t button {
+           width: 30px;
+           height: 30px;
+           font-size: 13px;
+       }
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 768px) {
+   .floating-buttons {
+     display: none;
+   }
+ }
