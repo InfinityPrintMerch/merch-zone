@@ -51,20 +51,11 @@
 
 
     .banner {
-        height: 280px;
+        height: 260px;
     }
 
     .banner-merch {
-        height: 280px;
-    }
-
-    .navbar img {
-        height: 30px;
-    }
-
-
-    .banner img {
-      height: 60%;
+        height: 260px;
     }
 
     .image-box-b {
@@ -89,30 +80,38 @@
     background-image: url('https://i.ibb.co/h9MBXr5/banner-catalog-phone.png');
     }
 
+    .section-cuadros {
+        flex-direction: column;  /* Cambia la dirección a columna */
+        gap: 15px;               /* Reduce el espacio entre los cuadros */
+    }
 
-      .cuadro {
-          height: 100px;
-          width: 130px;
-          border-radius: 5px;
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      }
+    .cuadro i {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 0px;
+    }
 
-      .cuadro h3{
-        font-size: 20px;
-        padding-top: 7px;
-      }
+    .cuadro h3 {
+        font-size: 1.2rem;
+        margin: 6px 0;
+    }
+    .cuadro p {
+        font-size: .9rem;
+    }
 
-      .cuadro i{
-        font-size: 40px;
-        padding-top: 7px;
-      }
-
-      .cuadro p{
-        display: none;
-      }
+    .cuadro {
+        height: auto;
+        width: auto;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    }
 
       .section-merch {
-        padding-top: 20px;
+        padding-top: 10px;
+        gap: 0px;
       }
 
       .text-box-merch h1 {
@@ -120,7 +119,7 @@
       }
 
       .text-box-merch i {
-          font-size: 2rem; /* Reducir el tamaño del encabezado */
+          font-size: 1.5rem; /* Reducir el tamaño del encabezado */
           text-align: ri;
       }
 
@@ -194,12 +193,9 @@
           width: 80%;
       }
 
-      .banner img {
-        height: 45px;
-      }
-
-      .banner-merch img {
-        height: 130px;
+      .banner img, .banner-merch img {
+        width: 330px;
+        height: auto;
       }
 
       .boton-whatsapp, .boton-pedido {
@@ -207,7 +203,7 @@
       }
 
       .container {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 10px;
         padding: 20px 20px;
       }
@@ -220,13 +216,19 @@
       }
 
       .box {
-        font-size: 1rem;
+        font-size: .9rem;
         padding: 12px;
       }
 
       .box-a {
-          width: 198px;
-          height: 112px; /* Ajusta la altura según necesites */
+          width: 170px;
+          height: 108px; /* Ajusta la altura según necesites */
+      }
+
+      .box-t {
+          width: 170px; /* Tamaño fijo para evitar expansión */
+          height: 113px; /* Mantiene proporción */
+          border-radius: 5px;
       }
 
 
@@ -257,7 +259,16 @@
 
       .search-container {
           padding-left: 20px;
-          padding-right: 20px
+          padding-right: 20px;
+          margin: 5px;
+          padding-bottom: 10px;
+      }
+
+      .search-bar {
+          width: 100%;
+          font-size: 15px;
+          border-radius: 30px;
+          height: 30px;
       }
 
       .box-a .overlay-text {
@@ -272,7 +283,7 @@
       }
 
       .box-a button {
-        opacity: 1; /* Hacer los botones visibles */
+        opacity: 0; /* Hacer los botones visibles */
         visibility: visible; /* Asegurarse de que los botones sean visibles */
       }
       .box-a:hover button {
@@ -291,6 +302,7 @@
        .productos-personalizables-d {
          padding: 0px 20px;
          padding-bottom: 20px;
+         margin: 0px;
 
        }
 
@@ -299,15 +311,15 @@
          padding-top: 20px;
        }
 
+       .productos-personalizables-b h2, .productos-personalizables-c h2 {
+           font-size: 1.5rem; /* Tamaño de la fuente */
+           padding-top: 0px;
+           margin: 10px;
+       }
+
        .container-b {
            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
                max-width: 400px; /* Limita el ancho máximo */
-       }
-
-       .box-t {
-           width: 190px; /* Tamaño fijo para evitar expansión */
-           height: 125px; /* Mantiene proporción */
-           border-radius: 5px;
        }
 
        .box-t .overlay-text-b {
@@ -332,6 +344,27 @@
            width: 30px;
            height: 30px;
            font-size: 13px;
+       }
+
+       /* Botón de Regresar */
+       .back-btn {
+           padding-right: 10px;
+           padding-left: 10px;
+           margin-right: 10px;
+           border-radius: 30px;
+           font-size: 20px;
+           height: 40px;
+       }
+
+       /* Botón de Filtrar */
+       .filter-btn {
+           padding: 10px;
+           margin-left: 10px;
+           font-size: 14px;
+           align-items: center;
+           justify-content: center;
+           height: 40px;
+           text-align: center;
        }
 
 

@@ -2,267 +2,196 @@ let currentPage = 1;
 const itemsPerPage = 20; // 20 productos por página
 
 // Función para cargar productos de una colección
-function loadProducts(category, volume) {
-    let jsonFilePath = '';
-
-if (category === 'streetwear') {
-  if (volume === 'streetwear_vol_1') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_1.json'; // Ruta para el volumen 1
-} else if (volume === 'streetwear_vol_2') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_2.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_3') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_3.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_4') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_4.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_5') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_5.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_6') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_6.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_7') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_7.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_8') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_8.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_9') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_9.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_10') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_10.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_11') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_11.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_12') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_12.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_13') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_13.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_14') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_14.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_15') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_15.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_16') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_16.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_17') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_17.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_18') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_18.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_19') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_19.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_20') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_20.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_21') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_21.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_22') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_22.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_23') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_23.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_24') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_24.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_25') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_25.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_26') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_26.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_27') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_27.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_28') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_28.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_29') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_29.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_30') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_30.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_31') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_31.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_32') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_32.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_33') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_33.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_34') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_34.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_35') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_35.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_36') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_36.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_37') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_37.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_38') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_38.json'; // Ruta para el volumen 2
-} else if (volume === 'streetwear_vol_39') {
-    jsonFilePath = 'json/streetwear/streetwear_vol_39.json'; // Ruta para el volumen 2
-} else {
-            alert('¡Colección no válida!');
-  return;
+const jsonPaths = {
+    streetwear: {
+        'streetwear_vol_1': 'json/streetwear/streetwear_vol_1.json',
+        'streetwear_vol_2': 'json/streetwear/streetwear_vol_2.json',
+        'streetwear_vol_3': 'json/streetwear/streetwear_vol_3.json',
+        'streetwear_vol_4': 'json/streetwear/streetwear_vol_4.json',
+        'streetwear_vol_5': 'json/streetwear/streetwear_vol_5.json',
+        'streetwear_vol_6': 'json/streetwear/streetwear_vol_6.json',
+        'streetwear_vol_7': 'json/streetwear/streetwear_vol_7.json',
+        'streetwear_vol_8': 'json/streetwear/streetwear_vol_8.json',
+        'streetwear_vol_9': 'json/streetwear/streetwear_vol_9.json',
+        'streetwear_vol_10': 'json/streetwear/streetwear_vol_10.json',
+        'streetwear_vol_11': 'json/streetwear/streetwear_vol_11.json',
+        'streetwear_vol_12': 'json/streetwear/streetwear_vol_12.json',
+        'streetwear_vol_13': 'json/streetwear/streetwear_vol_13.json',
+        'streetwear_vol_14': 'json/streetwear/streetwear_vol_14.json',
+        'streetwear_vol_15': 'json/streetwear/streetwear_vol_15.json',
+        'streetwear_vol_16': 'json/streetwear/streetwear_vol_16.json',
+        'streetwear_vol_17': 'json/streetwear/streetwear_vol_17.json',
+        'streetwear_vol_18': 'json/streetwear/streetwear_vol_18.json',
+        'streetwear_vol_19': 'json/streetwear/streetwear_vol_19.json',
+        'streetwear_vol_20': 'json/streetwear/streetwear_vol_20.json',
+        'streetwear_vol_21': 'json/streetwear/streetwear_vol_21.json',
+        'streetwear_vol_22': 'json/streetwear/streetwear_vol_22.json',
+        'streetwear_vol_23': 'json/streetwear/streetwear_vol_23.json',
+        'streetwear_vol_24': 'json/streetwear/streetwear_vol_24.json',
+        'streetwear_vol_25': 'json/streetwear/streetwear_vol_25.json',
+        'streetwear_vol_26': 'json/streetwear/streetwear_vol_26.json',
+        'streetwear_vol_27': 'json/streetwear/streetwear_vol_27.json',
+        'streetwear_vol_28': 'json/streetwear/streetwear_vol_28.json',
+        'streetwear_vol_29': 'json/streetwear/streetwear_vol_29.json',
+        'streetwear_vol_30': 'json/streetwear/streetwear_vol_30.json',
+        'streetwear_vol_31': 'json/streetwear/streetwear_vol_31.json',
+        'streetwear_vol_32': 'json/streetwear/streetwear_vol_32.json',
+        'streetwear_vol_33': 'json/streetwear/streetwear_vol_33.json',
+        'streetwear_vol_34': 'json/streetwear/streetwear_vol_34.json',
+        'streetwear_vol_35': 'json/streetwear/streetwear_vol_35.json',
+        'streetwear_vol_36': 'json/streetwear/streetwear_vol_36.json',
+        'streetwear_vol_37': 'json/streetwear/streetwear_vol_37.json',
+        'streetwear_vol_38': 'json/streetwear/streetwear_vol_38.json',
+        'streetwear_vol_39': 'json/streetwear/streetwear_vol_39.json'
+    },
+    anime: {
+      'akira_vol_1': 'json/anime/akira_vol_1.json',
+      'angel_beats_vol_1': 'json/anime/angel_beats_vol_1.json',
+      'anime_vol_1': 'json/anime/anime_vol_1.json',
+      'girls_vol_1': 'json/anime/girls_vol_1.json',
+      'anime_vol_2': 'json/anime/anime_vol_2.json',
+      'anime_vol_3': 'json/anime/anime_vol_3.json',
+      'anime_vol_4': 'json/anime/anime_vol_4.json',
+      'exclusivos_vol_1': 'json/anime/exclusivos_vol_1.json',
+      'exclusivos_vol_2': 'json/anime/exclusivos_vol_2.json',
+      'exclusivos_vol_3': 'json/anime/exclusivos_vol_3.json',
+      'exclusivos_vol_4': 'json/anime/exclusivos_vol_4.json',
+      'exclusivos_vol_5': 'json/anime/exclusivos_vol_5.json',
+      'exclusivos_vol_6': 'json/anime/exclusivos_vol_6.json',
+      'exclusivos_vol_7': 'json/anime/exclusivos_vol_7.json',
+      'exclusivos_vol_8': 'json/anime/exclusivos_vol_8.json',
+      'exclusivos_vol_9': 'json/anime/exclusivos_vol_9.json',
+      'exclusivos_vol_10': 'json/anime/exclusivos_vol_10.json',
+      'exclusivos_vol_11': 'json/anime/exclusivos_vol_11.json',
+      'exclusivos_vol_12': 'json/anime/exclusivos_vol_12.json',
+      'exclusivos_vol_13': 'json/anime/exclusivos_vol_13.json',
+      'exclusivos_vol_14': 'json/anime/exclusivos_vol_14.json',
+      'exclusivos_vol_15': 'json/anime/exclusivos_vol_15.json',
+      'exclusivos_vol_16': 'json/anime/exclusivos_vol_16.json',
+      'exclusivos_vol_17': 'json/anime/exclusivos_vol_17.json',
+      'exclusivos_vol_18': 'json/anime/exclusivos_vol_18.json',
+      'exclusivos_vol_19': 'json/anime/exclusivos_vol_19.json',
+      'exclusivos_vol_20': 'json/anime/exclusivos_vol_20.json',
+      'exclusivos_vol_21': 'json/anime/exclusivos_vol_21.json',
+      'exclusivos_vol_22': 'json/anime/exclusivos_vol_22.json',
+      'exclusivos_vol_23': 'json/anime/exclusivos_vol_23.json',
+      'exclusivos_vol_24': 'json/anime/exclusivos_vol_24.json',
+      'exclusivos_vol_25': 'json/anime/exclusivos_vol_25.json',
+      'exclusivos_vol_26': 'json/anime/exclusivos_vol_26.json',
+      'exclusivos_vol_27': 'json/anime/exclusivos_vol_27.json',
+      'exclusivos_vol_28': 'json/anime/exclusivos_vol_28.json',
+      'exclusivos_vol_29': 'json/anime/exclusivos_vol_29.json',
+      'exclusivos_vol_30': 'json/anime/exclusivos_vol_30.json',
+      'exclusivos_vol_31': 'json/anime/exclusivos_vol_31.json',
+      'exclusivos_vol_32': 'json/anime/exclusivos_vol_32.json',
+      'exclusivos_vol_33': 'json/anime/exclusivos_vol_33.json',
+      'exclusivos_vol_34': 'json/anime/exclusivos_vol_34.json',
+      'exclusivos_vol_35': 'json/anime/exclusivos_vol_35.json',
+      'exclusivos_vol_36': 'json/anime/exclusivos_vol_36.json',
+      'exclusivos_vol_37': 'json/anime/exclusivos_vol_37.json',
+      'exclusivos_vol_38': 'json/anime/exclusivos_vol_38.json',
+      'exclusivos_vol_39': 'json/anime/exclusivos_vol_39.json',
+      'exclusivos_vol_40': 'json/anime/exclusivos_vol_40.json',
+      'exclusivos_vol_41': 'json/anime/exclusivos_vol_41.json',
+      'exclusivos_vol_42': 'json/anime/exclusivos_vol_42.json',
+      'exclusivos_vol_43': 'json/anime/exclusivos_vol_43.json',
+      'exclusivos_vol_44': 'json/anime/exclusivos_vol_44.json',
+      'exclusivos_vol_45': 'json/anime/exclusivos_vol_45.json',
+      'exclusivos_vol_46': 'json/anime/exclusivos_vol_46.json',
+      'exclusivos_vol_47': 'json/anime/exclusivos_vol_47.json',
+      'exclusivos_vol_48': 'json/anime/exclusivos_vol_48.json',
+      'exclusivos_vol_49': 'json/anime/exclusivos_vol_49.json',
+      'exclusivos_vol_50': 'json/anime/exclusivos_vol_50.json',
+      'exclusivos_vol_51': 'json/anime/exclusivos_vol_51.json',
+      'exclusivos_vol_52': 'json/anime/exclusivos_vol_52.json',
+      'exclusivos_vol_53': 'json/anime/exclusivos_vol_53.json',
+      'exclusivos_vol_54': 'json/anime/exclusivos_vol_54.json',
+      'exclusivos_vol_55': 'json/anime/exclusivos_vol_55.json',
+      'exclusivos_vol_56': 'json/anime/exclusivos_vol_56.json',
+      'exclusivos_vol_57': 'json/anime/exclusivos_vol_57.json',
+      'exclusivos_vol_58': 'json/anime/exclusivos_vol_58.json',
+      'exclusivos_vol_59': 'json/anime/exclusivos_vol_59.json',
+      'exclusivos_vol_60': 'json/anime/exclusivos_vol_60.json',
+      'exclusivos_vol_61': 'json/anime/exclusivos_vol_61.json',
+      'exclusivos_vol_62': 'json/anime/exclusivos_vol_62.json',
+      'exclusivos_vol_63': 'json/anime/exclusivos_vol_63.json',
+      'exclusivos_vol_64': 'json/anime/exclusivos_vol_64.json',
+      'exclusivos_vol_65': 'json/anime/exclusivos_vol_65.json',
+      'exclusivos_vol_66': 'json/anime/exclusivos_vol_66.json',
+      'exclusivos_vol_67': 'json/anime/exclusivos_vol_67.json',
+      'exclusivos_vol_68': 'json/anime/exclusivos_vol_68.json',
+      'exclusivos_vol_69': 'json/anime/exclusivos_vol_69.json',
+      'exclusivos_vol_70': 'json/anime/exclusivos_vol_70.json',
+      'exclusivos_vol_71': 'json/anime/exclusivos_vol_71.json',
+      'exclusivos_vol_72': 'json/anime/exclusivos_vol_72.json',
+      'exclusivos_vol_73': 'json/anime/exclusivos_vol_73.json',
+      'exclusivos_vol_74': 'json/anime/exclusivos_vol_74.json',
+      'exclusivos_vol_75': 'json/anime/exclusivos_vol_75.json'
+    },
+    urbanos: {
+        'urbanos_vol_1': 'json/urbanos/urbanos_vol_1.json',
+        'urbanos_vol_2': 'json/urbanos/urbanos_vol_2.json',
+        'urbanos_vol_3': 'json/urbanos/urbanos_vol_3.json',
+        'urbanos_vol_4': 'json/urbanos/urbanos_vol_4.json',
+        'urbanos_vol_5': 'json/urbanos/urbanos_vol_5.json',
+        'urbanos_vol_6': 'json/urbanos/urbanos_vol_6.json',
+        'urbanos_vol_7': 'json/urbanos/urbanos_vol_7.json',
+        'urbanos_vol_8': 'json/urbanos/urbanos_vol_8.json',
+        'urbanos_vol_9': 'json/urbanos/urbanos_vol_9.json',
+        'urbanos_vol_10': 'json/urbanos/urbanos_vol_10.json',
+        'urbanos_vol_11': 'json/urbanos/urbanos_vol_11.json',
+        'urbanos_vol_12': 'json/urbanos/urbanos_vol_12.json',
+        'urbanos_vol_13': 'json/urbanos/urbanos_vol_13.json',
+        'urbanos_vol_14': 'json/urbanos/urbanos_vol_14.json',
+        'urbanos_vol_15': 'json/urbanos/urbanos_vol_15.json',
+        'urbanos_vol_16': 'json/urbanos/urbanos_vol_16.json',
+        'urbanos_vol_17': 'json/urbanos/urbanos_vol_17.json',
+        'urbanos_vol_18': 'json/urbanos/urbanos_vol_18.json',
+        'urbanos_vol_19': 'json/urbanos/urbanos_vol_19.json',
+        'urbanos_vol_20': 'json/urbanos/urbanos_vol_20.json',
+        'urbanos_vol_21': 'json/urbanos/urbanos_vol_21.json',
+        'urbanos_vol_22': 'json/urbanos/urbanos_vol_22.json',
+        'urbanos_vol_23': 'json/urbanos/urbanos_vol_23.json',
+        'urbanos_vol_24': 'json/urbanos/urbanos_vol_24.json',
+        'urbanos_vol_25': 'json/urbanos/urbanos_vol_25.json',
+        'urbanos_vol_26': 'json/urbanos/urbanos_vol_26.json',
+        'urbanos_vol_27': 'json/urbanos/urbanos_vol_27.json',
+        'urbanos_vol_28': 'json/urbanos/urbanos_vol_28.json',
+        'urbanos_vol_29': 'json/urbanos/urbanos_vol_29.json',
+        'urbanos_vol_30': 'json/urbanos/urbanos_vol_30.json',
+        'urbanos_vol_31': 'json/urbanos/urbanos_vol_31.json',
+        'urbanos_vol_32': 'json/urbanos/urbanos_vol_32.json',
+        'urbanos_vol_33': 'json/urbanos/urbanos_vol_33.json',
+        'urbanos_vol_34': 'json/urbanos/urbanos_vol_34.json',
+        'urbanos_vol_35': 'json/urbanos/urbanos_vol_35.json',
+        'urbanos_vol_36': 'json/urbanos/urbanos_vol_36.json',
+        'urbanos_vol_37': 'json/urbanos/urbanos_vol_37.json',
+        'urbanos_vol_38': 'json/urbanos/urbanos_vol_38.json',
+        'urbanos_vol_39': 'json/urbanos/urbanos_vol_39.json',
+        'urbanos_vol_40': 'json/urbanos/urbanos_vol_40.json',
+        'urbanos_vol_41': 'json/urbanos/urbanos_vol_41.json',
+        'urbanos_vol_42': 'json/urbanos/urbanos_vol_42.json',
+        'urbanos_vol_43': 'json/urbanos/urbanos_vol_43.json',
+        'urbanos_vol_44': 'json/urbanos/urbanos_vol_44.json',
+        'urbanos_vol_45': 'json/urbanos/urbanos_vol_45.json',
+        'urbanos_vol_46': 'json/urbanos/urbanos_vol_46.json'
 }
+};
 
-} else if (category === 'anime') {
-  if (volume === 'akira_vol_1') {
-    jsonFilePath = 'json/anime/akira_vol_1.json';
-} else if (volume === 'angel_beats_vol_1') {
-    jsonFilePath = 'json/anime/angel_beats_vol_1.json';
-} else if (volume === 'anime_vol_1') {
-    jsonFilePath = 'json/anime/anime_vol_1.json';
-} else if (volume === 'girls_vol_1') {
-    jsonFilePath = 'json/anime/girls_vol_1.json';
-} else if (volume === 'anime_vol_2') {
-    jsonFilePath = 'json/anime/anime_vol_2.json';
-} else if (volume === 'anime_vol_3') {
-    jsonFilePath = 'json/anime/anime_vol_3.json';
-} else if (volume === 'anime_vol_4') {
-    jsonFilePath = 'json/anime/anime_vol_4.json';
-} else if (volume === 'exclusivos_vol_1') {
-    jsonFilePath = 'json/anime/exclusivos_vol_1.json';
-} else if (volume === 'exclusivos_vol_2') {
-    jsonFilePath = 'json/anime/exclusivos_vol_2.json';
-} else if (volume === 'exclusivos_vol_3') {
-    jsonFilePath = 'json/anime/exclusivos_vol_3.json';
-} else if (volume === 'exclusivos_vol_4') {
-    jsonFilePath = 'json/anime/exclusivos_vol_4.json';
-} else if (volume === 'exclusivos_vol_5') {
-    jsonFilePath = 'json/anime/exclusivos_vol_5.json';
-} else if (volume === 'exclusivos_vol_6') {
-    jsonFilePath = 'json/anime/exclusivos_vol_6.json';
-} else if (volume === 'exclusivos_vol_7') {
-    jsonFilePath = 'json/anime/exclusivos_vol_7.json';
-} else if (volume === 'exclusivos_vol_8') {
-    jsonFilePath = 'json/anime/exclusivos_vol_8.json';
-} else if (volume === 'exclusivos_vol_9') {
-    jsonFilePath = 'json/anime/exclusivos_vol_9.json';
-} else if (volume === 'exclusivos_vol_10') {
-    jsonFilePath = 'json/anime/exclusivos_vol_10.json';
-} else if (volume === 'exclusivos_vol_11') {
-    jsonFilePath = 'json/anime/exclusivos_vol_11.json';
-} else if (volume === 'exclusivos_vol_12') {
-    jsonFilePath = 'json/anime/exclusivos_vol_12.json';
-} else if (volume === 'exclusivos_vol_13') {
-    jsonFilePath = 'json/anime/exclusivos_vol_13.json';
-} else if (volume === 'exclusivos_vol_14') {
-    jsonFilePath = 'json/anime/exclusivos_vol_14.json';
-} else if (volume === 'exclusivos_vol_15') {
-    jsonFilePath = 'json/anime/exclusivos_vol_15.json';
-} else if (volume === 'exclusivos_vol_16') {
-    jsonFilePath = 'json/anime/exclusivos_vol_16.json';
-} else if (volume === 'exclusivos_vol_17') {
-    jsonFilePath = 'json/anime/exclusivos_vol_17.json';
-} else if (volume === 'exclusivos_vol_18') {
-    jsonFilePath = 'json/anime/exclusivos_vol_18.json';
-} else if (volume === 'exclusivos_vol_19') {
-    jsonFilePath = 'json/anime/exclusivos_vol_19.json';
-} else if (volume === 'exclusivos_vol_20') {
-    jsonFilePath = 'json/anime/exclusivos_vol_20.json';
-} else if (volume === 'exclusivos_vol_21') {
-    jsonFilePath = 'json/anime/exclusivos_vol_21.json';
-} else if (volume === 'exclusivos_vol_22') {
-    jsonFilePath = 'json/anime/exclusivos_vol_22.json';
-} else if (volume === 'exclusivos_vol_23') {
-    jsonFilePath = 'json/anime/exclusivos_vol_23.json';
-} else if (volume === 'exclusivos_vol_24') {
-    jsonFilePath = 'json/anime/exclusivos_vol_24.json';
-} else if (volume === 'exclusivos_vol_25') {
-    jsonFilePath = 'json/anime/exclusivos_vol_25.json';
-} else if (volume === 'exclusivos_vol_26') {
-    jsonFilePath = 'json/anime/exclusivos_vol_26.json';
-} else if (volume === 'exclusivos_vol_27') {
-    jsonFilePath = 'json/anime/exclusivos_vol_27.json';
-} else if (volume === 'exclusivos_vol_28') {
-    jsonFilePath = 'json/anime/exclusivos_vol_28.json';
-} else if (volume === 'exclusivos_vol_29') {
-    jsonFilePath = 'json/anime/exclusivos_vol_29.json';
-} else if (volume === 'exclusivos_vol_30') {
-    jsonFilePath = 'json/anime/exclusivos_vol_30.json';
-} else if (volume === 'exclusivos_vol_31') {
-    jsonFilePath = 'json/anime/exclusivos_vol_31.json';
-} else if (volume === 'exclusivos_vol_32') {
-    jsonFilePath = 'json/anime/exclusivos_vol_32.json';
-} else if (volume === 'exclusivos_vol_33') {
-    jsonFilePath = 'json/anime/exclusivos_vol_33.json';
-} else if (volume === 'exclusivos_vol_34') {
-    jsonFilePath = 'json/anime/exclusivos_vol_34.json';
-} else if (volume === 'exclusivos_vol_35') {
-    jsonFilePath = 'json/anime/exclusivos_vol_35.json';
-} else if (volume === 'exclusivos_vol_36') {
-    jsonFilePath = 'json/anime/exclusivos_vol_36.json';
-} else if (volume === 'exclusivos_vol_37') {
-    jsonFilePath = 'json/anime/exclusivos_vol_37.json';
-} else if (volume === 'exclusivos_vol_38') {
-    jsonFilePath = 'json/anime/exclusivos_vol_38.json';
-} else if (volume === 'exclusivos_vol_39') {
-    jsonFilePath = 'json/anime/exclusivos_vol_39.json';
-} else if (volume === 'exclusivos_vol_40') {
-    jsonFilePath = 'json/anime/exclusivos_vol_40.json';
-} else if (volume === 'exclusivos_vol_41') {
-    jsonFilePath = 'json/anime/exclusivos_vol_41.json';
-} else if (volume === 'exclusivos_vol_42') {
-    jsonFilePath = 'json/anime/exclusivos_vol_42.json';
-} else if (volume === 'exclusivos_vol_43') {
-    jsonFilePath = 'json/anime/exclusivos_vol_43.json';
-} else if (volume === 'exclusivos_vol_44') {
-    jsonFilePath = 'json/anime/exclusivos_vol_44.json';
-} else if (volume === 'exclusivos_vol_45') {
-    jsonFilePath = 'json/anime/exclusivos_vol_45.json';
-} else if (volume === 'exclusivos_vol_46') {
-    jsonFilePath = 'json/anime/exclusivos_vol_46.json';
-} else if (volume === 'exclusivos_vol_47') {
-    jsonFilePath = 'json/anime/exclusivos_vol_47.json';
-} else if (volume === 'exclusivos_vol_48') {
-    jsonFilePath = 'json/anime/exclusivos_vol_48.json';
-} else if (volume === 'exclusivos_vol_49') {
-    jsonFilePath = 'json/anime/exclusivos_vol_49.json';
-} else if (volume === 'exclusivos_vol_50') {
-    jsonFilePath = 'json/anime/exclusivos_vol_50.json';
-} else if (volume === 'exclusivos_vol_51') {
-    jsonFilePath = 'json/anime/exclusivos_vol_51.json';
-} else if (volume === 'exclusivos_vol_52') {
-    jsonFilePath = 'json/anime/exclusivos_vol_52.json';
-} else if (volume === 'exclusivos_vol_53') {
-    jsonFilePath = 'json/anime/exclusivos_vol_53.json';
-} else if (volume === 'exclusivos_vol_54') {
-    jsonFilePath = 'json/anime/exclusivos_vol_54.json';
-} else if (volume === 'exclusivos_vol_55') {
-    jsonFilePath = 'json/anime/exclusivos_vol_55.json';
-} else if (volume === 'exclusivos_vol_56') {
-    jsonFilePath = 'json/anime/exclusivos_vol_56.json';
-} else if (volume === 'exclusivos_vol_57') {
-    jsonFilePath = 'json/anime/exclusivos_vol_57.json';
-} else if (volume === 'exclusivos_vol_58') {
-    jsonFilePath = 'json/anime/exclusivos_vol_58.json';
-} else if (volume === 'exclusivos_vol_59') {
-    jsonFilePath = 'json/anime/exclusivos_vol_59.json';
-} else if (volume === 'exclusivos_vol_60') {
-    jsonFilePath = 'json/anime/exclusivos_vol_60.json';
-} else if (volume === 'exclusivos_vol_61') {
-    jsonFilePath = 'json/anime/exclusivos_vol_61.json';
-} else if (volume === 'exclusivos_vol_62') {
-    jsonFilePath = 'json/anime/exclusivos_vol_62.json';
-} else if (volume === 'exclusivos_vol_63') {
-    jsonFilePath = 'json/anime/exclusivos_vol_63.json';
-} else if (volume === 'exclusivos_vol_64') {
-    jsonFilePath = 'json/anime/exclusivos_vol_64.json';
-} else if (volume === 'exclusivos_vol_65') {
-    jsonFilePath = 'json/anime/exclusivos_vol_65.json';
-} else if (volume === 'exclusivos_vol_66') {
-    jsonFilePath = 'json/anime/exclusivos_vol_66.json';
-} else if (volume === 'exclusivos_vol_67') {
-    jsonFilePath = 'json/anime/exclusivos_vol_67.json';
-} else if (volume === 'exclusivos_vol_68') {
-    jsonFilePath = 'json/anime/exclusivos_vol_68.json';
-} else if (volume === 'exclusivos_vol_69') {
-    jsonFilePath = 'json/anime/exclusivos_vol_69.json';
-} else if (volume === 'exclusivos_vol_70') {
-    jsonFilePath = 'json/anime/exclusivos_vol_70.json';
-} else if (volume === 'exclusivos_vol_71') {
-    jsonFilePath = 'json/anime/exclusivos_vol_71.json';
-} else if (volume === 'exclusivos_vol_72') {
-    jsonFilePath = 'json/anime/exclusivos_vol_72.json';
-} else if (volume === 'exclusivos_vol_73') {
-    jsonFilePath = 'json/anime/exclusivos_vol_73.json';
-} else if (volume === 'exclusivos_vol_74') {
-    jsonFilePath = 'json/anime/exclusivos_vol_74.json';
-} else if (volume === 'exclusivos_vol_75') {
-    jsonFilePath = 'json/anime/exclusivos_vol_75.json';
-} else {
-            alert('¡Colección no válida!');
-            return;
-        }
-    } else {
+function loadProducts(category, volume) {
+    const categoryPaths = jsonPaths[category];
+
+    if (!categoryPaths) {
         alert('¡Categoría no válida!');
         return;
     }
 
+    const jsonFilePath = categoryPaths[volume];
+
+    if (!jsonFilePath) {
+        alert('¡Colección no válida!');
+        return;
+    }
     // Cargar el archivo JSON usando fetch
     fetch(jsonFilePath)
         .then(response => response.json())
@@ -271,6 +200,7 @@ if (category === 'streetwear') {
                 alert('No hay productos disponibles para esta colección.');
                 return;
             }
+
 
             // Paginación: filtrar los elementos según la página actual
             const totalItems = data.length;
@@ -373,8 +303,20 @@ function updatePagination(totalItems) {
         }
     });
 
+    // Determinar la cantidad de páginas a mostrar según el ancho de pantalla
+    let maxPagesToShow = window.innerWidth <= 768 ? 3 : 14;
+
+    // Calcular el rango de páginas a mostrar
+    let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+    let endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+
+    // Ajustar si estamos cerca del inicio o el final
+    if (endPage - startPage + 1 < maxPagesToShow) {
+        startPage = Math.max(1, endPage - maxPagesToShow + 1);
+    }
+
     // Botones de páginas
-    for (let i = 1; i <= totalPages; i++) {
+    for (let i = startPage; i <= endPage; i++) {
         const pageButton = document.createElement('button');
         pageButton.textContent = i;
         pageButton.classList.add('page-number');
@@ -390,6 +332,7 @@ function updatePagination(totalItems) {
         pageNumbersContainer.appendChild(pageButton);
     }
 
+
     // Botón de "Siguiente"
     const nextButton = paginationContainer.querySelector('.next');
     nextButton.disabled = currentPage === totalPages;
@@ -400,6 +343,8 @@ function updatePagination(totalItems) {
         }
     });
 }
+
+
 
 // Obtener los parámetros de la URL
 function getURLParameter(name) {

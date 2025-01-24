@@ -1,0 +1,92 @@
+[
+    {
+        "sku": "URB-00301",
+        "keywords": "1 urbano 1",
+        "name": "MOD: URB-00301",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/f0g3zq1/URBAN-C-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00301%22"
+    },
+    {
+        "sku": "URB-00302",
+        "keywords": "2 urbano 2",
+        "name": "MOD: URB-00302",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/r3CXPZS/URBAN-C-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00302%22"
+    },
+    {
+        "sku": "URB-00303",
+        "keywords": "3 urbano 3",
+        "name": "MOD: URB-00303",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/VWqytpz/URBAN-C-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00303%22"
+    },
+    {
+        "sku": "URB-00304",
+        "keywords": "4 urbano 4",
+        "name": "MOD: URB-00304",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/cy6SMnH/URBAN-C-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00304%22"
+    },
+    {
+        "sku": "URB-00305",
+        "keywords": "5 urbano 5",
+        "name": "MOD: URB-00305",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/61CTPv0/URBAN-C-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00305%22"
+    },
+    {
+        "sku": "URB-00306",
+        "keywords": "6 urbano 6",
+        "name": "MOD: URB-00306",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/tQw6qrN/URBAN-C-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00306%22"
+    },
+    {
+        "sku": "URB-00307",
+        "keywords": "7 urbano 7",
+        "name": "MOD: URB-00307",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/xJfjTXx/URBAN-C-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00307%22"
+    },
+    {
+        "sku": "URB-00308",
+        "keywords": "8 urbano 8",
+        "name": "MOD: URB-00308",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Qnt6Q92/URBAN-C-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00308%22"
+    },
+    {
+        "sku": "URB-00309",
+        "keywords": "9 urbano 9",
+        "name": "MOD: URB-00309",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/16S0D3W/URBAN-C-09.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00309%22"
+    },
+    {
+        "sku": "URB-00310",
+        "keywords": "10 urbano 10",
+        "name": "MOD: URB-00310",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/g9R6PtZ/URBAN-C-10.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22URB-00310%22"
+    }
+]

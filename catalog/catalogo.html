@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo</title>
-    <link id="favicon" rel="icon" href="https://i.ibb.co/zR6M2p2/icon-c.png">
+    <link id="favicon" rel="icon" href="https://i.ibb.co/NZLGrF1/icon-iph.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/media_query_phone.css">
     <link rel="stylesheet" href="../css/keyframes.css">
+    <link rel="stylesheet" href="../css/fonts.css">
     <script src="../js/teme_toogle.js"></script>
     <script src="../js/navbar.js"></script>
     <script src="../js/results_designs.js"></script>
@@ -23,34 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<script>
-// Función para obtener los parámetros de la URL
-function getURLParameter(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-}
 
-// Cuando la página esté cargada, procesamos los parámetros de la URL
-window.addEventListener("DOMContentLoaded", function() {
-    const category = getURLParameter('category'); // Ejemplo: "streetwear"
-    const vol = getURLParameter('vol'); // Ejemplo: "streetwear_vol_1"
-
-    if (category && vol) {
-        if (category === 'streetwear') {
-            loadStreetwearProducts(vol); // Llamamos a la función para cargar los productos de la categoría 'streetwear'
-        } else if (category === 'urbano') {
-            loadUrbanoProducts(vol); // Llamamos a la función para cargar los productos de la categoría 'urbano'
-        } else if (category === 'anime') {
-            loadAnimeProducts(vol); // Llamamos a la función para cargar los productos de la categoría 'anime'
-        } else {
-            alert('¡Categoría no válida!');
-        }
-    } else {
-        alert('Faltan parámetros de categoría o volumen.');
-    }
-});
-
-</script>
   <nav class="navbar">
         <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
     <div class="navbar-links">
@@ -95,14 +69,14 @@ window.addEventListener("DOMContentLoaded", function() {
         <h2>CATALOGO</h2>
     </section>
 
-      <div class="search-container">
-  <!--      <button class="back-btn" onclick="window.location.href='../catalog/streetwear.html'">
+  <!--    <div class="search-container">
+        <button class="back-btn" onclick="window.location.href='../catalog/streetwear.html'">
           <i class="fa-solid fa-left-long"></i>
-      </button> -->
+      </button>
          <input type="text" id="search-bar" class="search-bar" placeholder="Buscar...">
          <button class="filter-btn" id="filter-btn">Filtrar</button>
          <button class="filter-btn" id="reset-btn" style="display: none;"><i class="fa-regular fa-circle-xmark"></i></button>
-      </div>
+      </div> -->
 
 <!-- Ventana emergente -->
 <div class="popup" id="popup">
