@@ -49,6 +49,10 @@
 
   }
 
+  /* Ajuste de estilos para el dropdown en vistas de móvil */
+.dropbtn {
+    display: none;
+}
 
     .banner {
         height: 260px;
@@ -367,10 +371,95 @@
            text-align: center;
        }
 
+       .section-comparison {
+         padding: 20px 0px; /* Ajustar el padding */
+         gap: 3px; /* Mantiene un espacio entre los elementos, si lo deseas */
+       }
+
+       .text-slider h2 {
+         font-size: 1.5rem;
+       }
+
+       .text-slider p {
+         font-size: .8rem;
+         margin: 10px;
+         padding-left: 25px;
+         padding-right: 25px;
+       }
+
+       .comparison-container {
+           position: relative;
+           width: 100%;
+           max-width: 380px;
+           height: 200px;
+           overflow: hidden;
+           border-radius: 10px; /* Ajusta el valor para redondear las esquinas */
+           /* Agrega un borde si deseas, este es opcional */
+           border: 1px solid #ddd; /* Cambia el color y tamaño según prefieras */
+       }
 
 
+       .comparison-container img {
+           position: absolute;
+           border-radius: 10px; /* Debes asegurarte que las imágenes también tengan esquinas redondeadas */
+       }
+
+       .section-products {
+         padding-top: 30px;
+         padding-bottom: 10px;
+         background-color: #fff;
+         gap: 15px;
+       }
+
+       .product-item {
+         text-align: center;
+         transition: transform 0.3s ease;
+       }
+
+       .circle {
+         width: 60px;
+         height: 60px;
+       }
+
+       .circle img {
+         width: 70px; /* La imagen sobresale del círculo */
+         top: -10px;
+       }
+
+       .product-item p {
+         margin-top: 5px;
+         font-size: 9px;
+       }
+
+       .container-destacados {
+           flex-direction: column;
+           background-image: url(https://i.ibb.co/dwG2khgF/banner-paper-movile.png);
+       }
+
+       .box-destacados {
+           width: 300px;
+           border-radius: 8px;
+           overflow: hidden;
+           margin: 15px 20px;
+       }
+
+       .box-destacados img {
+           border-radius: 8px;
+       }
+
+       .destacados-title h2{
+           font-size: 1.6rem; /* Tamaño de la fuente */
+           padding-top: 20px;
+           margin: 0px 100px;
+           color: #BA006E;
+       }
 
 
+       .destacados-title {
+           background-image: url(https://i.ibb.co/vvs0qCYn/banner-movile-san-valentin.png);
+
+
+       }
 
 
 }

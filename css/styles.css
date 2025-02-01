@@ -73,6 +73,46 @@ body {
     cursor: pointer;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    color: white;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #404040;
+    min-width: 160px;
+    padding: 10px;
+    border-radius: 10px; /* Agrega esta propiedad */
+    z-index: 3;
+    animation: slideIn 0.3s ease forwards;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Sección del banner A */
 
@@ -108,7 +148,7 @@ body {
 
 
 .banner img {
-    height: 90px;
+    width: 500px;
     opacity: 0; /* Inicialmente invisible */
     animation: fadeInDown 1s ease-out forwards;
 }
@@ -165,6 +205,32 @@ body {
 .banner-4 {
     background-image: url('https://i.ibb.co/tPLfKYn/banner-catalog.png');
 }
+
+.banner-san-valentin {
+    background-image: url('https://i.ibb.co/xtxSpSHV/banner-san-valentin.png');
+}
+
+.banner-playeras {
+    background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
+}
+
+.banner-sudaderas {
+    background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
+}
+
+.banner-tazas {
+    background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
+}
+
+.banner-gorras {
+    background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
+}
+
+.banner-posters {
+    background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
+}
+
+
 
 
 .banner-merch::before {
@@ -292,6 +358,39 @@ body {
     font-family: 'FT Expo Black', sans-serif;
     padding-top: 10px;
     color: #303030;
+}
+
+.destacados-title {
+    background-image: url(https://i.ibb.co/twGm1CwF/banner-desktop-san-valentin.png);
+    color: #303030; /* Color del texto gris oscuro */
+    text-align: center; /* Centra el texto */
+    align-items: center;
+    padding: 10px 0; /* Espaciado interno (ajustar según sea necesario) */
+    background-repeat: no-repeat;
+    background-size: cover; /* La imagen se adapta al ancho y cubre todo el contenedor */
+    background-position: top center; /* Coloca la imagen en la parte superior, centrada horizontalmente */
+}
+
+/* Para asegurar que la imagen ocupe el 100% de la altura: */
+.destacados-title::before {
+    content: '';
+    background-image: url(https://i.ibb.co/twGm1CwF/banner-desktop-san-valentin.png);
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajusta proporcionalmente */
+    position: absolute; /* Para que se coloque en relación al contenedor */
+    top: 0; /* Pegado a la parte superior */
+    left: 50%; /* Centrado horizontalmente */
+    width: 100%; /* Ancho automático, ajustable */
+    height: auto; /* Ocupa la altura completa del contenedor */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+    z-index: -1; /* Para que el texto esté por encima */
+}
+
+.destacados-title h2{
+    font-size: 2rem; /* Tamaño de la fuente */
+    font-family: 'FT Expo Black', sans-serif;
+    padding-top: 10px;
+    color: #BA006E;
 }
 
 
@@ -1629,3 +1728,599 @@ body {
         transform: translateY(0);
     }
 }
+
+.section-comparison {
+  display: flex; /* Habilita Flexbox */
+  flex-direction: column; /* Asegúrate de que los elementos se apilen */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  width: 100%;
+  padding: 30px 0px; /* Ajustar el padding */
+  background-color: #303030;
+  color: white;
+  gap: 20px; /* Mantiene un espacio entre los elementos, si lo deseas */
+}
+
+.text-slider {
+  align-items: center;
+  text-align: center;
+}
+
+.text-slider h2 {
+  font-size: 2.3rem;
+  color: #FFD700;
+  margin: 0px;
+  font-family: 'FT Expo Black', sans-serif;
+}
+
+.text-slider p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.comparison-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 15px; /* Ajusta el valor para redondear las esquinas */
+    /* Agrega un borde si deseas, este es opcional */
+    border: 2px solid #ddd; /* Cambia el color y tamaño según prefieras */
+}
+
+.comparison-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px; /* Debes asegurarte que las imágenes también tengan esquinas redondeadas */
+}
+
+.comparison-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    clip-path: inset(0 50% 0 0); /* Inicialmente oculta la mitad de la imagen */
+    border-radius: 15px; /* Máscaras también deben tener esquinas redondeadas */
+}
+
+.comparison-overlay img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px; /* Asegúrate que la imagen de superposición tenga esquinas redondeadas */
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: #fff;
+    cursor: ew-resize;
+    border-radius: 10px; /* Puedes ajustar según prefieras */
+}
+
+.slider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -8px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.section-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  gap: 80px;
+
+}
+
+.product-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-item a {
+    text-decoration: none;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  position: relative;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.circle img {
+  width: 180px; /* La imagen sobresale del círculo */
+  height: auto;
+  position: absolute;
+  top: -20px;
+}
+
+.product-item p {
+  margin-top: 10px;
+  color: #303030;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Efecto hover */
+.product-item:hover .circle {
+  transform: scale(1.1);
+}
+
+.product-item:hover p {
+  color: #CF0000;
+}
+
+.producto {
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+}
+
+.producto h2{
+    text-align: center;
+    padding: 30px;
+    font-family: 'FT Expo Black', sans-serif;
+    font-size: 2rem;
+    color: #303030;
+    margin: 0px;
+}
+
+.cuellos h2 {
+  text-align: center;
+  padding: 30px;
+  font-family: 'FT Expo Black', sans-serif;
+  font-size: 2rem;
+  color: #c30;
+  margin: 0px;
+}
+
+.estampados {
+  text-align: center;
+}
+
+.estampados h2{
+  text-align: center;
+  font-family: 'FT Expo Black', sans-serif;
+  font-size: 2rem;
+  color: #c30;
+}
+
+.btn-playeras {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-playeras:hover {
+    background: #cc5500;
+}
+
+.container-colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item1, .item2, .item3, .item4, .item5 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: background-image .3s ease;
+}
+
+.item-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.item1 {
+    background-image: url("https://i.ibb.co/16P6S2D/white-a.png");
+}
+
+.item1:hover {
+    background-image: url("https://i.ibb.co/5kdtM7r/white-b.png");
+}
+
+.item2 {
+    background-image: url("https://i.ibb.co/0YZ2304/black-a.png");
+}
+
+.item2:hover {
+    background-image: url("https://i.ibb.co/ZBXgNW7/black-b.png");
+}
+
+.item3 {
+    background-image: url("https://i.ibb.co/nsnXmF7/gray-a.png");
+}
+
+.item3:hover {
+    background-image: url("https://i.ibb.co/hVLy6yZ/gray-b.png");
+}
+
+.item4 {
+    background-image: url("https://i.ibb.co/J57zdms/blue-a.png");
+}
+
+.item4:hover {
+    background-image: url("https://i.ibb.co/M1YGc2T/blue-b.png");
+}
+
+.item5 {
+    background-image: url("https://i.ibb.co/GCb8cr7/red-a.png");
+}
+
+.item5:hover {
+    background-image: url("https://i.ibb.co/R9W2dJS/red-b.png");
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover {
+    animation: animacion .8s ease;
+}
+
+
+
+.container-destacados {
+    display: flex;
+    background-image: url(https://i.ibb.co/xKxySGqP/banner-paper.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.box-destacados {
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Para que la superposición se posicione correctamente */
+    background-color: white;
+    transition: transform .3s ease;
+}
+
+.box-destacados img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.box-destacados:hover {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute; /* Posiciona la superposición sobre la imagen */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    display: flex; /* Para centrar el botón */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    opacity: 0; /* Por defecto es invisible */
+    transition: opacity 0.3s ease; /* Efecto de transición */
+}
+
+.box-destacados:hover .overlay {
+    opacity: 1; /* Muestra la superposición en hover */
+}
+
+.button-destacados {
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+.button-destacados:hover {
+    background-color: #aa0000; /* Color al pasar el mouse sobre el botón */
+    color: #FFF;
+}
+
+.catalogo-btn {
+    display: flex; /* Utiliza flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    background-color: #c30;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto; /* Asegura que el botón esté centrado en su contenedor */
+    width: fit-content; /* Ajusta el ancho del botón al contenido */
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: transform .3s ease, background-color .3s ease;
+
+}
+
+.catalogo-btn a {
+  margin: 5px;
+}
+
+.catalogo-btn i {
+  margin: 5px;
+}
+
+.catalogo-btn:hover {
+  transform: scale(1.1);
+  background-color: #303030;
+}
+
+.catalogo-btn a:hover {
+  transform: scale(1.1);
+}
+/* apartado */
+
+        .container-images {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        .container-images-2 {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        .main-image img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .thumbnail-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+            margin-left: 20px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            height: 280px;
+            width: 410px;
+            gap: 6px;
+            border-radius: 10px;
+        }
+
+        .thumbnail {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin: 5px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: transform .5s ease;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.2);
+            background-color: #ccc;
+        }
+
+        .table-container {
+            width: 410px;
+            height: 150px;
+            margin-top: 20px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-container {
+            width: 410px;
+            height: 150px;
+            margin-top: 20px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid #303030;
+        }
+
+        th {
+            background-color: #C30000;
+            color: #FFD700;
+        }
+
+        /* Estilo del fondo del pop-up */
+        .popup-b {
+          display: none; /* Inicialmente oculto */
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+          justify-content: center;
+          align-items: center;
+          z-index: 1001; /* Ajusta el z-index para que salga por encima*/
+        }
+
+        /* Estilo del contenido del pop-up */
+        .popup-b-content {
+          background-color: white;
+          border-radius: 10px;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+          max-width: 400px; /* Máximo ancho */
+          margin: auto;
+          z-index: 1002; /* Ajusta el z-index para que salga por encima del fondo */
+        }
+
+        /* Estilo del botón de cerrar */
+        .close-pop {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        /* Estilo del botón */
+        .button-pop {
+            text-decoration: none;
+            background-color: #ff5722; /* Color del botón */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* SECCION DE OFERTAS */
+
+.oferta-san-valentin {
+    background-color: #ffe6e6;
+    padding: 40px 20px;
+    text-align: center;
+    border: 2px solid #ff4d4d;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+.oferta-san-valentin h2 {
+    color: #ff1a1a;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.oferta-san-valentin p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.oferta-san-valentin .precio {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4d4d;
+    margin: 20px 0;
+}
+.oferta-san-valentin img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.oferta-san-valentin .detalle-pack {
+    text-align: left;
+    display: inline-block;
+    max-width: 900px;
+    margin-top: 20px;
+}
+.oferta-san-valentin ul {
+    list-style: none;
+    padding: 0;
+}
+.oferta-san-valentin ul li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+.oferta-san-valentin ul li::before {
+    content: "✔";
+    color: #ff1a1a;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.oferta-san-valentin .boton-oferta {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+}
+.oferta-san-valentin .boton-oferta:hover {
+    background-color: #e63946;
+}
+
+.contador {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff1a1a;
+            margin: 20px 0;
+        }

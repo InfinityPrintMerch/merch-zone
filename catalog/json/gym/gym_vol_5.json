@@ -1,0 +1,47 @@
+[
+    {
+        "sku": "GYM00501",
+        "keywords": "1 gym 1",
+        "name": "MOD: GYM-00501",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/v428KSy3/GYM-0501.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22GYM00501%22"
+    },
+    {
+        "sku": "GYM00502",
+        "keywords": "2 gym 2",
+        "name": "MOD: GYM-00502",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/HTts9dL6/GYM-0502.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22GYM00502%22"
+    },
+    {
+        "sku": "GYM00503",
+        "keywords": "3 gym 3",
+        "name": "MOD: GYM-00503",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/nq3k655T/GYM-0503.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22GYM00503%22"
+    },
+    {
+        "sku": "GYM00504",
+        "keywords": "4 gym 4",
+        "name": "MOD: GYM-00504",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/yBGqZj1W/GYM-0504.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22GYM00504%22"
+    },
+    {
+        "sku": "GYM00505",
+        "keywords": "5 gym 5",
+        "name": "MOD: GYM-00505",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/SwgkftkH/GYM-0505.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22GYM00505%22"
+    }
+]

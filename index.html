@@ -7,9 +7,11 @@
     <link id="favicon" rel="icon" href="https://i.ibb.co/NZLGrF1/icon-iph.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script src="js/teme_toogle.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/comparison.js"></script>
+    <script src="js/popup.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="../css/fonts.css">
-    <script src="js/navbar.js"></script>
     <link rel="stylesheet" href="css/keyframes.css">
     <link rel="stylesheet" href="css/media_query_phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -17,10 +19,20 @@
 <body>
 
   <nav class="navbar">
-        <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
-    <div class="navbar-links">
-        <a href="ini" class="active-a">Inicio</a>
-        <a href="merch.html">Merch</a>
+        <img src="https://i.ibb.co/K07gMj9/valentin-logo-a.png" alt="Logo">
+  <div class="navbar-links">
+        <a href="#" class="active-a">Inicio</a>
+        <a href="merch.html">Diseños</a>
+        <div class="dropdown">
+       <a href="#" class="dropbtn">Merch</a>
+       <div class="dropdown-content">
+           <a href="#">Playeras</a>
+           <a href="#">Tazas</a>
+           <a href="#">Gorras</a>
+           <a href="#">Sudaderas</a>
+           <a href="#">Pósters</a>
+       </div>
+   </div>
         <a href="#contacto">Contacto</a>
         <div class="search-container">
     </div>
@@ -36,9 +48,62 @@
 
     <section class="banner">
         <div>
-            <img src="https://i.ibb.co/9vc5mnh/merch-zone-b.png" alt="banner-text">
+            <img src="https://i.ibb.co/hW4GkjG/valentin-zone.png" alt="banner-text">
 </div>
     </section>
+
+    <div class="popup-b" id="offerPopup">
+    <div class="popup-b-content">
+
+        <span class="close-pop" id="closePopup"><i class="fa-solid fa-xmark"></i></span>
+        <img src="https://i.ibb.co/hxxQdZYc/valentine-banner-t.png" alt="Oferta" style="width: 100%; height: auto;">
+        <br><br>
+        <a href="ofertas/san-valentin.html" class="button-pop" id="wantButton">SABER MÁS</a>
+    </div>
+</div>
+
+    <section class="section-products">
+  <div class="product-item">
+    <a href="playeras.html">
+      <div class="circle">
+        <img src="https://i.ibb.co/ZVMBR01/tshirt.png" alt="Playeras">
+      </div>
+      <p>PLAYERAS</p>
+    </a>
+  </div>
+  <div class="product-item">
+    <a href="sudaderas.html">
+      <div class="circle">
+        <img src="https://i.ibb.co/wSZt0bX/hoodie.png" alt="Sudaderas">
+      </div>
+      <p>SUDADERAS</p>
+    </a>
+  </div>
+  <div class="product-item">
+    <a href="gorras.html">
+      <div class="circle">
+        <img src="https://i.ibb.co/x35gwT6/cap.png" alt="Gorras">
+      </div>
+      <p>GORRAS</p>
+    </a>
+  </div>
+  <div class="product-item">
+    <a href="tazas.html">
+      <div class="circle">
+        <img src="https://i.ibb.co/zsqGMWv/mug.png" alt="Tazas">
+      </div>
+      <p>TAZAS</p>
+    </a>
+  </div>
+  <div class="product-item">
+    <a href="posters.html">
+      <div class="circle">
+        <img src="https://i.ibb.co/hWxX3Nt/poster.png" alt="Posters">
+      </div>
+      <p>POSTERS</p>
+    </a>
+  </div>
+</section>
 
     <section class="section-merch">
       <div class="text-box-merch">
@@ -56,6 +121,31 @@
             <h1>Entregas de 2 a 4 Dias Habiles</h1>
             </div>
     </section>
+
+    <section class="destacados-title">
+      <h2>DESTACADO FEBRERO 2025</h2>
+      </section>
+
+      <div class="container-destacados">
+          <div class="box-destacados">
+              <img src="https://i.ibb.co/V088qZ2V/banner-thirt-a.png" alt="Shirt">
+              <div class="overlay">
+                  <a href="/catalogo" class="button-destacados">CATALOGO</a>
+              </div>
+          </div>
+          <div class="box-destacados">
+              <img src="https://i.ibb.co/BK5ZwqMf/banner-hoodie-a.png" alt="Hoodie">
+              <div class="overlay">
+                  <a href="/catalogo" class="button-destacados">CATALOGO</a>
+              </div>
+          </div>
+          <div class="box-destacados">
+              <img src="https://i.ibb.co/HLkXgNpz/banner-mug-a.png" alt="Mug">
+              <div class="overlay">
+                  <a href="/catalogo" class="button-destacados">CATALOGO</a>
+              </div>
+          </div>
+      </div>
 
     <section class="productos-personalizables-b">
       <h2>TECNICAS DE ESTAMPADO</h2>
@@ -85,45 +175,57 @@
         </div>
     </section>
 
-    <section class="productos-personalizables-c">
-    <h2>PRODUCTOS</h2>
-    </section>
+<section class="section-comparison">
+  <div class="text-slider">
+  <h2>OPTIMIZACIÓN</h2>
+  <h2>& MEJORA</h2>
+  <p>Optimizamos y perfeccionamos cualquier imagen, garantizando una calidad excepcional y un alto nivel de detalle para una presentación profesional e impactante.</p>
+</div>
+  <div class="comparison-container" id="comparison">
+    <img src="https://i.ibb.co/wYhMBT6/high-quality.png" alt="Imagen 1">
+    <div class="comparison-overlay" id="overlay">
+        <img src="https://i.ibb.co/kGrhWGb/low-quality.png" alt="Imagen 2">
+    </div>
+    <div class="slider" id="slider"></div>
+</div>
+</section>
+
 
 
     <!-- Sección de Playeras Personalizadas -->
-    <section class="section-playeras">
+<!--     <section class="section-playeras">
       <div class="image-box-b">
-          <img src="https://i.ibb.co/cTZqwf1/playeras-a.png" alt=""> <!-- Cambia esta URL por la imagen real -->
+          <img src="https://i.ibb.co/cTZqwf1/playeras-a.png" alt="">
           <a href="#" class="button-overlay">¡Haz clic aquí!</a>
       </div>
         <div class="image-box">
             <img src="https://i.ibb.co/LNgvhg3/banner-a.png" alt="">
         </div>
-    </section>
+    </section> -->
 
 
 
     <!-- Sección de Tazas Personalizadas -->
-    <section class="section-tazas">
+<!--    <section class="section-tazas">
         <div class="image-box-taza">
             <img src="https://i.ibb.co/0hQZ1Vr/banner-b.png" alt="">
         </div>
         <div class="image-box-b">
-            <img src="https://i.ibb.co/cYK3sz0/tazas-a.png" alt=""> <!-- Cambia esta URL por la imagen real -->
+            <img src="https://i.ibb.co/cYK3sz0/tazas-a.png" alt="">
             <a href="#" class="button-overlay">¡Haz clic aquí!</a>
         </div>
-    </section>
+    </section>  -->
 
     <!-- Sección de Sudaderas Personalizadas -->
-    <section class="section-sudaderas">
+<!--    <section class="section-sudaderas">
       <div class="image-box-b">
-          <img src="https://i.ibb.co/bQn3PQx/sudadera-a.png" alt=""> <!-- Cambia esta URL por la imagen real -->
+          <img src="https://i.ibb.co/bQn3PQx/sudadera-a.png" alt="">
           <a href="#" class="button-overlay">¡Haz clic aquí!</a>
       </div>
         <div class="image-box">
-            <img src="https://i.ibb.co/89xpjVz/banner-c.png" alt=""> <!-- Cambia esta URL por la imagen real -->
+            <img src="https://i.ibb.co/89xpjVz/banner-c.png" alt="">
         </div>
-    </section>
+    </section> -->
 
   <!--  <section class="categories-section">
 
@@ -171,7 +273,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>&copy; 2025 Infinity Print Hub. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Infinity Print Hub | Todos los derechos reservados | San Valentín</p>
     </div>
 </footer>
 

@@ -1,0 +1,83 @@
+[
+    {
+        "sku": "CLH00301",
+        "keywords": "1 calaca 1",
+        "name": "MOD: CLH-003001",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/VWsHRM70/CLH-003001.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00301%22"
+    },
+    {
+        "sku": "CLH00302",
+        "keywords": "2 calaca 2",
+        "name": "MOD: CLH-003002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Jwg5TTf6/CLH-003002.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00302%22"
+    },
+    {
+        "sku": "CLH00303",
+        "keywords": "3 calaca 3",
+        "name": "MOD: CLH-003003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/4RWGfQMs/CLH-003003.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00303%22"
+    },
+    {
+        "sku": "CLH00304",
+        "keywords": "4 calaca 4",
+        "name": "MOD: CLH-003004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/NdKwSLSL/CLH-003004.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00304%22"
+    },
+    {
+        "sku": "CLH00305",
+        "keywords": "5 calaca 5",
+        "name": "MOD: CLH-003005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/tM6QB441/CLH-003005.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00305%22"
+    },
+    {
+        "sku": "CLH00306",
+        "keywords": "6 calaca 6",
+        "name": "MOD: CLH-003006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/h1rsWfMz/CLH-003006.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00306%22"
+    },
+    {
+        "sku": "CLH00307",
+        "keywords": "7 calaca 7",
+        "name": "MOD: CLH-003007",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/93bbzBm3/CLH-003007.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00307%22"
+    },
+    {
+        "sku": "CLH00308",
+        "keywords": "8 calaca 8",
+        "name": "MOD: CLH-003008",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/N6b1JB1x/CLH-003008.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00308%22"
+    },
+    {
+        "sku": "CLH00309",
+        "keywords": "9 calaca 9",
+        "name": "MOD: CLH-003009",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/4Ry0TpyM/CLH-003009.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CLH00309%22"
+    }
+]

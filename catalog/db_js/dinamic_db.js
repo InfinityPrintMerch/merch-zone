@@ -175,6 +175,22 @@ const jsonPaths = {
         'urbanos_vol_44': 'json/urbanos/urbanos_vol_44.json',
         'urbanos_vol_45': 'json/urbanos/urbanos_vol_45.json',
         'urbanos_vol_46': 'json/urbanos/urbanos_vol_46.json'
+},
+gym: {
+  'gym_vol_1': 'json/gym/gym_vol_1.json',
+  'gym_vol_2': 'json/gym/gym_vol_2.json',
+  'gym_vol_3': 'json/gym/gym_vol_3.json',
+  'gym_vol_4': 'json/gym/gym_vol_4.json',
+  'gym_vol_5': 'json/gym/gym_vol_5.json'
+},
+calacas: {
+  'calacas_vol_1': 'json/calacas/calacas_vol_1.json',
+  'calacas_vol_2': 'json/calacas/calacas_vol_2.json',
+  'calacas_vol_3': 'json/calacas/calacas_vol_3.json',
+  'calacas_vol_4': 'json/calacas/calacas_vol_4.json',
+  'calacas_vol_5': 'json/calacas/calacas_vol_5.json',
+  'calacas_vol_6': 'json/calacas/calacas_vol_6.json',
+  'calacas_vol_7': 'json/calacas/calacas_vol_7.json'
 }
 };
 
@@ -182,14 +198,14 @@ function loadProducts(category, volume) {
     const categoryPaths = jsonPaths[category];
 
     if (!categoryPaths) {
-        alert('¡Categoría no válida!');
+        alert('¡Diseños aun por cargar! x_x');
         return;
     }
 
     const jsonFilePath = categoryPaths[volume];
 
     if (!jsonFilePath) {
-        alert('¡Colección no válida!');
+        alert('¡Colección no válida! +_+');
         return;
     }
     // Cargar el archivo JSON usando fetch

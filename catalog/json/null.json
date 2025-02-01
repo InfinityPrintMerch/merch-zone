@@ -1,0 +1,92 @@
+[
+    {
+        "sku": "AKI01001",
+        "keywords": "1 akira 1",
+        "name": "MOD: AKI-01001",
+        "hot": true,
+        "new": true,
+        "image": "https://i.ibb.co/C6HG8zV/AKIRA-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01001%22"
+    },
+    {
+        "sku": "AKI01002",
+        "keywords": "2 akira 2",
+        "name": "MOD: AKI-01002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/WFp10TB/AKIRA-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01002%22"
+    },
+    {
+        "sku": "AKI01003",
+        "keywords": "3 akira 3",
+        "name": "MOD: AKI-01003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/FWnnYqP/AKIRA-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01003%22"
+    },
+    {
+        "sku": "AKI01004",
+        "keywords": "4 akira 4",
+        "name": "MOD: AKI-01004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/9bmcWHk/AKIRA-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01004%22"
+    },
+    {
+        "sku": "AKI01005",
+        "keywords": "5 akira 5",
+        "name": "MOD: AKI-01005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/0FDdqTS/AKIRA-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01005%22"
+    },
+    {
+        "sku": "AKI01006",
+        "keywords": "6 akira 6",
+        "name": "MOD: AKI-01006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ryHz4mZ/AKIRA-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01006%22"
+    },
+    {
+        "sku": "AKI01007",
+        "keywords": "7 akira 7",
+        "name": "MOD: AKI-01007",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/k6D0jFq/AKIRA-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01007%22"
+    },
+    {
+        "sku": "AKI01008",
+        "keywords": "8 akira 8",
+        "name": "MOD: AKI-01008",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/0fpDpvW/AKIRA-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01008%22"
+    },
+    {
+        "sku": "AKI01009",
+        "keywords": "9 akira 9",
+        "name": "MOD: AKI-01009",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/qWFJJpK/AKIRA-09.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01009%22"
+    },
+    {
+        "sku": "AKI01010",
+        "keywords": "10 akira 10",
+        "name": "MOD: AKI-01010",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/3m4qzwd/AKIRA-10.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22AKI01010%22"
+    }
+]
