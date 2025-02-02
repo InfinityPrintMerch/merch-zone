@@ -461,6 +461,33 @@
 
        }
 
+       .wrapper {
+                   flex-direction: column;
+                   align-items: center;
+                   background-size: 200% 100%;
+               }
+
+       .photo img {
+           width: 350px;
+           height: auto;
+           border-radius: 5px;
+       }
+       .wrapper-content {
+           align-items: center;
+           padding-top: 20px;s
+       }
+
+       .oferta-san-valentin {
+           background-color: #ffe6e6;
+           padding: 40px 20px;
+           text-align: center;
+           border: 2px solid #ff4d4d;
+           border-radius: 10px;
+           margin: 20px auto;
+           max-width: 350px;
+       }
+
+
 
 }
 

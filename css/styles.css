@@ -210,6 +210,14 @@ body {
     background-image: url('https://i.ibb.co/xtxSpSHV/banner-san-valentin.png');
 }
 
+.banner-san-valentin-b {
+    background-image: url('https://i.ibb.co/Vp0rQDGq/san-valentin-banner-a.png');
+}
+
+.banner-gym-a {
+    background-image: url('https://i.ibb.co/BKZwvhs4/gym-banner-a.png');
+}
+
 .banner-playeras {
     background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
 }
@@ -2324,3 +2332,123 @@ body {
             color: #ff1a1a;
             margin: 20px 0;
         }
+        .wrapper {
+                    display: flex;
+                    align-items: flex-start ;
+                    justify-content: center;
+                    background-image: url("https://i.ibb.co/v6GpP2P7/banner-design-a.png");
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    padding: 60px 0px;
+                    border-radius: 10px;
+                    text-align: left;
+                }
+                .photo {
+                    margin-right: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                }
+                .photo img {
+                    width: 700px;
+                    height: auto;
+                    border-radius: 10px;
+                }
+                .wrapper-content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: left;
+                    justify-content: center;
+                }
+                .button-container {
+            display: flex;
+            gap: 10px;
+        }
+        .wrapper-content button {
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 20px;
+            transition: background-color .5s ease;
+        }
+        .wrapper-content button:hover {
+            background-color: #d3d3d3;
+        }
+        .rectangle-button {
+          width: 200px;
+          background-color:  #303030;
+        }
+        .square-button {
+            background-color:  #FFD700;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-size: 20px;
+        }
+        .square-button:hover {
+            background-color: #777;
+        }
+        .wrapper-content p {
+            margin: 10px 0 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .wrapper-content h3 {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        /* Estilos del botón de lupa */
+.zoom-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.zoom-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Estilos del pop-up */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content img {
+    max-width: 90%;
+    max-height: 90%;
+    cursor: zoom-in;
+    transition: transform 0.25s ease;
+}
+
+/* Zoom de la imagen */
+.popup-content img:hover {
+    transform: scale(1.5); /* Cambia el valor para ajustar el zoom */
+}
