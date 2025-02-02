@@ -191,6 +191,19 @@ calacas: {
   'calacas_vol_5': 'json/calacas/calacas_vol_5.json',
   'calacas_vol_6': 'json/calacas/calacas_vol_6.json',
   'calacas_vol_7': 'json/calacas/calacas_vol_7.json'
+},
+san_valentin: {
+  'san_valentin_vol_1': 'json/san_valentin/san_valentin_vol_1.json',
+  'san_valentin_vol_2': 'json/san_valentin/san_valentin_vol_2.json',
+  'san_valentin_vol_3': 'json/san_valentin/san_valentin_vol_3.json',
+  'among_us_vol_1': 'json/san_valentin/among_us_vol_1.json',
+  'aesthetic_vol_1': 'json/san_valentin/aesthetic_vol_1.json',
+  'caligrama_vol_1': 'json/san_valentin/caligrama_vol_1.json',
+  'groovy_vol_1': 'json/san_valentin/groovy_vol_1.json',
+  'parejas_vol_1': 'json/san_valentin/parejas_vol_1.json',
+  'parejas_vol_2': 'json/san_valentin/parejas_vol_2.json',
+  'parejas_vol_3': 'json/san_valentin/parejas_vol_3.json',
+  'parejas_vol_4': 'json/san_valentin/parejas_vol_4.json'
 }
 };
 
@@ -257,11 +270,40 @@ function loadProducts(category, volume) {
                 expandButton.onclick = function() { openModal(item); };
 
                 // Crear botón de link
-                const whatsappButton = document.createElement('button');
-                whatsappButton.classList.add('btn-whatsapp-b');
-                whatsappButton.innerHTML = '<i class="fa-solid fa-cart-shopping"></i>';
-                whatsappButton.setAttribute("data-text", "COMPRAR");
-                whatsappButton.onclick = function() { openLink(item); };
+
+                // Obtener los parámetros de la URL
+const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get('category');
+const vol = urlParams.get('vol');
+
+// Verifica si se obtuvieron correctamente los valores
+console.log(`Category: ${category}, Vol: ${vol}`);
+
+const whatsappButton = document.createElement('button');
+whatsappButton.classList.add('btn-whatsapp-b');
+whatsappButton.innerHTML = '<i class="fa-solid fa-star"></i>';
+whatsappButton.setAttribute("data-text", "!LO QUIERO!");
+
+whatsappButton.onclick = function() {
+// Obtener los valores de la URL
+const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get('category');
+const vol = urlParams.get('vol');
+
+// Construir la URL con los parámetros obtenidos de la URL
+const sku = item.sku;
+const image = item.image;
+const name = item.name;
+const link = item.link;
+
+// Redirigir a la página 'design.html' con los parámetros de la URL y los datos del item
+window.location.href = `design.html?image=${image}&name=${name}&link=${encodeURIComponent(link)}&category=${encodeURIComponent(category)}&vol=${encodeURIComponent(vol)}`;
+};
+
+
+
+
+
 
                 // Añadir la imagen y el texto al contenedor del diseño
                 div.appendChild(img);

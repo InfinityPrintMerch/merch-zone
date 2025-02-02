@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merch Zone</title>
+    <link id="favicon" rel="icon" href="https://i.ibb.co/NZLGrF1/icon-iph.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="../js/teme_toogle.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/slide_elements.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="../js/dinamic_designs.js"></script>
+    <script src="../js/zoom.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+    <link rel="stylesheet" href="../css/media_query_phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+        <img src="https://i.ibb.co/K07gMj9/valentin-logo-a.png" alt="Logo">
+  <div class="navbar-links">
+        <a href="#" class="active-a">Inicio</a>
+        <a href="merch.html">Diseños</a>
+        <div class="dropdown">
+       <a href="#" class="dropbtn">Merch</a>
+       <div class="dropdown-content">
+           <a href="playeras.html">Playeras</a>
+           <a href="tazas.html">Tazas</a>
+           <a href="gorras.html">Gorras</a>
+           <a href="sudaderas.html">Sudaderas</a>
+           <a href="posters.html">Pósters</a>
+       </div>
+   </div>
+        <a href="#contacto">Contacto</a>
+        <div class="search-container">
+    </div>
+    <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/infinityprintmerchmx/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+
+<!-- Este es el contenedor donde se mostrarán los datos -->
+<div class="wrapper">
+  <!-- Pop-up de imagen ampliada -->
+  <div id="popup" class="popup">
+      <div class="popup-content">
+          <img id="popup-image" src="" alt="Imagen ampliada">
+      </div>
+  </div>
+    <div class="photo">
+        <img id="product-image" src="" alt="Imagen del producto">
+        <button id="zoom-btn" class="zoom-button"><i class="fa-solid fa-expand"></i></button> <!-- Botón de lupa -->
+    </div>
+    <div class="wrapper-content">
+        <button class="rectangle-button" id="me-interesa">ME INTERESA</button>
+        <p id="name"></p>
+        <h3 id="category-vol"></h3>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Sobre Nosotros</h3>
+            <p>Infinity Print Hub es tu mejor opción para personalización de productos. Calidad y creatividad en cada diseño.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#mech">Mech</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contáctanos</h3>
+            <p>Email: infinitydesigneralfa@gmail.com</p>
+            <p>Tel: +52 241 157 6300</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/infinityprintmerchmx/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Infinity Print Hub | Todos los derechos reservados | San Valentín</p>
+    </div>
+</footer>
+
+<div class="floating-buttons">
+  <a href="https://api.whatsapp.com/send?phone=2411576300" target="_blank">
+    <button class="floating-button">
+      <i class="fa-brands fa-whatsapp"></i>
+    </button>
+  </a>
+</div>
+
+</html>
