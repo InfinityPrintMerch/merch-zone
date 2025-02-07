@@ -1,0 +1,83 @@
+[
+    {
+        "sku": "BRD01001",
+        "keywords": "marcas 1",
+        "name": "MOD: BRD01001",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/5XYzQ5mX/MARCAS-B-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01001%22"
+    },
+    {
+        "sku": "BRD01002",
+        "keywords": "marcas 2",
+        "name": "MOD: BRD01002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/S4JpDgtC/MARCAS-B-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01002%22"
+    },
+    {
+        "sku": "BRD01003",
+        "keywords": "marcas 3",
+        "name": "MOD: BRD01003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/yF8Lq8zL/MARCAS-B-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01003%22"
+    },
+    {
+        "sku": "BRD01004",
+        "keywords": "marcas 4",
+        "name": "MOD: BRD01004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/n8zyyBhW/MARCAS-B-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01004%22"
+    },
+    {
+        "sku": "BRD01005",
+        "keywords": "marcas 5",
+        "name": "MOD: BRD01005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/ksbKMZW1/MARCAS-B-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01005%22"
+    },
+    {
+        "sku": "BRD01006",
+        "keywords": "marcas 6",
+        "name": "MOD: BRD01006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/39HTwNtZ/MARCAS-B-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01006%22"
+    },
+    {
+        "sku": "BRD01007",
+        "keywords": "marcas 7",
+        "name": "MOD: BRD01007",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/NgS3KTzw/MARCAS-B-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01007%22"
+    },
+    {
+        "sku": "BRD01008",
+        "keywords": "marcas 8",
+        "name": "MOD: BRD01008",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/sZVx6YG/MARCAS-B-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01008%22"
+    },
+    {
+        "sku": "BRD01009",
+        "keywords": "marcas 9",
+        "name": "MOD: BRD01009",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/GvYVPsV1/MARCAS-B-09.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22BRD01009%22"
+    }
+]
