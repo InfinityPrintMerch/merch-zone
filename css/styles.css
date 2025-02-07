@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 /* Estilo de la barra de navegación */
 .navbar {
     display: flex;
@@ -227,7 +228,7 @@ body {
 }
 
 .banner-tazas {
-    background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
+    background-image: url('https://i.ibb.co/ZRH5H4F2/banner-tazas-a.png');
 }
 
 .banner-gorras {
@@ -238,6 +239,9 @@ body {
     background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
 }
 
+.banner-valentines-a{
+    background-image: url('https://i.ibb.co/xt4F5R8p/banner-valentines.jpg');
+}
 
 
 
@@ -1209,6 +1213,46 @@ body {
     background-position: center;
 }
 
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3; /* Color de fondo mientras carga */
+}
+
+.img-container-b {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3; /* Color de fondo mientras carga */
+}
+
+.loader {
+    border: 4px solid #ddd;
+    border-top: 4px solid #333;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hover-img {
+    max-width: 100%;
+    height: auto;
+}
+
 .box-link-b {
     display: block;
     width: 100%;
@@ -1392,7 +1436,7 @@ body {
 .modal-b {
     display: none;
     position: fixed;
-    z-index: 4;
+    z-index: 10;
     left: 0;
     top: 0;
     width: 100%;
@@ -2451,4 +2495,233 @@ body {
 /* Zoom de la imagen */
 .popup-content img:hover {
     transform: scale(1.5); /* Cambia el valor para ajustar el zoom */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-c {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 1200px; /* Limita el ancho máximo */
+    margin: auto; /* Centra el contenedor cuando hay pocos elementos */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Centra los elementos si hay pocos */
+    transition: transform .3s ease-in-out;
+}
+
+.box-h {
+    width: 280px; /* Tamaño fijo para evitar expansión */
+    height: 280px; /* Mantiene proporción */
+    background-color: #e0e0e0;
+    border-radius: 7px;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.img-container-c {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3; /* Color de fondo mientras carga */
+}
+
+.box-h img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-h::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa semitransparente */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1; /* Asegura que la capa esté por debajo del texto */
+}
+
+.box-h .overlay-text-h {
+    position: absolute;
+    top: 120px; /* Ajusta el texto para que esté arriba */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0; /* Inicia oculto */
+    pointer-events: none; /* Evita que interfiera con interacciones */
+    transition: opacity 0.3s ease;
+    z-index: 2; /* Asegura que el texto esté por encima de la capa */
+}
+
+
+.box-h:hover::after {
+    opacity: 1; /* Hace visible la capa semitransparente al hacer hover */
+}
+
+.box-h:hover .overlay-text-h,
+.box-h:hover .sku-text-h {
+    opacity: 1; /* Muestra tanto el nombre como el SKU */
+}
+
+
+.box-h .sku-text-h {
+    position: absolute;
+    bottom: 8px; /* Ajusta el espacio debajo del nombre */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    opacity: 0; /* Inicialmente oculto */
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/* Estilo para los botones circulares */
+.box-h button {
+    position: absolute;
+    background-color: #202020;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Cambia de círculo a esquinas redondeadas */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; /* Aplica la fuente Poppins */
+    font-weight: 600; /* Hace el texto un poco más grueso */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 3; /* Asegura que los botones estén por encima */
+    opacity: 0; /* Ocultar por defecto */
+    visibility: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+/* Mostrar los botones solo cuando se hace hover sobre .box-t */
+.box-h:hover button {
+    opacity: 1; /* Mostrar los botones */
+    visibility: visible; /* Hacer los botones visibles */
+    overflow: visible;
+}
+
+/* Efecto hover: expansión y texto */
+.box-h button:hover {
+    background-color: #303030; /* Cambio de color */
+    width: 140px; /* Expande el botón horizontalmente */
+    justify-content: flex-start; /* Alinea el icono a la izquierda */
+    padding-left: 15px; /* Ajusta espacio del icono */
+}
+
+/* No tener ningún contenido por defecto */
+.box-h button::after {
+    content: ''; /* Inicia vacío */
+    opacity: 0; /* No visible */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Cuando el hover ocurre, el texto aparece */
+.box-h button:hover::after {
+    content: attr(data-text); /* Agrega el texto */
+    color: #FFD700;
+    font-size: 14px;
+    margin-left: 10px;
+    opacity: 1; /* Visible */
+}
+
+/* Mostrar el texto solo en hover */
+.box-h button:hover::after {
+    opacity: 1;
+}
+/* Nuevo botón de solo texto e icono */
+.box-h button.btn-text-icon-h {
+    position: absolute;
+    background-color: #202020;
+    color: white; /* Color del texto e icono */
+    border: none;
+    border-radius: 20px; /* Redondeo de las esquinas */
+    width: auto; /* Espacio para el texto */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: default; /* No es interactivo */
+    transition: all 0.3s ease;
+    z-index: 3; /* Asegura que los botones estén por encima */
+    opacity: 1; /* Siempre visible */
+    visibility: visible; /* Siempre visible */
+    padding-left: 10px; /* Espacio para el icono */
+    bottom: 10px; /* Ubicación en la esquina inferior */
+    left: 10px; /* Ubicación en la esquina inferior izquierda */
+}
+/* No cambia de tamaño ni color al hacer hover (porque no es interactivo) */
+.box-h button.btn-text-icon-h:hover {
+    background-color: transparent; /* Elimina el fondo en hover */
+    color: #f39c12; /* Cambia el color del icono y el texto al hacer hover */
+}
+
+/* Mostrar el texto junto con el icono */
+.box-h button.btn-text-icon-h::after {
+    content: attr(data-text);
+    color: white; /* Color por defecto */
+    font-size: 12px;
+    margin-left: 10px;
+    opacity: 1; /* Siempre visible */
+    transition: opacity 0.3s ease-in-out;
 }

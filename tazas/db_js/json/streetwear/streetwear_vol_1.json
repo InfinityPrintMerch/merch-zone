@@ -1,0 +1,34 @@
+[
+  {
+    "name": "STW-001",
+    "image": "https://example.com/streetwear_001.png",
+    "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20de%20STW-001",
+    "hot": true,
+    "new": true,
+    "date": "2025-01-01"
+  },
+  {
+    "name": "STW-002",
+    "image": "https://example.com/streetwear_002.png",
+    "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20de%20STW-002",
+    "hot": false,
+    "new": true,
+    "date": "2025-01-02"
+  },
+  {
+  "name": "STW-003",
+  "image": "https://example.com/streetwear_003.png",
+  "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20de%20STW-003",
+  "hot": true,
+  "new": false,
+  "date": "2025-01-10"
+},
+{
+  "name": "STW-004",
+  "image": "https://example.com/streetwear_004.png",
+  "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20de%20STW-004",
+  "hot": false,
+  "new": false,
+  "date": "2025-01-12"
+}
+]

@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oferta | San Valentín</title>
+    <title>Catálogo Tazas</title>
     <link id="favicon" rel="icon" href="https://i.ibb.co/NZLGrF1/icon-iph.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/media_query_phone.css">
     <link rel="stylesheet" href="../css/keyframes.css">
+    <link rel="stylesheet" href="../css/fonts.css">
     <script src="../js/teme_toogle.js"></script>
     <script src="../js/navbar.js"></script>
-    <script src="../js/results.js"></script>
-    <script src="../js/counter.js"></script>
-    <link rel="stylesheet" href="../css/fonts.css">
+    <script src="../js/results_designs.js"></script>
     <script src="../js/filter.js"></script>
     <script src="../js/dinamic_tag.js"></script>
-    <script src="../js/page.js"></script>
-    <script src="../js/linking.js"></script>
-    <script src="../js/images_galery.js"></script>
+    <script src="../js/page_designs.js"></script>
+    <script src="../js/linking_designs.js"></script>
     <script src="../js/dinamic_icons_a.js"></script>
     <script src="../js/dinamic_image.js"></script>
+    <script src="db_js/dinamic_db_tazas.js"></script>
+    <script src="../js/dinamic_title.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -42,34 +42,88 @@
     <div class="hamburger" onclick="toggleMenu()">☰</div>
 </nav>
 
-    <section class="banner-merch banner-san-valentin">
+    <section class="banner-merch banner-4">
       <div>
-          <img src="https://i.ibb.co/2Ht7zDW/san-valentin-logo.png" alt="banner-text">
+          <img src="https://i.ibb.co/KrWyy2p/merch-catalogo-b.png" alt="banner-text">
 </div>
     </section>
 
-    <section class="oferta-san-valentin">
-          <h2>Oferta Especial de San Valentín</h2>
-          <p>¡Celebra el amor con esta increíble promoción!</p>
-          <img src="https://i.ibb.co/Y4H44c0V/pack-san-valentin.png" alt="Pack San Valentín">
-          <p class="precio">$460.00 MXN</p>
-          <div class="detalle-pack">
-              <h3>¿Qué incluye el pack?</h3>
-              <ul>
-                  <li>1 playera de hombre en cualquier color disponible.</li>
-                  <li>1 playera de mujer en cualquier color disponible.</li>
-                  <li>Estampado en DTF de alta calidad.</li>
-                  <li>2 tazas blancas sublimadas de 13 onzas.</li>
-                  <li>Posibilidad de elegir cualquier diseño del catálogo.</li>
-                  <li>Opción de escoger un diseño fuera del catálogo.</li>
-                  <li>Diseños 100% personalizables para adaptarse a cada pareja.</li>
-              </ul>
+    <section class="section-merch">
+      <div class="text-box-merch">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h1>Diseños disponibles para toda Merch</h1>
+        </div>
+
+        <div class="text-box-merch">
+        <i class="fa-solid fa-pen-ruler"></i>
+          <h1>100% Editables para su Gusto.</h1>
           </div>
-          <a href="../catalog/san-valentin.html" class="boton-oferta">Playeras</a>
-          <a href="../tazas/san-valentin.html" class="boton-oferta">Tazas</a>
-          <h1>Faltan:</h1>
-          <h3 class="contador"><span id="contador"></span></h3>
-      </section>
+
+          <div class="text-box-merch">
+          <i class="fa-solid fa-layer-group"></i>
+            <h1>Organizados por Colecciones</h1>
+            </div>
+    </section>
+
+    <section class="productos-personalizables-b">
+        <h2>CATALOGO</h2>
+    </section>
+
+  <!--    <div class="search-container">
+        <button class="back-btn" onclick="window.location.href='../catalog/streetwear.html'">
+          <i class="fa-solid fa-left-long"></i>
+      </button>
+         <input type="text" id="search-bar" class="search-bar" placeholder="Buscar...">
+         <button class="filter-btn" id="filter-btn">Filtrar</button>
+         <button class="filter-btn" id="reset-btn" style="display: none;"><i class="fa-regular fa-circle-xmark"></i></button>
+      </div> -->
+
+<!-- Ventana emergente -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <button id="hot">HOT</button>
+        <button id="new">NUEVO</button>
+        <button id="newest">RECIENTES</button>
+        <button id="az">A - Z</button>
+        <button id="za">Z - A</button>
+        <button class="close-btn" id="close-popup">CERRAR</button>
+    </div>
+</div>
+
+<!-- Paginación -->
+<div class="pagination">
+  <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+  <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+  <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+</div>
+
+<div id="no-results" style="display:none; color: red;"></div>
+
+      <section class="section-catalog-a">
+        <div class="container-c" id="designs-container">
+      <!-- Aquí se mostrarán dinámicamente los elementos de las colecciones -->
+  </div>
+
+
+  <!-- Modal para ampliar imagen -->
+  <div id="imageModal" class="modal-b">
+      <span class="close-b" onclick="closeModal()">×</span>
+      <img class="modal-content-b" id="modalImage">
+      <div id="caption"></div>
+  </div>
+
+  <!-- Paginación -->
+  <div class="pagination">
+  <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+  <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+  <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+  </div>
+
+      <div class="blank-section">
+  <p></p>
+</div>
+
+
   </body>
 
   <footer class="footer">

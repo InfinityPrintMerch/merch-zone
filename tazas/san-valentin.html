@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín</title>
+    <link id="favicon" rel="icon" href="https://i.ibb.co/NZLGrF1/icon-iph.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/media_query_phone.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+    <script src="../js/teme_toogle.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/results.js"></script>
+    <link rel="stylesheet" href="../css/fonts.css">
+    <script src="../js/filter.js"></script>
+    <script src="../js/dinamic_tag.js"></script>
+    <script src="../js/page.js"></script>
+    <script src="../js/linking.js"></script>
+    <script src="../js/dinamic_icons_a.js"></script>
+    <script src="../js/dinamic_image.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+        <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
+    <div class="navbar-links">
+        <a href="../index.html">Inicio</a>
+        <a href="../merch.html">Merch</a>
+        <a href="../contacto.html">Contacto</a>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/infinityprinthub" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/infinityprintmerchmx/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=2411576300" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+    <section class="banner-merch banner-valentines-a">
+      <div>
+          <img src="https://i.ibb.co/qFXf1Pmw/banner-logo-san-valentin-a.png" alt="banner-text">
+</div>
+    </section>
+
+    <section class="section-merch">
+      <div class="text-box-merch">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h1>Diseños disponibles para toda Merch</h1>
+        </div>
+
+        <div class="text-box-merch">
+        <i class="fa-solid fa-pen-ruler"></i>
+          <h1>100% Editables para su Gusto.</h1>
+          </div>
+
+          <div class="text-box-merch">
+          <i class="fa-solid fa-layer-group"></i>
+            <h1>Organizados por Colecciones</h1>
+            </div>
+    </section>
+
+    <section class="productos-personalizables-b">
+      <h2>SAN VALENTÍN</h2>
+    </section>
+
+      <div class="search-container">
+        <button class="back-btn" onclick="window.location.href='../categories/tazas_catalogo.html'">
+          <i class="fa-solid fa-left-long"></i>
+      </button>
+         <input type="text" id="search-bar" class="search-bar" placeholder="Buscar...">
+         <button class="filter-btn" id="filter-btn">Filtrar</button>
+         <button class="filter-btn" id="reset-btn" style="display: none;"><i class="fa-regular fa-circle-xmark"></i></button>
+      </div>
+
+<!-- Ventana emergente -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <button id="hot">HOT</button>
+        <button id="new">NUEVO</button>
+        <button id="newest">RECIENTES</button>
+        <button id="az">A - Z</button>
+        <button id="za">Z - A</button>
+        <button class="close-btn" id="close-popup">CERRAR</button>
+    </div>
+</div>
+
+<!-- Paginación -->
+<div class="pagination">
+  <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+  <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+  <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+</div>
+
+<div id="no-results" style="display:none; color: red;"></div>
+
+      <section class="section-catalog-a">
+      <div class="container-a">
+
+        <div class="box-a" data-name="cute 1" data-designs="40" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/XkSnFfWK/cute-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=amor_vol_1">
+            <img class="hover-img">
+            <p class="overlay-text">Cute Vol. 1</p>
+        </div>
+
+        <div class="box-a" data-name="dragon ball goku 1" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/xqR0J18B/dragon-ball-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=dragon_ball_vol_1">
+            <img class="hover-img">
+            <p class="overlay-text">Dragon Ball Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="dragon ball goku 2" data-designs="8" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/spnY7Gr0/dragon-ball-vol-2.png" data-link="catalogo.html?category=san_valentin&vol=dragon_ball_vol_2">
+            <img class="hover-img">
+            <p class="overlay-text">Dragon Ball Vol.2</p>
+        </div>
+
+        <div class="box-a" data-name="flork 1" data-designs="" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ns3Mbbhx/flork-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=flork_vol_1">
+            <img class="hover-img">
+            <p class="overlay-text">Flork Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="flork 2" data-designs="" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/hFjvX42T/flork-vol-2.png" data-link="catalogo.html?category=san_valentin&vol=flork_vol_2">
+            <img class="hover-img">
+            <p class="overlay-text">Flork Vol.2</p>
+        </div>
+
+        <div class="box-a" data-name="parejas 1" data-designs="" data-hot="true" data-new="true" data-date="2025-01-18" data-image="https://i.ibb.co/TsBPtd5/parejas-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=parejas_vol_1">
+            <img class="hover-img">
+            <p class="overlay-text">Parejas Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="san valentin 1" data-designs="" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/mV47Q0nx/san-valentin-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=san_valentin_vol_1">
+            <img class="hover-img">
+            <p class="overlay-text">San Valentin Vol.1</p>
+        </div>
+
+        <div class="box-a" data-name="san valentin 2" data-designs="" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/9kRRwySm/san-valentin-vol-2.png" data-link="catalogo.html?category=san_valentin&vol=san_valentin_vol_2">
+            <img class="hover-img">
+            <p class="overlay-text">San Valentin Vol.2</p>
+        </div>
+
+        <div class="box-a" data-name="stitch 1" data-designs="" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ZRjrvcft/stitch-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=stitch_vol_1">
+            <img class="hover-img">
+            <p class="overlay-text">Stitch Vol.1</p>
+        </div>
+
+
+      </div>
+
+
+        <!-- Modal para ampliar imagen -->
+        <div id="imageModal-b" class="modal-b" onclick="closeModal()">
+            <span class="close-b">&times;</span>
+            <img class="modal-content-b" id="modalImage-b">
+            <div id="caption"></div>
+        </div>
+
+      <!-- Paginación -->
+      <div class="pagination">
+        <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+        <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+        <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+      </div>
+
+      <div class="blank-section">
+  <p></p>
+</div>
+
+
+  </body>
+
+  <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>Sobre Nosotros</h3>
+              <p>Infinity Print Hub es tu mejor opción para personalización de productos. Calidad y creatividad en cada diseño.</p>
+          </div>
+          <div class="footer-section">
+              <h3>Enlaces Rápidos</h3>
+              <ul>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../tecnicas.html">Tecnicas</a></li>
+                  <li><a href="../merch.html">Merch</a></li>
+                  <li><a href="../contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Contáctanos</h3>
+              <p>Email: infinitydesigneralfa@gmail.com</p>
+              <p>Tel: +52 241 157 6300</p>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/infinityprinthub"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/infinityprintmerchmx/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=2411576300"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2025 Infinity Print Hub. Todos los derechos reservados.</p>
+      </div>
+  </footer>
+
+  <div class="floating-buttons">
+    <a href="https://api.whatsapp.com/send?phone=2411576300" target="_blank">
+      <button class="floating-button">
+        <i class="fa-brands fa-whatsapp"></i>
+      </button>
+    </a>
+  </div>
+
+
+  </html>

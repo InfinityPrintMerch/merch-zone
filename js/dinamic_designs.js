@@ -20,7 +20,7 @@ if (whatsappButton) {
         const encodedUrl = encodeURIComponent(currentUrl); // Codificar la URL para asegurarnos que sea válida en el enlace
 
         // Crear el enlace de WhatsApp con el texto y la URL actual
-        const whatsappLink = `https://api.whatsapp.com/send?text=Me%20interesa%20ver%20este%20diseño:%20${encodedUrl}`;
+        const whatsappLink = `https://api.whatsapp.com/send?phone=2411576300&text=Me%20interesa%20ver%20este%20diseño:%20${encodedUrl}`;
 
         // Redirigir a WhatsApp con el enlace generado
         window.location.href = whatsappLink;
