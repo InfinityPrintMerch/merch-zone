@@ -52,6 +52,20 @@ const jsonPaths = {
       'anime_vol_2': 'json/anime/anime_vol_2.json',
       'anime_vol_3': 'json/anime/anime_vol_3.json',
       'anime_vol_4': 'json/anime/anime_vol_4.json',
+      'anime_vol_5': 'json/anime/anime_vol_5.json',
+      'anime_vol_6': 'json/anime/anime_vol_6.json',
+      'anime_vol_7': 'json/anime/anime_vol_7.json',
+      'anime_vol_8': 'json/anime/anime_vol_8.json',
+      'anime_vol_9': 'json/anime/anime_vol_9.json',
+      'anime_vol_10': 'json/anime/anime_vol_10.json',
+      'anime_vol_11': 'json/anime/anime_vol_11.json',
+      'anime_vol_12': 'json/anime/anime_vol_12.json',
+      'anime_vol_13': 'json/anime/anime_vol_13.json',
+      'anime_vol_14': 'json/anime/anime_vol_14.json',
+      'anime_vol_15': 'json/anime/anime_vol_15.json',
+      'anime_vol_16': 'json/anime/anime_vol_16.json',
+      'anime_vol_17': 'json/anime/anime_vol_17.json',
+      'anime_vol_18': 'json/anime/anime_vol_18.json',
       'exclusivos_vol_1': 'json/anime/exclusivos_vol_1.json',
       'exclusivos_vol_2': 'json/anime/exclusivos_vol_2.json',
       'exclusivos_vol_3': 'json/anime/exclusivos_vol_3.json',
@@ -126,7 +140,43 @@ const jsonPaths = {
       'exclusivos_vol_72': 'json/anime/exclusivos_vol_72.json',
       'exclusivos_vol_73': 'json/anime/exclusivos_vol_73.json',
       'exclusivos_vol_74': 'json/anime/exclusivos_vol_74.json',
-      'exclusivos_vol_75': 'json/anime/exclusivos_vol_75.json'
+      'exclusivos_vol_75': 'json/anime/exclusivos_vol_75.json',
+      'attack_on_titan_vol_1': 'json/anime/attack_on_titan_vol_1.json',
+      'attack_on_titan_vol_2': 'json/anime/attack_on_titan_vol_2.json',
+      'attack_on_titan_vol_3': 'json/anime/attack_on_titan_vol_3.json',
+      'attack_on_titan_vol_4': 'json/anime/attack_on_titan_vol_4.json',
+      'baki_vol_1': 'json/anime/baki_vol_1.json',
+      'baki_vol_2': 'json/anime/baki_vol_2.json',
+      'berserk_vol_1': 'json/anime/berserk_vol_1.json',
+      'berserk_vol_2': 'json/anime/berserk_vol_2.json',
+      'black_clover_vol_1': 'json/anime/black_clover_vol_1.json',
+      'black_clover_vol_2': 'json/anime/black_clover_vol_2.json',
+      'black_clover_vol_3': 'json/anime/black_clover_vol_3.json',
+      'bleach_vol_1': 'json/anime/bleach_vol_1.json',
+      'blue_lock_vol_1': 'json/anime/blue_lock_vol_1.json',
+      'blue_lock_vol_2': 'json/anime/blue_lock_vol_2.json',
+      'bochi_the_rock_vol_1': 'json/anime/bochi_the_rock_vol_1.json',
+      'boku_no_hero_vol_1': 'json/anime/boku_no_hero_vol_1.json',
+      'boku_no_hero_vol_2': 'json/anime/boku_no_hero_vol_2.json',
+      'boku_no_hero_vol_3': 'json/anime/boku_no_hero_vol_3.json',
+      'caballeros_del_zodiaco_vol_1': 'json/anime/caballeros_del_zodiaco_vol_1.json',
+      'caballeros_del_zodiaco_vol_2': 'json/anime/caballeros_del_zodiaco_vol_2.json',
+      'caballeros_del_zodiaco_vol_3': 'json/anime/caballeros_del_zodiaco_vol_3.json',
+      'caballeros_del_zodiaco_vol_4': 'json/anime/caballeros_del_zodiaco_vol_4.json',
+      'caballeros_del_zodiaco_vol_5': 'json/anime/caballeros_del_zodiaco_vol_5.json',
+      'caballeros_del_zodiaco_vol_6': 'json/anime/caballeros_del_zodiaco_vol_6.json',
+      'caballeros_del_zodiaco_vol_7': 'json/anime/caballeros_del_zodiaco_vol_7.json',
+      'caballeros_del_zodiaco_vol_8': 'json/anime/caballeros_del_zodiaco_vol_8.json',
+      'caballeros_del_zodiaco_vol_9': 'json/anime/caballeros_del_zodiaco_vol_9.json',
+      'caballeros_del_zodiaco_vol_10': 'json/anime/caballeros_del_zodiaco_vol_10.json',
+      'candy_candy_vol_1': 'json/anime/candy_candy_vol_1.json',
+      'chainsaw_man_vol_1': 'json/anime/chainsaw_man_vol_1.json',
+      'chainsaw_man_vol_2': 'json/anime/chainsaw_man_vol_2.json',
+      'chainsaw_man_vol_3': 'json/anime/chainsaw_man_vol_3.json',
+      'chainsaw_man_vol_4': 'json/anime/chainsaw_man_vol_4.json',
+      'cowboy_bebop_vol_1': 'json/anime/cowboy_bebop_vol_1.json',
+      'cyberpunk_edgerunners_vol_1': 'json/anime/cyberpunk_edgerunners_vol_1.json',
+      'cyberpunk_edgerunners_vol_2': 'json/anime/cyberpunk_edgerunners_vol_2.json'
     },
     urbanos: {
         'urbanos_vol_1': 'json/urbanos/urbanos_vol_1.json',
@@ -204,6 +254,24 @@ san_valentin: {
   'parejas_vol_2': 'json/san_valentin/parejas_vol_2.json',
   'parejas_vol_3': 'json/san_valentin/parejas_vol_3.json',
   'parejas_vol_4': 'json/san_valentin/parejas_vol_4.json'
+},
+marcas: {
+  'adidas_vol_1': 'json/marcas/adidas_vol_1.json',
+  'adidas_vol_2': 'json/marcas/adidas_vol_2.json',
+  'marcas_vol_1': 'json/marcas/marcas_vol_1.json',
+  'marcas_vol_2': 'json/marcas/marcas_vol_2.json',
+  'marcas_vol_3': 'json/marcas/marcas_vol_3.json',
+  'marcas_vol_4': 'json/marcas/marcas_vol_4.json',
+  'marcas_vol_5': 'json/marcas/marcas_vol_5.json',
+  'psycho_bunny_vol_1': 'json/marcas/psycho_bunny_vol_1.json',
+  'psycho_bunny_vol_2': 'json/marcas/psycho_bunny_vol_2.json',
+  'psycho_bunny_vol_3': 'json/marcas/psycho_bunny_vol_3.json',
+  'psycho_bunny_vol_4': 'json/marcas/psycho_bunny_vol_4.json',
+  'psycho_bunny_vol_5': 'json/marcas/psycho_bunny_vol_5.json',
+  'psycho_bunny_vol_6': 'json/marcas/psycho_bunny_vol_6.json',
+  'psycho_bunny_vol_7': 'json/marcas/psycho_bunny_vol_7.json',
+  'retro_vol_1': 'json/marcas/retro_vol_1.json',
+  'tommy_hilfiger_vol_1': 'json/marcas/tommy_hilfiger_vol_1.json'
 }
 };
 
@@ -211,7 +279,7 @@ function loadProducts(category, volume) {
     const categoryPaths = jsonPaths[category];
 
     if (!categoryPaths) {
-        alert('¡Diseños aun por cargar! x_x');
+        alert('¡Diseños aún por cargar! x_x');
         return;
     }
 
@@ -221,6 +289,7 @@ function loadProducts(category, volume) {
         alert('¡Colección no válida! +_+');
         return;
     }
+
     // Cargar el archivo JSON usando fetch
     fetch(jsonFilePath)
         .then(response => response.json())
@@ -229,7 +298,6 @@ function loadProducts(category, volume) {
                 alert('No hay productos disponibles para esta colección.');
                 return;
             }
-
 
             // Paginación: filtrar los elementos según la página actual
             const totalItems = data.length;
@@ -251,11 +319,31 @@ function loadProducts(category, volume) {
                 div.setAttribute('data-image', item.image);
                 div.setAttribute('data-link', item.link);
 
-                // Crear la imagen y el texto para cada diseño
+                // Crear un contenedor para la imagen con un loader
+                const imgContainer = document.createElement('div');
+                imgContainer.classList.add('img-container');
+
+                // Agregar un loader animado (spinner)
+                const loader = document.createElement('div');
+                loader.classList.add('loader');
+
+                // Crear la imagen
                 const img = document.createElement('img');
                 img.classList.add('hover-img');
                 img.src = item.image;
+                img.style.display = 'none'; // Ocultamos la imagen al inicio
 
+                // Cuando la imagen termine de cargar, mostramos la imagen y quitamos el loader
+                img.onload = function () {
+                    img.style.display = 'block';
+                    loader.style.display = 'none';
+                };
+
+                // Agregar loader e imagen al contenedor de la imagen
+                imgContainer.appendChild(loader);
+                imgContainer.appendChild(img);
+
+                // Crear el texto con el nombre del diseño
                 const p = document.createElement('p');
                 p.classList.add('overlay-text-b');
                 p.innerText = item.name;
@@ -265,48 +353,30 @@ function loadProducts(category, volume) {
                 expandButton.classList.add('btn-expand-b');
                 expandButton.innerHTML = '<i class="fa-solid fa-expand"></i>';
                 expandButton.setAttribute("data-text", "FULLSCREEN");
-
-                // Lógica del botón al hacer clic
-                expandButton.onclick = function() { openModal(item); };
+                expandButton.onclick = function () {
+                    openModal(item);
+                };
 
                 // Crear botón de link
+                const whatsappButton = document.createElement('button');
+                whatsappButton.classList.add('btn-whatsapp-b');
+                whatsappButton.innerHTML = '<i class="fa-solid fa-star"></i>';
+                whatsappButton.setAttribute("data-text", "!LO QUIERO!");
 
-                // Obtener los parámetros de la URL
-const urlParams = new URLSearchParams(window.location.search);
-const category = urlParams.get('category');
-const vol = urlParams.get('vol');
+                whatsappButton.onclick = function () {
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const category = urlParams.get('category');
+                    const vol = urlParams.get('vol');
 
-// Verifica si se obtuvieron correctamente los valores
-console.log(`Category: ${category}, Vol: ${vol}`);
+                    const image = item.image;
+                    const name = item.name;
+                    const link = item.link;
 
-const whatsappButton = document.createElement('button');
-whatsappButton.classList.add('btn-whatsapp-b');
-whatsappButton.innerHTML = '<i class="fa-solid fa-star"></i>';
-whatsappButton.setAttribute("data-text", "!LO QUIERO!");
+                    window.location.href = `design.html?image=${image}&name=${name}&link=${encodeURIComponent(link)}&category=${encodeURIComponent(category)}&vol=${encodeURIComponent(vol)}`;
+                };
 
-whatsappButton.onclick = function() {
-// Obtener los valores de la URL
-const urlParams = new URLSearchParams(window.location.search);
-const category = urlParams.get('category');
-const vol = urlParams.get('vol');
-
-// Construir la URL con los parámetros obtenidos de la URL
-const sku = item.sku;
-const image = item.image;
-const name = item.name;
-const link = item.link;
-
-// Redirigir a la página 'design.html' con los parámetros de la URL y los datos del item
-window.location.href = `design.html?image=${image}&name=${name}&link=${encodeURIComponent(link)}&category=${encodeURIComponent(category)}&vol=${encodeURIComponent(vol)}`;
-};
-
-
-
-
-
-
-                // Añadir la imagen y el texto al contenedor del diseño
-                div.appendChild(img);
+                // Añadir elementos al contenedor del diseño
+                div.appendChild(imgContainer);
                 div.appendChild(p);
                 div.appendChild(expandButton);
                 div.appendChild(whatsappButton);
@@ -323,6 +393,7 @@ window.location.href = `design.html?image=${image}&name=${name}&link=${encodeURI
             alert('Hubo un error al cargar los productos.');
         });
 }
+
 
 
 // Función para abrir el modal y cargar la imagen seleccionada
