@@ -1,0 +1,20 @@
+[
+    {
+        "sku": "NGT-01001",
+        "keywords": "anime nagaroto 1",
+        "name": "MOD: NGT-01001",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/GfFzGVJV/Nagaroto-V1.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22NGT-01001%22"
+    },
+    {
+        "sku": "NGT-01002",
+        "keywords": "anime nagaroto 2",
+        "name": "MOD: NGT-01002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/nMXhVWb3/Nagaroto-V2.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22NGT-01002%22"
+    }
+]
