@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Calacas Vol. 1",
+        "designs": "20",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/g6Kz3pT/calacas-1.png",
+        "link": "catalogo.html?category=calacas&vol=calacas_vol_1"
+    },
+    {
+        "name": "Calacas Vol. 2",
+        "designs": "17",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/SPwrJcv/calacas-2.png",
+        "link": "catalogo.html?category=calacas&vol=calacas_vol_2"
+    },
+    {
+        "name": "Calacas Vol. 3",
+        "designs": "9",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/dBKLtbQ/calacas-3.png",
+        "link": "catalogo.html?category=calacas&vol=calacas_vol_3"
+    },
+    {
+        "name": "Calacas Vol. 4",
+        "designs": "16",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/F88wb48/calacas-4.png",
+        "link": "catalogo.html?category=calacas&vol=calacas_vol_4"
+    },
+    {
+        "name": "Calacas Vol. 5",
+        "designs": "10",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/8cqrswX/calacas-5.png",
+        "link": "catalogo.html?category=calacas&vol=calacas_vol_5"
+    },
+    {
+        "name": "Calacas Vol. 6",
+        "designs": "10",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/fCqs1ps/calacas-6.png",
+        "link": "catalogo.html?category=calacas&vol=calacas_vol_6"
+    },
+    {
+        "name": "Calacas Vol. 7",
+        "designs": "23",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/nfTRRYL/calacas-7.png",
+        "link": "catalogo.html?category=calacas&vol=calacas_vol_7"
+    }
+]

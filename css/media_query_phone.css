@@ -212,32 +212,42 @@
         padding: 20px 20px;
       }
 
-      .container-a {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 10px;
-        padding: 20px 20px;
-      }
-
       .box {
         font-size: .9rem;
         padding: 12px;
       }
 
       .box-a {
-          width: 170px;
-          height: 108px; /* Ajusta la altura según necesites */
+          width: auto;
+          height: auto; /* Ajusta la altura según necesites */
       }
 
       .box-t {
-          width: 170px; /* Tamaño fijo para evitar expansión */
-          height: 113px; /* Mantiene proporción */
+          width: 375px; /* Tamaño fijo para evitar expansión */
+          height: auto; /* Mantiene proporción */
           border-radius: 5px;
       }
 
+      .box-t img {
+        width: auto;
+        height: auto; /* Ajusta la altura según necesites */
+    }
+      
+      .img-container img {
+        width: auto;  /* Hace que la imagen llene el contenedor */
+        height: 100%; /* Mantiene la proporción */
+        
+      }
+
       .img-container {
-        width: 170px; /* Tamaño fijo para evitar expansión */
-        height: 113px; /* Mantiene proporción */
+        width: auto; /* Tamaño fijo para evitar expansión */
+        height: 250px; /* Mantiene proporción */
+        border-radius: 5px;
+      }
+
+      .img-container-b {
+        width: auto; /* Tamaño fijo para evitar expansión */
+        height: auto; /* Mantiene proporción */
         border-radius: 5px;
       }
 
@@ -282,8 +292,8 @@
       }
 
       .box-a .overlay-text {
-          top: 30px; /* Ajusta el texto para que esté arriba */
-          font-size: 12px;
+          top: 80px; /* Ajusta el texto para que esté arriba */
+          font-size: 19px;
       }
 
       .box-a button {
@@ -328,18 +338,21 @@
        }
 
        .box-h {
-           width: 170px; /* Tamaño fijo para evitar expansión */
-           height: 170px; /* Mantiene proporción */
+           width: auto; /* Tamaño fijo para evitar expansión */
+           height: auto; /* Mantiene proporción */
        }
 
        .img-container-c {
-           height: 170px;
+           height: auto;
+           width: auto;
        }
 
        .container-b {
-           grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-               max-width: 400px; /* Limita el ancho máximo */
-       }
+        display: grid;
+        grid-template-columns: 1fr; /* Una sola columna */
+        justify-items: center;
+      }
+      
 
        .container-c {
            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -347,26 +360,13 @@
        }
 
        .box-t .overlay-text-b {
-           top: 50px; /* Ajusta el texto para que esté arriba */
-           font-size: 11px;
+           top: 90px; /* Ajusta el texto para que esté arriba */
+           font-size: 20px;
        }
 
        .box-h .overlay-text-h {
            top: 80px; /* Ajusta el texto para que esté arriba */
            font-size: 11px;
-       }
-
-       .box-a button.btn-text-icon {
-           font-size: 10px;
-           height: 20px;
-           padding-left: 8px; /* Espacio para el icono */
-           bottom: 5px; /* Ubicación en la esquina inferior */
-           left: 5px; /* Ubicación en la esquina inferior izquierda */
-       }
-
-       .box-a button.btn-text-icon::after {
-           font-size: 10px;
-           margin-left: 5px;
        }
 
        .box-t button {
@@ -499,7 +499,7 @@
        }
        .wrapper-content {
            align-items: center;
-           padding-top: 20px;s
+           padding-top: 20px;
        }
 
        .oferta-san-valentin {
@@ -515,6 +515,271 @@
 
 
 }
+
+/* Media query adicional para pantallas más pequeñas (hasta 375px) */
+  @media (max-width: 375px) {
+    .banner {
+      height: 200px; /* Aún más pequeño */
+    }
+
+    .banner-merch {
+      height: 200px; /* Aún más pequeño */
+    }
+
+    .banner h1,
+    .banner-merch h1 {
+      font-size: 1.6rem; /* Más pequeño */
+    }
+
+    .banner h2,
+    .banner-merch h2 {
+      font-size: 0.9rem; /* Aún más pequeño */
+    }
+
+    .banner p,
+    .banner-merch p {
+      font-size: 1rem; /* Más pequeño */
+    }
+
+    .section-cuadros {
+      gap: 10px; /* Aún menos espacio */
+    }
+
+    .cuadro i {
+      font-size: 1.6rem; /* Más pequeño */
+    }
+
+    .cuadro h3 {
+      font-size: 1rem; /* Más pequeño */
+    }
+
+    .cuadro p {
+      font-size: 0.8rem; /* Más pequeño */
+    }
+
+    .text-box-merch h1 {
+      font-size: 0.7rem;
+    }
+
+    .text-box-merch i {
+      font-size: 1.3rem;
+    }
+
+    .text-box-merch {
+      height: 80px;
+      width: 200px;
+      padding: 3px;
+    }
+
+    .button-overlay {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+
+    .section-playeras h2,
+    .section-tazas h2,
+    .section-sudaderas h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-playeras p,
+    .section-tazas p,
+    .section-sudaderas p {
+      font-size: 0.8rem;
+    }
+
+    .section-playeras .highlight,
+    .section-tazas .highlight,
+    .section-sudaderas .highlight {
+      font-size: 0.9rem;
+    }
+
+    .section-playeras .subheading,
+    .section-tazas .subheading,
+    .section-sudaderas .subheading {
+      font-size: 1.1rem;
+    }
+
+    .section-playeras .info,
+    .section-tazas .info,
+    .section-sudaderas .info {
+      font-size: 0.8rem;
+    }
+
+    .banner img,
+    .banner-merch img {
+      width: 280px; /* Aún más pequeño */
+    }
+
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      padding: 15px 15px;
+      gap: 5px;
+    }
+
+    .container-a {
+      display: grid;
+      grid-template-columns: 1fr; /* Una sola columna */
+      padding: 15px;
+      gap: 10px;
+    }
+    
+    .container-b {
+      display: grid;
+      grid-template-columns: 1fr; /* Una sola columna */
+      padding: 15px;
+      gap: 10px;
+    }
+
+    .box {
+      font-size: 0.8rem;
+      padding: 8px;
+    }
+
+    .box-a {
+      width: auto;
+      height: auto;
+    }
+
+    .box-t {
+      width: auto;
+    }
+
+    .img-container {
+      width: auto; /* Ajusta al contenido */
+      height: auto;
+    }
+    
+
+    .img-container-b {
+      width: auto;
+      height: auto;
+    }
+
+    .box svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    .box-a .overlay-text {
+      top: 20px;
+      font-size: 10px;
+    }
+
+    .box-a button {
+      width: 25px;
+      height: 25px;
+      font-size: 11px;
+    }
+
+    .productos-personalizables-d h2 {
+      font-size: 1.1rem;
+    }
+
+    .productos-personalizables-b h2,
+    .productos-personalizables-c h2 {
+      font-size: 1.3rem;
+    }
+
+    .box-h {
+      width: 130px;
+      height: 130px;
+    }
+
+    .img-container-c {
+      height: 130px;
+    }
+    
+
+    .container-c {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        max-width: 300px;
+    }
+
+    .box-t .overlay-text-b {
+        top: 40px;
+        font-size: 9px;
+    }
+
+    .box-h .overlay-text-h {
+        top: 60px;
+        font-size: 9px;
+    }
+
+    .box-a button.btn-text-icon {
+        font-size: 8px;
+        height: 18px;
+        padding-left: 6px;
+    }
+
+    .box-a button.btn-text-icon::after {
+        font-size: 8px;
+        margin-left: 3px;
+    }
+
+    .back-btn {
+        font-size: 16px;
+        height: 30px;
+    }
+
+    .filter-btn {
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .text-slider h2 {
+        font-size: 1.3rem;
+    }
+
+    .text-slider p {
+        font-size: 0.7rem;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .comparison-container {
+        max-width: 300px;
+        height: 160px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .circle img {
+        width: 60px;
+        top: -8px;
+    }
+
+    .product-item p {
+        font-size: 8px;
+    }
+
+    .box-destacados {
+        width: 250px;
+        margin: 10px 15px;
+    }
+
+    .destacados-title h2 {
+        font-size: 1.4rem;
+        margin: 0px 50px;
+    }
+
+    .photo img {
+        width: 280px;
+    }
+
+    .oferta-san-valentin {
+        padding: 30px 15px;
+        max-width: 280px;
+    }
+
+    .button-container-b {
+      padding-left: 0px; /* Espacio alrededor de la cuadrícula */
+      padding-right: 0px; /* Espacio alrededor de la cuadrícula */
+  }
+  }
 
 
 @media (min-width: 768px) {

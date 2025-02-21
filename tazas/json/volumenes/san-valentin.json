@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Aesthetic Vol.1",
+        "designs": "12",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-13",
+        "image": "https://i.ibb.co/Wpp90bQN/aesthetic-vol-1.png",
+        "link": "catalogo.html?category=san_valentin&vol=aesthetic_vol_1"
+    },
+    {
+        "name": "Cute Vol. 1",
+        "designs": "40",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/XkSnFfWK/cute-vol-1.png",
+        "link": "catalogo.html?category=san_valentin&vol=amor_vol_1"
+    },
+    {
+        "name": "Dragon Ball Vol.1",
+        "designs": "10",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/xqR0J18B/dragon-ball-vol-1.png",
+        "link": "catalogo.html?category=san_valentin&vol=dragon_ball_vol_1"
+    },
+    {
+        "name": "Dragon Ball Vol.2",
+        "designs": "8",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/spnY7Gr0/dragon-ball-vol-2.png",
+        "link": "catalogo.html?category=san_valentin&vol=dragon_ball_vol_2"
+    },
+    {
+        "name": "Flork Vol.1",
+        "designs": "12",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/ns3Mbbhx/flork-vol-1.png",
+        "link": "catalogo.html?category=san_valentin&vol=flork_vol_1"
+    },
+    {
+        "name": "Flork Vol.2",
+        "designs": "10",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/hFjvX42T/flork-vol-2.png",
+        "link": "catalogo.html?category=san_valentin&vol=flork_vol_2"
+    },
+    {
+        "name": "Parejas Vol.1",
+        "designs": "22",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/TsBPtd5/parejas-vol-1.png",
+        "link": "catalogo.html?category=san_valentin&vol=parejas_vol_1"
+    },
+    {
+        "name": "San Valentin Vol.1",
+        "designs": "28",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/mV47Q0nx/san-valentin-vol-1.png",
+        "link": "catalogo.html?category=san_valentin&vol=san_valentin_vol_1"
+    },
+    {
+        "name": "San Valentin Vol.2",
+        "designs": "16",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/9kRRwySm/san-valentin-vol-2.png",
+        "link": "catalogo.html?category=san_valentin&vol=san_valentin_vol_2"
+    },
+    {
+        "name": "Stitch Vol.1",
+        "designs": "5",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/ZRjrvcft/stitch-vol-1.png",
+        "link": "catalogo.html?category=san_valentin&vol=stitch_vol_1"
+    }
+]

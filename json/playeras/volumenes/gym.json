@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Gym Vol. 1",
+    "designs": 10,
+    "hot": false,
+    "new": false,
+    "date": "2025-01-18",
+    "image": "https://i.ibb.co/bLf9yq2/gym-1.png",
+    "link": "catalogo.html?category=gym&vol=gym_vol_1"
+  },
+  {
+    "name": "Gym Vol. 2",
+    "designs": 10,
+    "hot": false,
+    "new": false,
+    "date": "2025-01-18",
+    "image": "https://i.ibb.co/wJHhD5F/gym-2.png",
+    "link": "catalogo.html?category=gym&vol=gym_vol_2"
+  },
+  {
+    "name": "Gym Vol. 3",
+    "designs": 9,
+    "hot": false,
+    "new": false,
+    "date": "2025-01-18",
+    "image": "https://i.ibb.co/K2dJfrg/gym-3.png",
+    "link": "catalogo.html?category=gym&vol=gym_vol_3"
+  },
+  {
+    "name": "Gym Vol. 4",
+    "designs": 9,
+    "hot": false,
+    "new": false,
+    "date": "2025-01-18",
+    "image": "https://i.ibb.co/P5F4LKv/gym-4.png",
+    "link": "catalogo.html?category=gym&vol=gym_vol_4"
+  },
+  {
+    "name": "Gym Vol. 5",
+    "designs": 5,
+    "hot": false,
+    "new": false,
+    "date": "2025-01-18",
+    "image": "https://i.ibb.co/3cw2Pzy/gym-5.png",
+    "link": "catalogo.html?category=gym&vol=gym_vol_5"
+  }
+]

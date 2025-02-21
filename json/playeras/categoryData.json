@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": "gym",
+      "title": "GYM",
+      "bannerImage": "https://i.ibb.co/bgsS0R6q/gym-banner-logo-a.png",
+      "bannerSection": "https://i.ibb.co/BKZwvhs4/gym-banner-a.png"
+    },
+    {
+      "id": "urbanos",
+      "title": "Urbanos",
+      "bannerImage": "https://i.ibb.co/8c1Hw0r/urbanos-banner.png",
+      "bannerSection": "https://i.ibb.co/BKZwvhs4/gym-banner-a.png"
+    },
+    {
+      "id": "calacas",
+      "title": "Calacas",
+      "bannerImage": "https://i.ibb.co/256x33T/calacas-banner.png",
+      "bannerSection": "https://i.ibb.co/BKZwvhs4/gym-banner-a.png"
+    },
+    {
+      "id": "streetwear",
+      "title": "Streetwear",
+      "bannerImage": "https://i.ibb.co/jH1yq2B/streetwear-banner.png",
+      "bannerSection": "https://i.ibb.co/BKZwvhs4/gym-banner-a.png"
+    }
+    // Agrega más categorías aquí
+  ]
+}

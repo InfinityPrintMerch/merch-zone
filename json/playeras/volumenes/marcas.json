@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Adidas Vol.01",
+        "designs": "32",
+        "hot": false,
+        "new": false,
+        "bestseller": true,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/0YcCr0Y/adidas-1.png",
+        "link": "catalogo.html?category=marcas&vol=adidas_vol_1"
+    },
+    {
+        "name": "Adidas Vol.02",
+        "designs": "20",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/fNpcHQw/adidas-2.png",
+        "link": "catalogo.html?category=marcas&vol=adidas_vol_2"
+    },
+    {
+        "name": "Marcas Vol.01",
+        "designs": "9",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/BcCPpDV/marcas-1.png",
+        "link": "catalogo.html?category=marcas&vol=marcas_vol_1"
+    },
+    {
+        "name": "Marcas Vol.02",
+        "designs": "33",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/PQQMkPB/marcas-2.png",
+        "link": "catalogo.html?category=marcas&vol=marcas_vol_2"
+    },
+    {
+        "name": "Marcas Vol.03",
+        "designs": "4",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/PxDNy2F/marcas-3.png",
+        "link": "catalogo.html?category=marcas&vol=marcas_vol_3"
+    },
+    {
+        "name": "Marcas Vol.04",
+        "designs": "10",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/d7hKHFJ/marcas-4.png",
+        "link": "catalogo.html?category=marcas&vol=marcas_vol_4"
+    },
+    {
+        "name": "Psycho Bunny Vol.01",
+        "designs": "12",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/zmNFsbD/psycho-bunny-1.png",
+        "link": "catalogo.html?category=marcas&vol=psycho_bunny_vol_1"
+    },
+    {
+        "name": "Psycho Bunny Vol.02",
+        "designs": "10",
+        "hot": true,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/DzTc8PB/psycho-bunny-2.png",
+        "link": "catalogo.html?category=marcas&vol=psycho_bunny_vol_2"
+    },
+    {
+        "name": "Psycho Bunny Vol.03",
+        "designs": "10",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/1vSQ554/psycho-bunny-3.png",
+        "link": "catalogo.html?category=marcas&vol=psycho_bunny_vol_3"
+    },
+    {
+        "name": "Psycho Bunny Vol.04",
+        "designs": "10",
+        "hot": true,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/Kb72pGh/psycho-bunny-4.png",
+        "link": "catalogo.html?category=marcas&vol=psycho_bunny_vol_4"
+    },
+    {
+        "name": "Psycho Bunny Vol.05",
+        "designs": "10",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/yXfGRXv/psycho-bunny-5.png",
+        "link": "catalogo.html?category=marcas&vol=psycho_bunny_vol_5"
+    },
+    {
+        "name": "Psycho Bunny Vol.06",
+        "designs": "12",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/F3ZJcXX/psycho-bunny-6.png",
+        "link": "catalogo.html?category=marcas&vol=psycho_bunny_vol_6"
+    },
+    {
+        "name": "Psycho Bunny Vol.07",
+        "designs": "13",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/tsvPcHN/psycho-bunny-7.png",
+        "link": "catalogo.html?category=marcas&vol=psycho_bunny_vol_7"
+    },
+    {
+        "name": "Retro Vol.01",
+        "designs": "41",
+        "hot": false,
+        "new": true,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/qCQM4nw/retro-1.png",
+        "link": "catalogo.html?category=marcas&vol=retro_vol_1"
+    },
+    {
+        "name": "Tommy Hilfiger Vol.01",
+        "designs": "13",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/D9zH26J/tommy-hilfiger-1.png",
+        "link": "catalogo.html?category=marcas&vol=tommy_hilfiger_vol_1"
+    }
+]

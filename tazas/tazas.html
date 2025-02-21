@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Valentín</title>
+    <title id="pageTitle">Merch</title>
     <link id="favicon" rel="icon" href="https://i.ibb.co/NZLGrF1/icon-iph.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/media_query_phone.css">
+    <link rel="stylesheet" href="../css/media_query_phone_2.css">
     <link rel="stylesheet" href="../css/keyframes.css">
     <script src="../js/teme_toogle.js"></script>
     <script src="../js/navbar.js"></script>
@@ -15,10 +16,10 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <script src="../js/filter.js"></script>
     <script src="../js/dinamic_tag.js"></script>
-    <script src="../js/load_products.js"></script>
     <script src="../js/linking.js"></script>
     <script src="../js/dinamic_icons_a.js"></script>
     <script src="../js/dinamic_image.js"></script>
+    <script src="../js/onload.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -40,11 +41,11 @@
     <div class="hamburger" onclick="toggleMenu()">☰</div>
 </nav>
 
-    <section class="banner-merch banner-valentines-a">
-      <div>
-          <img src="https://i.ibb.co/qFXf1Pmw/banner-logo-san-valentin-a.png" alt="banner-text">
-</div>
-    </section>
+<section class="banner-merch" id="bannerSection">
+    <div>
+        <img src="" alt="banner-text" id="bannerImage">
+    </div>
+</section>
 
     <section class="section-merch">
       <div class="text-box-merch">
@@ -64,7 +65,7 @@
     </section>
 
     <section class="productos-personalizables-b">
-      <h2>SAN VALENTÍN</h2>
+        <h2 id="categoryTitle"></h2>
     </section>
 
       <div class="search-container">
@@ -97,61 +98,11 @@
 
 <div id="no-results" style="display:none; color: red;"></div>
 
-      <section class="section-catalog-a">
-      <div class="container-a">
+<section class="section-catalog-a">
+    <div class="container-a" id="productContainer">
+    </div>
+</section>
 
-        <div class="box-a" data-name="aesthetic 1" data-designs="12" data-hot="true" data-new="true" data-date="2025-02-13" data-image="https://i.ibb.co/Wpp90bQN/aesthetic-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=aesthetic_vol_1">
-            <img class="hover-img">
-            <p class="overlay-text">Aesthetic Vol.1</p>
-        </div>
-
-        <div class="box-a" data-name="cute 1" data-designs="40" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/XkSnFfWK/cute-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=amor_vol_1">
-            <img class="hover-img">
-            <p class="overlay-text">Cute Vol. 1</p>
-        </div>
-
-        <div class="box-a" data-name="dragon ball goku 1" data-designs="10" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/xqR0J18B/dragon-ball-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=dragon_ball_vol_1">
-            <img class="hover-img">
-            <p class="overlay-text">Dragon Ball Vol.1</p>
-        </div>
-
-        <div class="box-a" data-name="dragon ball goku 2" data-designs="8" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/spnY7Gr0/dragon-ball-vol-2.png" data-link="catalogo.html?category=san_valentin&vol=dragon_ball_vol_2">
-            <img class="hover-img">
-            <p class="overlay-text">Dragon Ball Vol.2</p>
-        </div>
-
-        <div class="box-a" data-name="flork 1" data-designs="12" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ns3Mbbhx/flork-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=flork_vol_1">
-            <img class="hover-img">
-            <p class="overlay-text">Flork Vol.1</p>
-        </div>
-
-        <div class="box-a" data-name="flork 2" data-designs="10" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/hFjvX42T/flork-vol-2.png" data-link="catalogo.html?category=san_valentin&vol=flork_vol_2">
-            <img class="hover-img">
-            <p class="overlay-text">Flork Vol.2</p>
-        </div>
-
-        <div class="box-a" data-name="parejas 1" data-designs="22" data-hot="true" data-new="true" data-date="2025-01-18" data-image="https://i.ibb.co/TsBPtd5/parejas-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=parejas_vol_1">
-            <img class="hover-img">
-            <p class="overlay-text">Parejas Vol.1</p>
-        </div>
-
-        <div class="box-a" data-name="san valentin 1" data-designs="28" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/mV47Q0nx/san-valentin-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=san_valentin_vol_1">
-            <img class="hover-img">
-            <p class="overlay-text">San Valentin Vol.1</p>
-        </div>
-
-        <div class="box-a" data-name="san valentin 2" data-designs="16" data-hot="true" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/9kRRwySm/san-valentin-vol-2.png" data-link="catalogo.html?category=san_valentin&vol=san_valentin_vol_2">
-            <img class="hover-img">
-            <p class="overlay-text">San Valentin Vol.2</p>
-        </div>
-
-        <div class="box-a" data-name="stitch 1" data-designs="5" data-hot="false" data-new="false" data-date="2025-01-18" data-image="https://i.ibb.co/ZRjrvcft/stitch-vol-1.png" data-link="catalogo.html?category=san_valentin&vol=stitch_vol_1">
-            <img class="hover-img">
-            <p class="overlay-text">Stitch Vol.1</p>
-        </div>
-
-
-      </div>
 
 
         <!-- Modal para ampliar imagen -->
@@ -172,7 +123,7 @@
   <p></p>
 </div>
 
-
+<script src="../tazas/json/load_products.js"></script>
   </body>
 
   <footer class="footer">

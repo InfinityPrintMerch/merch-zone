@@ -5,15 +5,16 @@ const itemsPerPage = 20; // 20 productos por página
 const jsonPaths = {
 
 san_valentin: {
-  'amor_vol_1': 'json/san_valentin/amor_vol_1.json',
-  'san_valentin_vol_1': 'json/san_valentin/san_valentin_vol_1.json',
-  'san_valentin_vol_2': 'json/san_valentin/san_valentin_vol_2.json',
-  'dragon_ball_vol_1': 'json/san_valentin/dragon_ball_vol_1.json',
-  'dragon_ball_vol_2': 'json/san_valentin/dragon_ball_vol_2.json',
-  'flork_vol_1': 'json/san_valentin/flork_vol_1.json',
-  'flork_vol_2': 'json/san_valentin/flork_vol_2.json',
-  'parejas_vol_1': 'json/san_valentin/parejas_vol_1.json',
-  'stitch_vol_1': 'json/san_valentin/stitch_vol_1.json'
+  'amor_vol_1': 'json/data_base/san_valentin/amor_vol_1.json',
+  'san_valentin_vol_1': 'json/data_base/san_valentin/san_valentin_vol_1.json',
+  'san_valentin_vol_2': 'json/data_base/san_valentin/san_valentin_vol_2.json',
+  'dragon_ball_vol_1': 'json/data_base/san_valentin/dragon_ball_vol_1.json',
+  'dragon_ball_vol_2': 'json/data_base/san_valentin/dragon_ball_vol_2.json',
+  'flork_vol_1': 'json/data_base/san_valentin/flork_vol_1.json',
+  'flork_vol_2': 'json/data_base/san_valentin/flork_vol_2.json',
+  'parejas_vol_1': 'json/data_base/san_valentin/parejas_vol_1.json',
+  'stitch_vol_1': 'json/data_base/san_valentin/stitch_vol_1.json',
+  'aesthetic_vol_1': 'json/data_base/san_valentin/aesthetic_vol_1.json'
 }
 };
 
@@ -73,13 +74,7 @@ function loadProducts(category, volume) {
                 const img = document.createElement('img');
                 img.classList.add('hover-img');
                 img.src = item.image;
-                img.style.display = 'none'; // Ocultamos la imagen al inicio
-
-                // Cuando la imagen termine de cargar, mostramos la imagen y quitamos el loader
-                img.onload = function () {
-                    img.style.display = 'block';
-                    loader.style.display = 'none';
-                };
+                img.style.opacity = 0; // Hide the image initially
 
                 // Agregar loader e imagen al contenedor de la imagen
                 imgContainer.appendChild(loader);
@@ -125,6 +120,19 @@ function loadProducts(category, volume) {
 
                 // Añadir el diseño al contenedor principal
                 container.appendChild(div);
+
+                // Load event listener after appending the image to the DOM
+                img.addEventListener('load', () => {
+                    img.style.opacity = 1; // Fade in the image
+                    loader.style.display = 'none'; // Hide the loader
+                  });
+  
+                  // Optional: Error handling
+                  img.addEventListener('error', (error) => {
+                    console.error('Error loading image:', item.image, error);
+                    loader.style.display = 'none'; // Hide loader on error
+                    // Optionally show an error message or placeholder
+                  });
             });
 
             // Actualizar la paginación

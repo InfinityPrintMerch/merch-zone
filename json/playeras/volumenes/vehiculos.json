@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Carros Vol. 1",
+        "designs": "13",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/20XhL3D5/carros-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=carros_vol_1"
+    },
+    {
+        "name": "Carros Vol. 2",
+        "designs": "12",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/zVW5ynrW/carros-vol-2.png",
+        "link": "catalogo.html?category=vehiculos&vol=carros_vol_2"
+    },
+    {
+        "name": "Carros Vol. 3",
+        "designs": "6",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/WvsBg00R/carros-vol-3.png",
+        "link": "catalogo.html?category=vehiculos&vol=carros_vol_3"
+    },
+    {
+        "name": "Carros Vol. 4",
+        "designs": "8",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/hjdpQ8r/carros-vol-4.png",
+        "link": "catalogo.html?category=vehiculos&vol=carros_vol_4"
+    },
+    {
+        "name": "Carros Vol. 5",
+        "designs": "8",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/0p3nJ8s2/carros-vol-5.png",
+        "link": "catalogo.html?category=vehiculos&vol=carros_vol_5"
+    },
+    {
+        "name": "Carros Vol. 6",
+        "designs": "32",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/5hWkW7ND/carros-vol-6.png",
+        "link": "catalogo.html?category=vehiculos&vol=carros_vol_6"
+    },
+    {
+        "name": "Clasicos Vol. 1",
+        "designs": "16",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/svVzsg9W/clasicos-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=clasicos_vol_1"
+    },
+    {
+        "name": "Ferrari Vol. 1",
+        "designs": "25",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/rRfyqC2n/ferrari-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=ferrari_vol_1"
+    },
+    {
+        "name": "Formula 1 Vol. 1",
+        "designs": "10",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/ZR4sG02F/formula-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=formula_1_vol_1"
+    },
+    {
+        "name": "Hot Road Vol. 1",
+        "designs": "11",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/jvyvxKp6/hot-road-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=hot_road_vol_1"
+    },
+    {
+        "name": "Militares Vol. 1",
+        "designs": "20",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/DfJ1yrJm/militares-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=militares_vol_1"
+    },
+    {
+        "name": "Motocicletas Vol. 1",
+        "designs": "40",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/Y40DzZhB/motocicletas-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=motocicletas_vol_1"
+    },
+    {
+        "name": "Racing Vol. 1",
+        "designs": "97",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/SwsL8NvB/racing-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=racing_vol_1"
+    },
+    {
+        "name": "Supra Vol. 1",
+        "designs": "16",
+        "hot": false,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/RTgftfGQ/supra-vol-1.png",
+        "link": "catalogo.html?category=vehiculos&vol=supra_vol_1"
+    }
+]
