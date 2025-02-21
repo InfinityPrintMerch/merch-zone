@@ -176,7 +176,132 @@ const jsonPaths = {
       'chainsaw_man_vol_4': 'json/anime/chainsaw_man_vol_4.json',
       'cowboy_bebop_vol_1': 'json/anime/cowboy_bebop_vol_1.json',
       'cyberpunk_edgerunners_vol_1': 'json/anime/cyberpunk_edgerunners_vol_1.json',
-      'cyberpunk_edgerunners_vol_2': 'json/anime/cyberpunk_edgerunners_vol_2.json'
+      'cyberpunk_edgerunners_vol_2': 'json/anime/cyberpunk_edgerunners_vol_2.json',
+      'date_a_live_vol_1': 'json/anime/date_a_live_vol_1.json',
+'death_note_vol_1': 'json/anime/death_note_vol_1.json',
+'demon_slayer_vol_1': 'json/anime/demon_slayer_vol_1.json',
+'demon_slayer_vol_2': 'json/anime/demon_slayer_vol_2.json',
+'demon_slayer_vol_3': 'json/anime/demon_slayer_vol_3.json',
+'demon_slayer_vol_4': 'json/anime/demon_slayer_vol_4.json',
+'demon_slayer_vol_5': 'json/anime/demon_slayer_vol_5.json',
+'demon_slayer_vol_6': 'json/anime/demon_slayer_vol_6.json',
+'demon_slayer_vol_7': 'json/anime/demon_slayer_vol_7.json',
+'demon_slayer_vol_8': 'json/anime/demon_slayer_vol_8.json',
+'demon_slayer_vol_9': 'json/anime/demon_slayer_vol_9.json',
+'devilman_vol_1': 'json/anime/devilman_vol_1.json',
+'dragon_ball_vol_1': 'json/anime/dragon_ball_vol_1.json',
+'dragon_ball_vol_2': 'json/anime/dragon_ball_vol_2.json',
+'dragon_ball_vol_3': 'json/anime/dragon_ball_vol_3.json',
+'dragon_ball_vol_4': 'json/anime/dragon_ball_vol_4.json',
+'dragon_ball_vol_5': 'json/anime/dragon_ball_vol_5.json',
+'dragon_ball_vol_6': 'json/anime/dragon_ball_vol_6.json',
+'dragon_ball_vol_7': 'json/anime/dragon_ball_vol_7.json',
+'dragon_ball_vol_8': 'json/anime/dragon_ball_vol_8.json',
+'dragon_ball_vol_9': 'json/anime/dragon_ball_vol_9.json',
+'dragon_ball_vol_10': 'json/anime/dragon_ball_vol_10.json',
+'dragon_ball_vol_11': 'json/anime/dragon_ball_vol_11.json',
+'dragon_ball_vol_12': 'json/anime/dragon_ball_vol_12.json',
+'dragon_ball_vol_13': 'json/anime/dragon_ball_vol_13.json',
+'dragon_ball_vol_14': 'json/anime/dragon_ball_vol_14.json',
+'dragon_ball_vol_15': 'json/anime/dragon_ball_vol_15.json',
+'dragon_ball_vol_16': 'json/anime/dragon_ball_vol_16.json',
+'dragon_ball_vol_17': 'json/anime/dragon_ball_vol_17.json',
+'dragon_ball_vol_18': 'json/anime/dragon_ball_vol_18.json',
+'dragon_ball_vol_19': 'json/anime/dragon_ball_vol_19.json',
+'dragon_ball_vol_20': 'json/anime/dragon_ball_vol_20.json',
+'dragon_ball_vol_21': 'json/anime/dragon_ball_vol_21.json',
+'dragon_ball_vol_22': 'json/anime/dragon_ball_vol_22.json',
+'dragon_ball_vol_23': 'json/anime/dragon_ball_vol_23.json',
+'dragon_ball_vol_24': 'json/anime/dragon_ball_vol_24.json',
+'fairy_tail_vol_1': 'json/anime/fairy_tail_vol_1.json',
+'full_metal_alchemist_vol_1': 'json/anime/full_metal_alchemist_vol_1.json',
+'funkos_vol_1': 'json/anime/funkos_vol_1.json',
+'haikyu_vol_1': 'json/anime/haikyu_vol_1.json',
+'hajime_no_ippo_vol_1': 'json/anime/hajime_no_ippo_vol_1.json',
+'hentai_vol_1': 'json/anime/hentai_vol_1.json',
+'hentai_vol_2': 'json/anime/hentai_vol_2.json',
+'hentai_vol_3': 'json/anime/hentai_vol_3.json',
+'hunter_x_hunter_vol_1': 'json/anime/hunter_x_hunter_vol_1.json',
+'inuyasha_vol_1': 'json/anime/inuyasha_vol_1.json',
+'jojos_bizarre_adventure_vol_1': 'json/anime/jojos_bizarre_adventure_vol_1.json',
+'jojos_bizarre_adventure_vol_2': 'json/anime/jojos_bizarre_adventure_vol_2.json',
+'jujutsu_kaisen_vol_1': 'json/anime/jujutsu_kaisen_vol_1.json',
+'jujutsu_kaisen_vol_2': 'json/anime/jujutsu_kaisen_vol_2.json',
+'jujutsu_kaisen_vol_3': 'json/anime/jujutsu_kaisen_vol_3.json',
+'jujutsu_kaisen_vol_4': 'json/anime/jujutsu_kaisen_vol_4.json',
+'kaguya_sama_vol_1': 'json/anime/kaguya_sama_vol_1.json',
+'mazinger_z_vol_1': 'json/anime/mazinger_z_vol_1.json',
+'mazinger_z_vol_2': 'json/anime/mazinger_z_vol_2.json',
+'mob_psycho_vol_1': 'json/anime/mob_psycho_vol_1.json',
+'mob_psycho_vol_2': 'json/anime/mob_psycho_vol_2.json',
+'my_dressup_darling_1': 'json/anime/my_dressup_darling_1.json',
+'my_dressup_darling_2': 'json/anime/my_dressup_darling_2.json',
+'nagaroto_vol_1': 'json/anime/nagaroto_vol_1.json',
+'nanatsu_no_taizai_vol_1': 'json/anime/nanatsu_no_taizai_vol_1.json',
+'naruto_vol_1': 'json/anime/naruto_vol_1.json',
+'naruto_vol_2': 'json/anime/naruto_vol_2.json',
+'naruto_vol_3': 'json/anime/naruto_vol_3.json',
+'naruto_vol_4': 'json/anime/naruto_vol_4.json',
+'naruto_vol_5': 'json/anime/naruto_vol_5.json',
+'one_piece_vol_1': 'json/anime/one_piece_vol_1.json',
+'one_piece_vol_2': 'json/anime/one_piece_vol_2.json',
+'one_piece_vol_3': 'json/anime/one_piece_vol_3.json',
+'one_piece_vol_4': 'json/anime/one_piece_vol_4.json',
+'one_piece_vol_5': 'json/anime/one_piece_vol_5.json',
+'one_piece_vol_6': 'json/anime/one_piece_vol_6.json',
+'one_piece_vol_7': 'json/anime/one_piece_vol_7.json',
+'one_piece_vol_8': 'json/anime/one_piece_vol_8.json',
+'one_piece_vol_9': 'json/anime/one_piece_vol_9.json',
+'one_piece_vol_10': 'json/anime/one_piece_vol_10.json',
+'one_piece_vol_11': 'json/anime/one_piece_vol_11.json',
+'one_piece_vol_12': 'json/anime/one_piece_vol_12.json',
+'one_punch_man_vol_1': 'json/anime/one_punch_man_vol_1.json',
+'one_punch_man_vol_2': 'json/anime/one_punch_man_vol_2.json',
+'one_punch_man_vol_3': 'json/anime/one_punch_man_vol_3.json',
+'oshi_no_ko_vol_1': 'json/anime/oshi_no_ko_vol_1.json',
+'pokemon_vol_1': 'json/anime/pokemon_vol_1.json',
+'pokemon_vol_2': 'json/anime/pokemon_vol_2.json',
+'pokemon_vol_3': 'json/anime/pokemon_vol_3.json',
+'pokemon_vol_4': 'json/anime/pokemon_vol_4.json',
+'pokemon_vol_5': 'json/anime/pokemon_vol_5.json',
+'pokemon_vol_6': 'json/anime/pokemon_vol_6.json',
+'pokemon_vol_7': 'json/anime/pokemon_vol_7.json',
+'pokemon_vol_8': 'json/anime/pokemon_vol_8.json',
+'pokemon_vol_9': 'json/anime/pokemon_vol_9.json',
+'pokemon_vol_10': 'json/anime/pokemon_vol_10.json',
+'quintillizas_vol_1': 'json/anime/quintillizas_vol_1.json',
+'ranma_vol_1': 'json/anime/ranma_vol_1.json',
+'record_of_raknarok_vol_1': 'json/anime/record_of_raknarok_vol_1.json',
+'sailor_moon_vol_1': 'json/anime/sailor_moon_vol_1.json',
+'sailor_moon_vol_2': 'json/anime/sailor_moon_vol_2.json',
+'sailor_moon_vol_3': 'json/anime/sailor_moon_vol_3.json',
+'sailor_moon_vol_4': 'json/anime/sailor_moon_vol_4.json',
+'slam_dunk_vol_1': 'json/anime/slam_dunk_vol_1.json',
+'slam_dunk_vol_2': 'json/anime/slam_dunk_vol_2.json',
+'spy_x_family_vol_1': 'json/anime/spy_x_family_vol_1.json',
+'spy_x_family_vol_2': 'json/anime/spy_x_family_vol_2.json',
+'spy_x_family_vol_3': 'json/anime/spy_x_family_vol_3.json',
+'spy_x_family_vol_4': 'json/anime/spy_x_family_vol_4.json',
+'spy_x_family_vol_5': 'json/anime/spy_x_family_vol_5.json',
+'stein_gate_vol_1': 'json/anime/stein_gate_vol_1.json',
+'streetwear_vol_1': 'json/anime/streetwear_vol_1.json',
+'streetwear_vol_2': 'json/anime/streetwear_vol_2.json',
+'streetwear_vol_3': 'json/anime/streetwear_vol_3.json',
+'studio_ghibli_vol_1': 'json/anime/studio_ghibli_vol_1.json',
+'tokio_ghoul_vol_1': 'json/anime/tokio_ghoul_vol_1.json',
+'tokio_revengers_vol_1': 'json/anime/tokio_revengers_vol_1.json',
+'tokio_revengers_vol_2': 'json/anime/tokio_revengers_vol_2.json',
+'tokio_revengers_vol_3': 'json/anime/tokio_revengers_vol_3.json',
+'tokio_revengers_vol_4': 'json/anime/tokio_revengers_vol_4.json',
+'tokio_revengers_vol_5': 'json/anime/tokio_revengers_vol_5.json',
+'vindland_saga_vol_1': 'json/anime/vindland_saga_vol_1.json',
+'voltron_vol_1': 'json/anime/voltron_vol_1.json',
+'waifus_vol_1': 'json/anime/waifus_vol_1.json',
+'waifus_vol_2': 'json/anime/waifus_vol_2.json',
+'waifus_vol_3': 'json/anime/waifus_vol_3.json',
+'waifus_vol_4': 'json/anime/waifus_vol_4.json',
+'yu_gi_oh_vol_1': 'json/anime/yu_gi_oh_vol_1.json',
+'yu_gi_oh_vol_2': 'json/anime/yu_gi_oh_vol_2.json'
     },
     urbanos: {
         'urbanos_vol_1': 'json/urbanos/urbanos_vol_1.json',
@@ -224,7 +349,8 @@ const jsonPaths = {
         'urbanos_vol_43': 'json/urbanos/urbanos_vol_43.json',
         'urbanos_vol_44': 'json/urbanos/urbanos_vol_44.json',
         'urbanos_vol_45': 'json/urbanos/urbanos_vol_45.json',
-        'urbanos_vol_46': 'json/urbanos/urbanos_vol_46.json'
+        'urbanos_vol_46': 'json/urbanos/urbanos_vol_46.json',
+        'urbanos_vol_47': 'json/urbanos/urbanos_vol_47.json'
 },
 gym: {
   'gym_vol_1': 'json/gym/gym_vol_1.json',
@@ -272,6 +398,22 @@ marcas: {
   'psycho_bunny_vol_7': 'json/marcas/psycho_bunny_vol_7.json',
   'retro_vol_1': 'json/marcas/retro_vol_1.json',
   'tommy_hilfiger_vol_1': 'json/marcas/tommy_hilfiger_vol_1.json'
+},
+vehiculos: {
+'carros_vol_1': 'json/vehiculos/carros_vol_1.json',
+'carros_vol_2': 'json/vehiculos/carros_vol_2.json',
+'carros_vol_3': 'json/vehiculos/carros_vol_3.json',
+'carros_vol_4': 'json/vehiculos/carros_vol_4.json',
+'carros_vol_5': 'json/vehiculos/carros_vol_5.json',
+'carros_vol_6': 'json/vehiculos/carros_vol_6.json',
+'clasicos_vol_1': 'json/vehiculos/clasicos_vol_1.json',
+'ferrari_vol_1': 'json/vehiculos/ferrari_vol_1.json',
+'formula_vol_1': 'json/vehiculos/formula_vol_1.json',
+'hot_road_vol_1': 'json/vehiculos/hot_road_vol_1.json',
+'militares_vol_1': 'json/vehiculos/militares_vol_1.json',
+'motocicletas_vol_1': 'json/vehiculos/motocicletas_vol_1.json',
+'racing_vol_1': 'json/vehiculos/racing_vol_1.json',
+'supra_vol_1': 'json/vehiculos/supra_vol_1.json'
 }
 };
 
@@ -331,13 +473,7 @@ function loadProducts(category, volume) {
                 const img = document.createElement('img');
                 img.classList.add('hover-img');
                 img.src = item.image;
-                img.style.display = 'none'; // Ocultamos la imagen al inicio
-
-                // Cuando la imagen termine de cargar, mostramos la imagen y quitamos el loader
-                img.onload = function () {
-                    img.style.display = 'block';
-                    loader.style.display = 'none';
-                };
+                img.style.opacity = 0; // Hide the image initially
 
                 // Agregar loader e imagen al contenedor de la imagen
                 imgContainer.appendChild(loader);
@@ -383,6 +519,19 @@ function loadProducts(category, volume) {
 
                 // Añadir el diseño al contenedor principal
                 container.appendChild(div);
+
+                // Load event listener after appending the image to the DOM
+                img.addEventListener('load', () => {
+                  img.style.opacity = 1; // Fade in the image
+                  loader.style.display = 'none'; // Hide the loader
+                });
+
+                // Optional: Error handling
+                img.addEventListener('error', (error) => {
+                  console.error('Error loading image:', item.image, error);
+                  loader.style.display = 'none'; // Hide loader on error
+                  // Optionally show an error message or placeholder
+                });
             });
 
             // Actualizar la paginación
