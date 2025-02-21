@@ -1,0 +1,74 @@
+[
+    {
+        "sku": "CAR-04001",
+        "keywords": "carros vehiculos 1",
+        "name": "MOD: CAR-04001",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/7t7QFR4k/CAR-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04001%22"
+    },
+    {
+        "sku": "CAR-04002",
+        "keywords": "carros vehiculos 2",
+        "name": "MOD: CAR-04002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/BK662YHN/CAR-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04002%22"
+    },
+    {
+        "sku": "CAR-04003",
+        "keywords": "carros vehiculos 3",
+        "name": "MOD: CAR-04003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/0Rxp2R2V/CAR-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04003%22"
+    },
+    {
+        "sku": "CAR-04004",
+        "keywords": "carros vehiculos 4",
+        "name": "MOD: CAR-04004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/B23wY1KW/CAR-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04004%22"
+    },
+    {
+        "sku": "CAR-04005",
+        "keywords": "carros vehiculos 5",
+        "name": "MOD: CAR-04005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/tMNphskd/CAR-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04005%22"
+    },
+    {
+        "sku": "CAR-04006",
+        "keywords": "carros vehiculos 6",
+        "name": "MOD: CAR-04006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/FkZ2zgBf/CAR-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04006%22"
+    },
+    {
+        "sku": "CAR-04007",
+        "keywords": "carros vehiculos 7",
+        "name": "MOD: CAR-04007",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/fzkTW3wN/CAR-07.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04007%22"
+    },
+    {
+        "sku": "CAR-04008",
+        "keywords": "carros vehiculos 8",
+        "name": "MOD: CAR-04008",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/23Qg32Vg/CAR-08.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-04008%22"
+    }
+]

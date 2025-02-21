@@ -1,0 +1,56 @@
+[
+    {
+        "sku": "CAR-03001",
+        "keywords": "carros vehiculos 1",
+        "name": "MOD: CAR-03001",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/Z7PdbMc/CAR-01.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-03001%22"
+    },
+    {
+        "sku": "CAR-03002",
+        "keywords": "carros vehiculos 2",
+        "name": "MOD: CAR-03002",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/F4KJjZrd/CAR-02.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-03002%22"
+    },
+    {
+        "sku": "CAR-03003",
+        "keywords": "carros vehiculos 3",
+        "name": "MOD: CAR-03003",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/N2KZvcZY/CAR-03.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-03003%22"
+    },
+    {
+        "sku": "CAR-03004",
+        "keywords": "carros vehiculos 4",
+        "name": "MOD: CAR-03004",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/b5tMVHkj/CAR-04.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-03004%22"
+    },
+    {
+        "sku": "CAR-03005",
+        "keywords": "carros vehiculos 5",
+        "name": "MOD: CAR-03005",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/kV8Twwq3/CAR-05.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-03005%22"
+    },
+    {
+        "sku": "CAR-03006",
+        "keywords": "carros vehiculos 6",
+        "name": "MOD: CAR-03006",
+        "hot": false,
+        "new": false,
+        "image": "https://i.ibb.co/9krQg1FS/CAR-06.png",
+        "link": "https://api.whatsapp.com/send?phone=2411576300&text=Hola!%20Me%20interesa%20un%20Estampado%20con%20este%20Dise%C3%B1o%20%22CAR-03006%22"
+    }
+]
