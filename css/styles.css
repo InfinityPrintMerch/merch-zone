@@ -224,7 +224,7 @@ body {
 }
 
 .banner-sudaderas {
-    background-image: url('https://i.ibb.co/wgDzPmL/banner-playeras.png');
+    background-image: url('https://i.ibb.co/FkPbTxLr/sudaderas-banner.png');
 }
 
 .banner-tazas {
@@ -2745,45 +2745,349 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Columnas adaptables */
     gap: 20px; /* Espacio entre las columnas */
-    padding-left: 100px; /* Espacio alrededor de la cuadrícula */
-    padding-right: 100px; /* Espacio alrededor de la cuadrícula */
+    padding-left: 50px; /* Espacio alrededor de la cuadrícula */
+    padding-right: 50px; /* Espacio alrededor de la cuadrícula */
     justify-items: center; /* Centrar los elementos dentro de cada celda */
 }
 
 .button-category {
-    width: 100%; /* Ancho al 100% del contenedor */
+    width: 100%;
     height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px;
     color: white;
     text-align: center;
     text-decoration: none;
-    margin: 10px 0; /* Margen de 10px arriba y abajo */
+    margin: 10px 0;
     transition: transform 0.3s, background-color 0.3s, color 0.3s;
     background-color: #707070;
-    background-image: url('https://i.ibb.co/wF1VB81f/texture-1.png'); /* Fondo con textura */
-    background-size: cover; /* Hacer que la imagen cubra todo el elemento */
-    background-position: center; /* Centrar la imagen de fondo */
+    background-image: url('https://i.ibb.co/wF1VB81f/texture-1.png');
+    background-size: cover;
+    background-position: center;
     font-family: 'FT Expo Black', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
 
+/* Estilos para los iconos */
+.button-category i {
+    font-size: 45px; /* Tamaño del icono aumentado */
+    margin-bottom: 35px; /* Subir el icono más */
+    color: white; /* Color blanco */
+}
+
+.original-text, .hover-text {
+    position: absolute;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    width: 100%;
+    margin-top: 60px; /* Bajamos más el texto */
+}
+
+.hover-text {
+    transform: translateY(30px); /* Bajamos más el texto en hover */
+    opacity: 0;
 }
 
 .button-category:hover {
-    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+    transform: scale(1.05);
+}
+
+.button-category:hover .original-text {
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+.button-category:hover .hover-text {
+    transform: translateY(5px);
+    opacity: 1;
+}
+
+.button-category:hover {
     background-color: #303030;
     color: #FFD700;
 }
 
-.icon {
-    width: 90px; /* Ancho de la imagen */
-    height: 90px; /* Alto de la imagen */
-    margin-bottom: 10px; /* Espacio debajo de la imagen */
-    transition: transform 0.3s;
+/* Cambia el color del icono cuando se hace hover */
+.button-category:hover i {
+    color: #FFD700;
 }
 
-.icon:hover {
-    transform: translateY(-5px);
+
+.product-container-x {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px;
+    text-align: center; /* Asegura que los títulos estén centrados */
+}
+
+/* Agrupa el contenedor con su título */
+.product-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo */
+}
+
+.container-products-1x,
+.container-products-2x,
+.container-products-3x,
+.container-products-4x,
+.container-products-5x,
+.container-products-6x {
+    background-image: url(https://i.ibb.co/x4mXjWc/texture-3.png);
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    position: relative;
+    width: 400px; /* Se mantiene el tamaño original */
+    height: 230px; /* Se mantiene el tamaño original */
+    background-color: #303030;
+    border-radius: 15px;
+    overflow: visible; /* Permite que la imagen sobresalga */
+    text-align: center;
+    transition: background-color 0.3s, background-image 0.6s;
+}
+
+/* Imagen flotante que sobresale */
+.product-image-x {
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.6s;
+}
+
+/* Animación de movimiento */
+.container-products-1x:hover .product-image-x,
+.container-products-2x:hover .product-image-x,
+.container-products-3x:hover .product-image-x,
+.container-products-4x:hover .product-image-x,
+.container-products-5x:hover .product-image-x,
+.container-products-6x:hover .product-image-x {
+    transform: translateY(-40px);
+}
+
+.container-products-1x:hover,
+.container-products-2x:hover,
+.container-products-3x:hover,
+.container-products-4x:hover,
+.container-products-5x:hover,
+.container-products-6x:hover {
+    background-color: #383838;
+}
+
+/* Estilo del overlay con margen y bordes redondeados */
+.overlay-x {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Cambia el fondo al hacer hover */
+.container-products-1x:hover,
+.container-products-2x:hover,
+.container-products-3x:hover,
+.container-products-4x:hover,
+.container-products-5x:hover,
+.container-products-6x:hover {
+    background-image: url(https://i.ibb.co/1Yw171xW/texture-4.png); /* Nueva imagen de fondo */
+}
+
+/* Mostrar el overlay al hacer hover */
+.container-products-1x:hover .overlay-x,
+.container-products-2x:hover .overlay-x,
+.container-products-3x:hover .overlay-x,
+.container-products-4x:hover .overlay-x,
+.container-products-5x:hover .overlay-x,
+.container-products-6x:hover .overlay-x {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Estilos de los botones con iconos y texto */
+.product-icon-x {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.product-icon-x i {
+    font-size: 20px; /* Tamaño del ícono */
+}
+
+.product-icon-x span {
+    font-size: 14px; /* Tamaño del texto */
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-icon-x:hover {
+    color: #f0c040; /* Color amarillo dorado al pasar el mouse */
+}
+
+/* Estilo para los títulos debajo de cada producto */
+.product-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'FT Expo Black', sans-serif;
+    color: #303030;
+}
+
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.maps-container {
+    display: flex;             /* Usar flexbox para una disposición horizontal */
+    justify-content: center;   /* Centra los mapas dentro del contenedor */
+    margin-bottom: 20px;      /* Espacio debajo del contenedor */
+    height: 500px;
+}
+
+.maps {
+    display: flex;             /* Flexbox para los mapas dentro del contenedor */
+    justify-content: space-around; /* Espacio entre los mapas */
+    width: 100%;              /* Asegura que los mapas ocupen el ancho completo del contenedor */
+}
+
+.map {
+    width: 600px; /* Ajusta el tamaño del mapa según necesites */
+    height: 400px; /* Ajusta la altura del mapa */
+    margin: 10px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    overflow: hidden; /* Evita que el contenido se salga de los bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+.map:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al hacer hover */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Sombra más intensa al hacer hover */
+    border: 2px solid #007bff; /* Borde azul al hacer hover */
+}
+
+.map iframe {
+    border: none; /* Eliminar el borde por defecto */
+    border-radius: 15px; /* Esquinas redondeadas para el iframe */
+    width: 100%; /* Asegúrate de que el iframe ocupe todo el contenedor */
+    height: 100%; /* Asegúrate de que el iframe ocupe todo el contenedor */
+}
+
+.form-group {
+    margin: 10px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.merch_item_background {
+    background-image: url('https://i.ibb.co/M5sKKDmB/texture-c.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container_merch_item {
+    width: calc(100% - 500px); /* 100% menos 20px de padding a cada lado */
+    padding: 50px 50px 0; /* Elimina el padding inferior */
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    transition: transform 0.3s ease-in-out; /* Agregamos transición para suavizar el cambio */
+}
+
+.container_merch_item:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+.merch_item_a {
+    width: 100%;
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Estilos para el loader */
+.page_loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column; /* Cambiamos a una disposición vertical */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Se inicializa como visible */
+    visibility: visible;
+    opacity: 1;
+    color: #FFDD00;
+    font-size: 10px;
+}
+
+.page_loader.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+iframe {
+    border: none; /* Eliminar el borde */
+    display: block; /* Elimina el espacio en blanco alrededor */
 }

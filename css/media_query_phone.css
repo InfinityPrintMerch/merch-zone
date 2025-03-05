@@ -776,9 +776,14 @@
     }
 
     .button-container-b {
-      padding-left: 0px; /* Espacio alrededor de la cuadrícula */
-      padding-right: 0px; /* Espacio alrededor de la cuadrícula */
+      padding-left: 20px; /* Espacio alrededor de la cuadrícula */
+      padding-right: 20px; /* Espacio alrededor de la cuadrícula */
   }
+
+  .container_merch_item {
+    width: calc(100% - 50px); /* 100% menos 20px de padding a cada lado */
+    padding: 10px 10px 0; /* Elimina el padding inferior */
+}
   }
 
 

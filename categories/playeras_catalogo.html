@@ -10,17 +10,33 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <script src="../js/teme_toogle.js"></script>
     <script src="../js/navbar.js"></script>
+    <script src="../js/page_load.js"></script>
     <link rel="stylesheet" href="../css/media_query_phone.css">
     <link rel="stylesheet" href="../css/keyframes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
+    <div class="page_loader" id="loader_page">
+        <iframe src="../preloader/preloader_JS.html" width="80" height="80"></iframe>
+        <h1>CARGANDO</h1>
+    </div>
+
   <nav class="navbar">
         <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
     <div class="navbar-links">
         <a href="../index.html">Inicio</a>
         <a href="#" class="active-a">Diseños</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Merch</a>
+            <div class="dropdown-content">
+                <a href="../merch/playeras.html">Playeras</a>
+                <a href="../merch/tazas.html">Tazas</a>
+                <a href="../merch/gorras.html">Gorras</a>
+                <a href="../merch/sudaderas.html">Sudaderas</a>
+                <a href="../merch/posters.html">Pósters</a>
+            </div>
+        </div>
         <a href="../contacto.html">Contacto</a>
     <div class="social-icons">
         <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -61,44 +77,69 @@
 
     <section class="section-catalog">
 
-      <div class="button-container-b">
-        <a href="../catalog/playeras.html?category=urbanos" class="button-category">
-            <img src="https://i.ibb.co/QvNL5GC5/obi.png" alt="Icon" class="icon">
-            <span>URBANOS</span>
-        </a>
-        <a href="../catalog/playeras.html?category=anime" class="button-category">
-            <img src="https://i.ibb.co/CgHRhsG/tobi.png" alt="Icon" class="icon">
-            <span>ANIME</span>
-        </a>
-        <a href="../catalog/playeras.html?category=gym" class="button-category">
-            <img src="https://i.ibb.co/bjq7KYQZ/gym.png" alt="Icon" class="icon">
-            <span>GYM</span>
-        </a>
-        <a href="../catalog/playeras.html?category=streetwear" class="button-category">
-            <img src="https://i.ibb.co/dJ4rzCxQ/skate.png" alt="Icon" class="icon">
-            <span>STREETWEAR</span>
-        </a>
-        <a href="../catalog/playeras.html?category=san-valentin" class="button-category">
-            <img src="https://i.ibb.co/gM3cwJY2/cupid.png" alt="Icon" class="icon">
-            <span>SAN VALENTIN</span>
-        </a>
-        <a href="../catalog/playeras.html?category=vehiculos" class="button-category">
-            <img src="https://i.ibb.co/XZh7w6rF/car.png" alt="Icon" class="icon">
-            <span>VEHICULOS</span>
-        </a>
-        <a href="../catalog/playeras.html?category=calacas" class="button-category">
-            <img src="https://i.ibb.co/r2nhHt0h/skull.png" alt="Icon" class="icon">
-            <span>CALACAS</span>
-        </a>
-        <a href="../catalog/playeras.html?category=marcas" class="button-category">
-            <img src="https://i.ibb.co/BmyYbY5/brand.png" alt="Icon" class="icon">
-            <span>MARCAS</span>
-        </a>
-        <a href="../catalog/playeras.html?category=peliculas" class="button-category">
-            <img src="https://i.ibb.co/KpHxjDTZ/movies.png" alt="Icon" class="icon">
-            <span>PELICULAS</span>
-        </a>
-    </div>
+        <div class="button-container-b">
+            <a href="../catalog/playeras.html?category=artistas" class="button-category">
+                <i class="fa-solid fa-music"></i>
+                <span class="original-text">ARTISTAS</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=urbanos" class="button-category">
+                <i class="fa-solid fa-city"></i>
+                <span class="original-text">URBANOS</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=anime" class="button-category">
+                <i class="fa-solid fa-dragon"></i>
+                <span class="original-text">ANIME</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=gym" class="button-category">
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="original-text">GYM</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=streetwear" class="button-category">
+                <i class="fa-solid fa-tshirt"></i>
+                <span class="original-text">STREETWEAR</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=animales" class="button-category">
+                <i class="fa-solid fa-cat"></i>
+                <span class="original-text">ANIMALES</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=san-valentin" class="button-category">
+                <i class="fa-solid fa-heart"></i>
+                <span class="original-text">SAN VALENTIN</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=vehiculos" class="button-category">
+                <i class="fa-solid fa-car-side"></i>
+                <span class="original-text">VEHICULOS</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=calacas" class="button-category">
+                <i class="fa-solid fa-skull"></i>
+                <span class="original-text">CALACAS</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=marcas" class="button-category">
+                <i class="fa-solid fa-trademark"></i>
+                <span class="original-text">MARCAS</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=caricaturas" class="button-category">
+                <i class="fa-solid fa-child"></i>
+                <span class="original-text">CARICATURAS</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+            <a href="../catalog/playeras.html?category=peliculas" class="button-category">
+                <i class="fa-solid fa-film"></i>
+                <span class="original-text">PELICULAS</span>
+                <span class="hover-text">VER CATALOGO</span>
+            </a>
+        </div>
+        
 
     </section>
 
@@ -106,7 +147,7 @@
     <section class="productos-personalizables-d">
       <h2>¡DESCUBRE NUESTRA INCREÍBLE COLECCIÓN!</h2>
       <div class="contador">
-        <span class="contador-num">9000</span> <span class="contador-texto">DISEÑOS DISPONIBLES</span>
+        <span class="contador-num">12,000</span> <span class="contador-texto">DISEÑOS DISPONIBLES</span>
       </div>
     </section>
 
