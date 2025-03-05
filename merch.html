@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/teme_toogle.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/page_load.js"></script>
     <link rel="stylesheet" href="css/media_query_phone.css">
     <link rel="stylesheet" href="css/keyframes.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+
+    <div class="page_loader" id="loader_page">
+        <iframe src="preloader/preloader_JS.html" width="80" height="80"></iframe>
+        <h1>CARGANDO</h1>
+    </div>
 
   <nav class="navbar">
         <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
@@ -24,11 +30,11 @@
         <div class="dropdown">
        <a href="#" class="dropbtn ">Merch</a>
        <div class="dropdown-content">
-           <a href="#">Playeras</a>
-           <a href="#">Tazas</a>
-           <a href="#">Gorras</a>
-           <a href="#">Sudaderas</a>
-           <a href="#">Pósters</a>
+           <a href="merch/playeras.html">Playeras</a>
+           <a href="merch/tazas.html">Tazas</a>
+           <a href="500.html">Gorras</a>
+           <a href="merch/sudaderas.html">Sudaderas</a>
+           <a href="500.html">Pósters</a>
        </div>
    </div>
         <a href="contacto.html">Contacto</a>
@@ -69,32 +75,121 @@
       <h2>PRODUCTOS</h2>
       </section>
 
-    <section class="section-catalog">
+      <div class="product-container-x">
+        <div class="product-box">
+            <div class="container-products-1x">
+                <img src="https://i.ibb.co/qFnxF6zj/sudadera-a.png" alt="Sudadera" class="product-image-x">
+                <div class="overlay-x">
+                    <a href="merch/sudaderas.html" class="product-icon-x">
+                        <i class="fas fa-info-circle"></i> <span>ACERCA</span>
+                    </a>
+                    <a href="categories/playeras_catalogo.html" class="product-icon-x">
+                        <i class="fas fa-book"></i> <span>CATÁLOGO</span>
+                    </a>
+                </div>
+            </div>
+            <h3 class="product-title">SUDADERAS</h3>
+        </div>
+    
+        <div class="product-box">
+            <div class="container-products-2x">
+                <img src="https://i.ibb.co/RwhfNYt/playera-a.png" alt="Playera" class="product-image-x">
+                <div class="overlay-x">
+                    <a href="merch/playeras.html" class="product-icon-x">
+                        <i class="fas fa-info-circle"></i> <span>ACERCA DE</span>
+                    </a>
+                    <a href="categories/playeras_catalogo.html" class="product-icon-x">
+                        <i class="fas fa-book"></i> <span>CATÁLOGO</span>
+                    </a>
+                </div>
+            </div>
+            <h3 class="product-title">PLAYERAS</h3>
+        </div>
+    
+        <div class="product-box">
+            <div class="container-products-2x">
+                <img src="https://i.ibb.co/fdkF0D23/gorras-a.png" alt="Sudaderas" class="product-image-x">
+                <div class="overlay-x">
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-info-circle"></i> <span>ACERCA DE</span>
+                    </a>
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-book"></i> <span>CATÁLOGO</span>
+                    </a>
+                </div>
+            </div>
+            <h3 class="product-title">GORRAS</h3>
+        </div>
+    
+        <div class="product-box">
+            <div class="container-products-2x">
+                <img src="https://i.ibb.co/ZR7hDYb9/posters-a.png" alt="Sudaderas" class="product-image-x">
+                <div class="overlay-x">
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-info-circle"></i> <span>ACERCA DE</span>
+                    </a>
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-book"></i> <span>CATÁLOGO</span>
+                    </a>
+                </div>
+            </div>
+            <h3 class="product-title">POSTERS</h3>
+        </div>
 
-      <div class="container">
+        <div class="product-box">
+            <div class="container-products-2x">
+                <img src="https://i.ibb.co/GZtKHnt/tazas-a.png" alt="Tazas" class="product-image-x">
+                <div class="overlay-x">
+                    <a href="merch/tazas.html" class="product-icon-x">
+                        <i class="fas fa-info-circle"></i> <span>ACERCA DE</span>
+                    </a>
+                    <a href="categories/tazas_catalogo.html" class="product-icon-x">
+                        <i class="fas fa-book"></i> <span>CATÁLOGO</span>
+                    </a>
+                </div>
+            </div>
+            <h3 class="product-title">TAZAS</h3>
+        </div>
 
-<a href="categories/playeras_catalogo.html" class="box">
-  <i class="fa-solid fa-shirt"></i> Playeras & Sudaderas
-</a>
-<a href="categories/tazas_catalogo.html" class="box">
-  <i class="fa-solid fa-mug-hot"></i> Tazas & Termos
-</a>
-<a href="404.html" class="box">
-  <i class="fa-solid fa-graduation-cap"></i> Gorras
-</a>
-<a href="404.html" class="box">
-  <i class="fa-solid fa-scroll"></i> Posters
-</a>
+        <div class="product-box">
+            <div class="container-products-2x">
+                <img src="https://i.ibb.co/NH7FbfD/termos-a.png" alt="Termos" class="product-image-x">
+                <div class="overlay-x">
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-info-circle"></i> <span>ACERCA DE</span>
+                    </a>
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-book"></i> <span>CATÁLOGO</span>
+                    </a>
+                </div>
+            </div>
+            <h3 class="product-title">TERMOS</h3>
+        </div>
 
-</div>
-
-    </section>
+        <div class="product-box">
+            <div class="container-products-2x">
+                <img src="https://i.ibb.co/bMrpTSpv/fotoboton-a.png" alt="Fotobotones" class="product-image-x">
+                <div class="overlay-x">
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-info-circle"></i> <span>ACERCA DE</span>
+                    </a>
+                    <a href="500.html" class="product-icon-x">
+                        <i class="fas fa-book"></i> <span>CATÁLOGO</span>
+                    </a>
+                </div>
+            </div>
+            <h3 class="product-title">FOTOBOTONES</h3>
+        </div>
+    </div>
+    
+    
+    
 
 
     <section class="productos-personalizables-d">
       <h2>¡DESCUBRE NUESTRA INCREÍBLE COLECCIÓN!</h2>
       <div class="contador">
-        <span class="contador-num">2000</span> <span class="contador-texto">DISEÑOS DISPONIBLES</span>
+        <span class="contador-num">+20,000</span> <span class="contador-texto">DISEÑOS DISPONIBLES</span>
       </div>
     </section>
 
