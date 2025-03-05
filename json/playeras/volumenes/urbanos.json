@@ -466,7 +466,17 @@
         "new": false,
         "bestseller": false,
         "date": "2025-05-17",
-        "image": "https://i.ibb.co/d4tWH2vk/urbanos-47.png",
+        "image": "https://i.ibb.co/mCzJYw3s/urbanos-vol-47.png",
         "link": "catalogo.html?category=urbanos&vol=urbanos_vol_47"
+    },
+    {
+        "name": "Urbanos Vol. 48",
+        "designs": "56",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-05-17",
+        "image": "https://i.ibb.co/350y1Zys/urbanos-48.png",
+        "link": "catalogo.html?category=urbanos&vol=urbanos_vol_48"
     }
 ]

@@ -349,5 +349,14 @@
         "date": "2025-01-18",
         "image": "https://i.ibb.co/DDXCQB9/streetwear-39.png",
         "link": "catalogo.html?category=streetwear&vol=streetwear_vol_39"
+    },
+    {
+        "name": "StreetWear Vol.40",
+        "designs": "20",
+        "hot": false,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_40"
     }
 ]

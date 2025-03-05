@@ -77,57 +77,99 @@ document.addEventListener('DOMContentLoaded', function () {
             'gym': {
                 title: 'GYM',
                 title_2: 'Gym',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/1Hc93Pg/gym.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'urbanos': {
                 title: 'URBANOS',
                 title_2: 'Urbanos',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/ZRBTptMB/urbanos.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'calacas': {
                 title: 'CALACAS CHIDAS',
                 title_2: 'Calacas',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/mrFFVzKR/calacas-chidas.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'streetwear': {
                 title: 'STREETWEAR',
                 title_2: 'Streetwear',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/nN6n5Lkx/streetwear.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'marcas': {
                 title: 'MARCAS',
                 title_2: 'Marcas',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/LD2dD6t0/marcas.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'san-valentin': {
                 title: 'SAN VALENTIN',
                 title_2: 'San Valentín',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/NnSZQdMw/san-valentin.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'vehiculos': {
                 title: 'VEHICULOS',
                 title_2: 'Vehiculos',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/Kxk32LqL/vehiculos.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'anime': {
                 title: 'ANIME',
                 title_2: 'Anime',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/YWw1Qt4/anime-logo.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'peliculas': {
                 title: 'PELICULAS',
                 title_2: 'Peliculas',
-                bannerImage: 'https://i.ibb.co/ZNbvBhZ/merch-catalog-a.png',
+                bannerImage: 'https://i.ibb.co/fzw4481p/peliculas.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
+            'cute': {
+                title: 'CUTE',
+                title_2: 'Cute',
+                bannerImage: 'https://i.ibb.co/bjw6RhV4/cute.png',
+                bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
+            },
+            'synthwave': {
+                title: 'SYNTHWAVE',
+                title_2: 'Synthwave',
+                bannerImage: 'https://i.ibb.co/xK9dTVwY/synthwave.png',
+                bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
+            },
+            'varios': {
+                title: 'VARIOS',
+                title_2: 'Varios',
+                bannerImage: 'https://i.ibb.co/xK9dTVwY/synthwave.png',
+                bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
+            },
+            'series': {
+                title: 'SERIES',
+                title_2: 'Series',
+                bannerImage: 'https://i.ibb.co/nqYW8ymV/series.png',
+                bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
+            },
+            'caricaturas': {
+                title: 'CARICATURAS',
+                title_2: 'Caricaturas',
+                bannerImage: 'https://i.ibb.co/4ZbqTFdL/caricaturas.png',
+                bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
+            },
+            'artistas': {
+                title: 'ARTISTAS',
+                title_2: 'Artistas',
+                bannerImage: 'https://i.ibb.co/4ZbqTFdL/caricaturas.png',
+                bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
+            },
+            'animales': {
+                title: 'ANIMALES',
+                title_2: 'Artistas',
+                bannerImage: 'https://i.ibb.co/4ZbqTFdL/caricaturas.png',
+                bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
+            }
         };
 
         const categoryData = categoryTitleMap[category];

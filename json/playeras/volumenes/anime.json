@@ -1320,6 +1320,16 @@
         "link": "catalogo.html?category=anime&vol=cyberpunk_edgerunners_vol_2"
     },
     {
+        "name": "Dan Da Dan Vol.1",
+        "designs": "16",
+        "hot": false,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-28",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
+        "link": "catalogo.html?category=anime&vol=dan_da_dan_vol_1"
+    },
+    {
         "name": "Date a Live Vol.1",
         "designs": "5",
         "hot": false,
@@ -1846,7 +1856,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-12-31",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=kaguya_sama_vol_1"
     },
     {
@@ -1856,7 +1866,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-01-07",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=mazinger_z_vol_1"
     },
     {
@@ -1866,7 +1876,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-01-14",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=mazinger_z_vol_2"
     },
     {
@@ -1876,7 +1886,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-01-21",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=mob_psycho_vol_1"
     },
     {
@@ -1886,7 +1896,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-01-28",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=mob_psycho_vol_2"
     },
     {
@@ -1896,7 +1906,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-02-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=my_dressup_darling_1"
     },
     {
@@ -1906,7 +1916,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-02-11",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=my_dressup_darling_2"
     },
     {
@@ -1916,7 +1926,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-02-18",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=nagaroto_vol_1"
     },
     {
@@ -1926,7 +1936,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-02-25",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=nanatsu_no_taizai_vol_1"
     },
     {
@@ -1936,7 +1946,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=naruto_vol_1"
     },
     {
@@ -1946,7 +1956,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=naruto_vol_2"
     },
     {
@@ -1956,7 +1966,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=naruto_vol_3"
     },
     {
@@ -1966,7 +1976,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=naruto_vol_4"
     },
     {
@@ -1976,7 +1986,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=naruto_vol_5"
     },
     {
@@ -1986,7 +1996,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_1"
     },
     {
@@ -1996,7 +2006,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_2"
     },
     {
@@ -2006,7 +2016,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_3"
     },
     {
@@ -2016,7 +2026,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_4"
     },
     {
@@ -2026,7 +2036,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_5"
     },
     {
@@ -2036,7 +2046,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_6"
     },
     {
@@ -2046,7 +2056,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_7"
     },
     {
@@ -2056,7 +2066,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_8"
     },
     {
@@ -2066,7 +2076,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_9"
     },
     {
@@ -2076,7 +2086,7 @@
         "new": false,
         "bestseller": false,
         "date": "2026-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_10"
     },
     {
@@ -2086,7 +2096,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_11"
     },
     {
@@ -2096,7 +2106,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_piece_vol_1"
     },
     {
@@ -2106,7 +2116,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_punch_man_vol_1"
     },
     {
@@ -2116,7 +2126,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_punch_man_vol_2"
     },
     {
@@ -2126,7 +2136,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=one_punch_man_vol_3"
     },
     {
@@ -2136,7 +2146,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=oshi_no_ko_vol_1"
     },
     {
@@ -2146,7 +2156,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_1"
     },
     {
@@ -2156,7 +2166,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_2"
     },
     {
@@ -2166,7 +2176,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_3"
     },
     {
@@ -2176,7 +2186,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_4"
     },
     {
@@ -2186,7 +2196,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_5"
     },
     {
@@ -2196,7 +2206,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_6"
     },
     {
@@ -2206,7 +2216,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_7"
     },
     {
@@ -2216,7 +2226,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_8"
     },
     {
@@ -2226,7 +2236,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_9"
     },
     {
@@ -2236,7 +2246,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=pokemon_vol_10"
     },
     {
@@ -2246,7 +2256,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=quintillizas_vol_1"
     },
     {
@@ -2256,7 +2266,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=ranma_vol_1"
     },
     {
@@ -2266,7 +2276,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=record_of_raknarok_vol_1"
     },
     {
@@ -2276,7 +2286,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=sailor_moon_vol_1"
     },
     {
@@ -2286,7 +2296,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=sailor_moon_vol_2"
     },
     {
@@ -2296,7 +2306,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=sailor_moon_vol_3"
     },
     {
@@ -2306,7 +2316,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=sailor_moon_vol_4"
     },
     {
@@ -2316,7 +2326,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=slam_dunk_vol_1"
     },
     {
@@ -2326,7 +2336,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=slam_dunk_vol_2"
     },
     {
@@ -2336,7 +2346,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=spy_x_family_vol_1"
     },
     {
@@ -2346,7 +2356,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=spy_x_family_vol_2"
     },
     {
@@ -2356,7 +2366,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=spy_x_family_vol_3"
     },
     {
@@ -2366,7 +2376,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=spy_x_family_vol_4"
     },
     {
@@ -2376,7 +2386,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=spy_x_family_vol_5"
     },
     {
@@ -2386,7 +2396,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=stein_gate_vol_1"
     },
     {
@@ -2396,7 +2406,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=streetwear_vol_1"
     },
     {
@@ -2406,7 +2416,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=streetwear_vol_2"
     },
     {
@@ -2416,7 +2426,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=streetwear_vol_3"
     },
     {
@@ -2426,7 +2436,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=studio_ghibli_vol_1"
     },
     {
@@ -2436,7 +2446,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=tokio_ghoul_vol_1"
     },
     {
@@ -2446,7 +2456,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=tokio_revengers_vol_1"
     },
     {
@@ -2456,7 +2466,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=tokio_revengers_vol_2"
     },
     {
@@ -2466,7 +2476,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=tokio_revengers_vol_3"
     },
     {
@@ -2476,7 +2486,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=tokio_revengers_vol_4"
     },
     {
@@ -2486,7 +2496,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=tokio_revengers_vol_5"
     },
     {
@@ -2496,7 +2506,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=vindland_saga_vol_1"
     },
     {
@@ -2506,7 +2516,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=voltron_vol_1"
     },
     {
@@ -2516,7 +2526,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=waifus_vol_1"
     },
     {
@@ -2526,7 +2536,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=waifus_vol_2"
     },
     {
@@ -2536,7 +2546,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=waifus_vol_3"
     },
     {
@@ -2546,7 +2556,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=waifus_vol_4"
     },
     {
@@ -2556,7 +2566,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=yu_gi_oh_vol_1"
     },
     {
@@ -2566,9 +2576,7 @@
         "new": false,
         "bestseller": false,
         "date": "2025-03-04",
-        "image": "",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
         "link": "catalogo.html?category=anime&vol=yu_gi_oh_vol_2"
     }
-    
-    
 ]

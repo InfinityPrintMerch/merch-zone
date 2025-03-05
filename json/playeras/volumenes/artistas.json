@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Artistas Vol.1",
+        "designs": "40",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-26",
+        "image": "https://i.ibb.co/tMjPxwsH/artistas-vol-1.png",
+        "link": "catalogo.html?category=artistas&vol=artistas_vol_1"
+    },
+    {
+        "name": "Artistas Vol.2",
+        "designs": "19",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-26",
+        "image": "https://i.ibb.co/2Yd50GSW/artistas-vol-2.png",
+        "link": "catalogo.html?category=artistas&vol=artistas_vol_2"
+    },
+    {
+        "name": "Artistas Vol.3",
+        "designs": "19",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-26",
+        "image": "https://i.ibb.co/sdzNpMkj/artistas-vol-3.png",
+        "link": "catalogo.html?category=artistas&vol=artistas_vol_3"
+    },
+    {
+        "name": "Bad Bunny Vol.1",
+        "designs": "35",
+        "hot": true,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-27",
+        "image": "https://i.ibb.co/LDY7WSrp/bad-bunny-vol-1.png",
+        "link": "catalogo.html?category=artistas&vol=bad_bunny_vol_1"
+    },
+    {
+        "name": "Bad Bunny Vol.2",
+        "designs": "20",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-27",
+        "image": "https://i.ibb.co/4ngn6k79/bad-bunny-vol-2.png",
+        "link": "catalogo.html?category=artistas&vol=bad_bunny_vol_2"
+    },
+    {
+        "name": "Karol G Vol.1",
+        "designs": "9",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-02-27",
+        "image": "https://i.ibb.co/vvxM6rrN/karol-g-vol-1.png",
+        "link": "catalogo.html?category=artistas&vol=karol_g_vol_1"
+    }
+]

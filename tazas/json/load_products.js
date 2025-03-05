@@ -100,11 +100,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 bannerImage: 'https://i.ibb.co/mC66495/merch-streetwear.png',
                 bannerSection: 'https://i.ibb.co/BKZwvhs4/gym-banner-a.png'
             },
-            'san valentin': {
+            'san-valentin': {
                 title: 'SAN VALENTIN',
                 title_2: 'San Valentín',
-                bannerImage: 'https://i.ibb.co/mC66495/merch-streetwear.png',
-                bannerSection: 'https://i.ibb.co/BKZwvhs4/gym-banner-a.png'
+                bannerImage: 'https://i.ibb.co/NnSZQdMw/san-valentin.png',
+                bannerSection: 'https://i.ibb.co/xtxSpSHV/banner-san-valentin.png'
             },
             'vehiculos': {
                 title: 'VEHICULOS',

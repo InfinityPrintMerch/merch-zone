@@ -60,6 +60,16 @@
         "link": "catalogo.html?category=vehiculos&vol=carros_vol_6"
     },
     {
+        "name": "Carros Vol. 7",
+        "designs": "17",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-19",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
+        "link": "catalogo.html?category=vehiculos&vol=carros_vol_7"
+    },
+    {
         "name": "Clasicos Vol. 1",
         "designs": "16",
         "hot": false,
@@ -118,6 +128,16 @@
         "date": "2025-02-19",
         "image": "https://i.ibb.co/Y40DzZhB/motocicletas-vol-1.png",
         "link": "catalogo.html?category=vehiculos&vol=motocicletas_vol_1"
+    },
+    {
+        "name": "Motocicletas Vol. 2",
+        "designs": "30",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-02-28",
+        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
+        "link": "catalogo.html?category=vehiculos&vol=motocicletas_vol_2"
     },
     {
         "name": "Racing Vol. 1",

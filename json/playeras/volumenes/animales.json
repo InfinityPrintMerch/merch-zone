@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Astronautas Vol.1",
+        "designs": "25",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-03-03",
+        "image": "https://i.ibb.co/rGHY7cFB/astronautas-vol-1.png",
+        "link": "catalogo.html?category=animales&vol=animales_vol_1"
+    },
+    {
+        "name": "Geometricos Vol.1",
+        "designs": "9",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-03-03",
+        "image": "https://i.ibb.co/GGC6WH0/geometricos-vol-1.png",
+        "link": "catalogo.html?category=animales&vol=geometricos_vol_1"
+    },
+    {
+        "name": "Animales Vol.1",
+        "designs": "25",
+        "hot": false,
+        "new": false,
+        "bestseller": false,
+        "date": "2025-03-03",
+        "image": "https://i.ibb.co/ps9rkVK/animales-vol-1.png",
+        "link": "catalogo.html?category=animales&vol=animales_vol_1"
+    }
+]
