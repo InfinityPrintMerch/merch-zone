@@ -2981,14 +2981,16 @@ body {
     display: flex;             /* Usar flexbox para una disposición horizontal */
     justify-content: center;   /* Centra los mapas dentro del contenedor */
     margin-bottom: 20px;      /* Espacio debajo del contenedor */
-    height: 500px;
 }
 
 .maps {
-    display: flex;             /* Flexbox para los mapas dentro del contenedor */
-    justify-content: space-around; /* Espacio entre los mapas */
-    width: 100%;              /* Asegura que los mapas ocupen el ancho completo del contenedor */
+    display: flex;              
+    flex-direction: column;   /* Alinear los mapas en una sola columna */
+    align-items: center;      /* Centrar los mapas horizontalmente */
+    width: 500px;              
+    gap: 10px;                /* Espacio entre los mapas */
 }
+
 
 .map {
     width: 600px; /* Ajusta el tamaño del mapa según necesites */

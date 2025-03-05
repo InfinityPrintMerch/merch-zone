@@ -567,7 +567,23 @@
 .container-products-6x:hover .product-image-x {
     transform: translateY(-20px);
 }
-    
+
+.button-container-b {
+  gap: 0px; /* Espacio entre las columnas */
+}
+
+
+.maps {          
+  height: 500px;
+  width: 350px;              
+}
+
+.map {
+  width: 350px; /* Ajusta el tamaño del mapa según necesites */
+  height: 200px; /* Ajusta la altura del mapa */
+  border-radius: 8px; /* Esquinas redondeadas */
+}
+
 
 }
 
