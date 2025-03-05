@@ -512,7 +512,62 @@
            max-width: 350px;
        }
 
+       .button-container-b {
+        padding-left: 20px; /* Espacio alrededor de la cuadrícula */
+        padding-right: 20px; /* Espacio alrededor de la cuadrícula */
+    }
+  
+    .container_merch_item {
+      width: calc(100% - 50px); /* 100% menos 20px de padding a cada lado */
+      padding: 10px 10px 0; /* Elimina el padding inferior */
+    }
 
+    .container-products-1x,
+.container-products-2x,
+.container-products-3x,
+.container-products-4x,
+.container-products-5x,
+.container-products-6x {
+    background-image: url(https://i.ibb.co/x4mXjWc/texture-3.png);
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    position: relative;
+    width: 340px; /* Se mantiene el tamaño original */
+    height: 200px;
+    background-color: #303030;
+    border-radius: 8px;
+    overflow: visible; /* Permite que la imagen sobresalga */
+    text-align: center;
+    transition: background-color 0.3s, background-image 0.6s;
+}
+
+/* Imagen flotante que sobresale */
+.product-image-x {
+  position: absolute;
+  left: 30px;
+  top: 0px;
+  width: 280px;
+  height: 180px;
+  transition: transform 0.6s;
+}
+
+/* Estilo para los títulos debajo de cada producto */
+.product-title {
+  font-size: 16px;
+  margin: 10px 10px 0px;
+}
+
+/* Animación de movimiento */
+.container-products-1x:hover .product-image-x,
+.container-products-2x:hover .product-image-x,
+.container-products-3x:hover .product-image-x,
+.container-products-4x:hover .product-image-x,
+.container-products-5x:hover .product-image-x,
+.container-products-6x:hover .product-image-x {
+    transform: translateY(-20px);
+}
+    
 
 }
 
