@@ -42,7 +42,8 @@ const jsonPaths = {
         'streetwear_vol_36': 'json/streetwear/streetwear_vol_36.json',
         'streetwear_vol_37': 'json/streetwear/streetwear_vol_37.json',
         'streetwear_vol_38': 'json/streetwear/streetwear_vol_38.json',
-        'streetwear_vol_39': 'json/streetwear/streetwear_vol_39.json'
+        'streetwear_vol_39': 'json/streetwear/streetwear_vol_39.json',
+        'streetwear_vol_40': 'json/streetwear/streetwear_vol_40.json'
     },
     anime: {
       'akira_vol_1': 'json/anime/akira_vol_1.json',
@@ -301,7 +302,8 @@ const jsonPaths = {
 'waifus_vol_3': 'json/anime/waifus_vol_3.json',
 'waifus_vol_4': 'json/anime/waifus_vol_4.json',
 'yu_gi_oh_vol_1': 'json/anime/yu_gi_oh_vol_1.json',
-'yu_gi_oh_vol_2': 'json/anime/yu_gi_oh_vol_2.json'
+'yu_gi_oh_vol_2': 'json/anime/yu_gi_oh_vol_2.json',
+'dan_da_dan_vol_1': 'json/anime/dan_da_dan_vol_1.json'
     },
     urbanos: {
         'urbanos_vol_1': 'json/urbanos/urbanos_vol_1.json',
@@ -350,7 +352,8 @@ const jsonPaths = {
         'urbanos_vol_44': 'json/urbanos/urbanos_vol_44.json',
         'urbanos_vol_45': 'json/urbanos/urbanos_vol_45.json',
         'urbanos_vol_46': 'json/urbanos/urbanos_vol_46.json',
-        'urbanos_vol_47': 'json/urbanos/urbanos_vol_47.json'
+        'urbanos_vol_47': 'json/urbanos/urbanos_vol_47.json',
+        'urbanos_vol_48': 'json/urbanos/urbanos_vol_48.json'
 },
 gym: {
   'gym_vol_1': 'json/gym/gym_vol_1.json',
@@ -406,14 +409,32 @@ vehiculos: {
 'carros_vol_4': 'json/vehiculos/carros_vol_4.json',
 'carros_vol_5': 'json/vehiculos/carros_vol_5.json',
 'carros_vol_6': 'json/vehiculos/carros_vol_6.json',
+'carros_vol_7': 'json/vehiculos/carros_vol_7.json',
 'clasicos_vol_1': 'json/vehiculos/clasicos_vol_1.json',
 'ferrari_vol_1': 'json/vehiculos/ferrari_vol_1.json',
 'formula_vol_1': 'json/vehiculos/formula_vol_1.json',
 'hot_road_vol_1': 'json/vehiculos/hot_road_vol_1.json',
 'militares_vol_1': 'json/vehiculos/militares_vol_1.json',
 'motocicletas_vol_1': 'json/vehiculos/motocicletas_vol_1.json',
+'motocicletas_vol_2': 'json/vehiculos/motocicletas_vol_2.json',
 'racing_vol_1': 'json/vehiculos/racing_vol_1.json',
 'supra_vol_1': 'json/vehiculos/supra_vol_1.json'
+},
+caricaturas: {
+'bob_esponja_vol_1': 'json/caricaturas/bob_esponja_vol_1.json'
+},
+artistas: {
+'artistas_vol_1' : 'json/artistas/artistas_vol_1.json',
+'artistas_vol_2' : 'json/artistas/artistas_vol_2.json',
+'artistas_vol_3' : 'json/artistas/artistas_vol_3.json',
+'bad_bunny_vol_1' : 'json/artistas/bad_bunny_vol_1.json',
+'bad_bunny_vol_2' : 'json/artistas/bad_bunny_vol_2.json',
+'karol_g_vol_1' : 'json/artistas/karol_g_vol_1.json'
+},
+animales: {
+'astronautas_vol_1' : 'json/animales/astronautas_vol_.json',
+'geometricos_vol_1' : 'json/animales/geometricos_vol_1.json',
+'animales_vol_1' : 'json/animales/animales_vol_1.json'
 }
 };
 
