@@ -43,7 +43,8 @@ const jsonPaths = {
         'streetwear_vol_37': 'json/streetwear/streetwear_vol_37.json',
         'streetwear_vol_38': 'json/streetwear/streetwear_vol_38.json',
         'streetwear_vol_39': 'json/streetwear/streetwear_vol_39.json',
-        'streetwear_vol_40': 'json/streetwear/streetwear_vol_40.json'
+        'streetwear_vol_40': 'json/streetwear/streetwear_vol_40.json',
+        'streetwear_vol_41': 'json/streetwear/streetwear_vol_41.json'
     },
     anime: {
       'akira_vol_1': 'json/anime/akira_vol_1.json',
