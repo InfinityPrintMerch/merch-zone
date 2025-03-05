@@ -353,10 +353,19 @@
     {
         "name": "StreetWear Vol.40",
         "designs": "20",
-        "hot": false,
+        "hot": true,
         "new": false,
         "date": "2025-01-18",
-        "image": "https://i.ibb.co/gFj8M0TJ/unknown.png",
+        "image": "https://i.ibb.co/KzVhXqK1/streetwear-vol-40.png",
         "link": "catalogo.html?category=streetwear&vol=streetwear_vol_40"
+    },
+    {
+        "name": "StreetWear Vol.41",
+        "designs": "10",
+        "hot": true,
+        "new": false,
+        "date": "2025-01-18",
+        "image": "https://i.ibb.co/TDc28vy6/streetwear-vol-41.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_41"
     }
 ]
