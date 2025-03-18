@@ -128,70 +128,74 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         fetch(jsonFile)
-            .then(response => response.json())
-            .then(data => {
-                if (!data || data.length === 0) {
-                    console.warn(`No hay productos disponibles para la categoría ${category}.`);
-                    return;
+    .then(response => response.json())
+    .then(data => {
+        if (!data || data.length === 0) {
+            console.warn(`No hay productos disponibles para la categoría ${category}.`);
+            return;
+        }
+        productContainer.innerHTML = '';
+        allItems = data.map(item => {
+            const div = document.createElement('div');
+            div.classList.add('box-a');
+            div.setAttribute('data-name', item.name);
+            div.setAttribute('data-hot', item.hot);
+            div.setAttribute('data-new', item.new);
+            div.setAttribute('data-bestseller', item.bestseller);
+            div.setAttribute('data-date', item.date);
+            div.setAttribute('data-image', item.image);
+            div.setAttribute('data-link', item.link);
+            div.setAttribute('data-designs', item.designs);
+            div.style.display = 'none';
+
+            const imgContainer = document.createElement('div');
+            imgContainer.classList.add('img-container-b');
+
+            const loader = document.createElement('div');
+            loader.classList.add('loader');
+
+            const img = document.createElement('img');
+            img.classList.add('hover-img');
+            img.src = item.image;
+            img.alt = item.name;
+            img.style.opacity = 0;
+
+            imgContainer.appendChild(loader);
+            imgContainer.appendChild(img);
+
+            const p = document.createElement('p');
+            p.classList.add('overlay-text');
+            p.textContent = item.name;
+
+            div.appendChild(imgContainer);
+            div.appendChild(p);
+
+            // Evento para hacer el contenedor clickeable
+            div.addEventListener('click', () => {
+                const link = div.getAttribute('data-link');
+                if (link) {
+                    window.location.href = link; // Redirige si hay un enlace válido
                 }
-                productContainer.innerHTML = '';
-                allItems = data.map(item => {
-                    const div = document.createElement('div');
-                    div.classList.add('box-a');
-                    div.setAttribute('data-name', item.name);
-                    div.setAttribute('data-hot', item.hot);
-                    div.setAttribute('data-new', item.new);
-                    div.setAttribute('data-bestseller', item.bestseller);
-                    div.setAttribute('data-date', item.date);
-                    div.setAttribute('data-image', item.image);
-                    div.setAttribute('data-link', item.link);
-                    div.setAttribute('data-designs', item.designs);
-                    div.style.display = 'none';
-
-                    const imgContainer = document.createElement('div');
-                    imgContainer.classList.add('img-container-b');
-
-                    const loader = document.createElement('div');
-                    loader.classList.add('loader');
-
-                    const img = document.createElement('img');
-                    img.classList.add('hover-img');
-                    img.src = item.image;
-                    img.alt = item.name;
-                    img.style.opacity = 0;
-
-                    imgContainer.appendChild(loader);
-                    imgContainer.appendChild(img);
-
-                    const p = document.createElement('p');
-                    p.classList.add('overlay-text');
-                    p.textContent = item.name;
-
-                    div.appendChild(imgContainer);
-                    div.appendChild(p);
-
-                    img.addEventListener('load', () => {
-                        img.style.opacity = 1;
-                        loader.style.display = 'none';
-                    });
-
-                    img.addEventListener('error', () => {
-                        console.error(`Error al cargar la imagen: ${item.image}`);
-                        loader.style.display = 'none';
-                    });
-
-                    addButtonsAndText(div);
-                    return div;
-                });
-
-                filteredItems = [...allItems]; // Inicializa filteredItems con todos los elementos
-                añadirEtiquetasAFiltros();
-                updatePagination();
-            })
-            .catch(error => {
-                console.error('Error al cargar el archivo JSON:', error);
-                alert('Hubo un error al cargar los productos.');
             });
+
+            img.addEventListener('load', () => {
+                img.style.opacity = 1;
+                loader.style.display = 'none';
+            });
+
+            img.addEventListener('error', () => {
+                console.error(`Error al cargar la imagen: ${item.image}`);
+                loader.style.display = 'none';
+            });
+
+            addButtonsAndText(div);
+            return div;
+        });
+
+        filteredItems = [...allItems]; // Inicializa filteredItems con todos los elementos
+        añadirEtiquetasAFiltros();
+        updatePagination();
+    });
     }
 
     function displayItems(page) {
@@ -443,22 +447,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //showItems(currentPage); // Ya se llama a displayItems dentro de updatePagination que es llamado por loadProducts
 
     function addButtonsAndText(box) {
-        const expandButton = document.createElement('button');
-        expandButton.classList.add('btn-expand-b');
-        expandButton.innerHTML = '<i class="fa-solid fa-expand"></i>';
-        expandButton.setAttribute("data-text", "FULLSCREEN");
-        expandButton.onclick = function () {
-            openModal(box);
-        };
-
-        const linkButton = document.createElement('button');
-        linkButton.classList.add('btn-link-b');
-        linkButton.innerHTML = '<i class="fa-solid fa-book-open"></i>';
-        linkButton.setAttribute("data-text", "CATÁLOGO");
-        linkButton.onclick = function () {
-            openLink(box);
-        };
-
+        
         const textIconButton = document.createElement('button');
         textIconButton.classList.add('btn-text-icon');
         textIconButton.innerHTML = '<i class="fa-solid fa-layer-group"></i>';
@@ -467,20 +456,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const displayText = designsCount === '1' ? "ÚNICO" : `${designsCount} DISEÑOS`;
         textIconButton.setAttribute("data-text", displayText);
 
-        box.appendChild(expandButton);
-        box.appendChild(linkButton);
         box.appendChild(textIconButton);
     }
 
-    function openModal(box) {
-        const imageSrc = box.getAttribute('data-image');
-        document.getElementById('modalImage-b').src = imageSrc;
-        document.getElementById('imageModal-b').style.display = "block";
-    }
-
-    function closeModal() {
-        document.getElementById('imageModal-b').style.display = "none";
-    }
 
     function openLink(box) {
         const linkUrl = box.getAttribute('data-link');

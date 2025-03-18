@@ -13,20 +13,18 @@ window.onload = function() {
 
     // Si hay un link de WhatsApp, establecerlo en el botón
     const whatsappButton = document.getElementById('me-interesa');
+    if (whatsappButton) {
+        whatsappButton.onclick = function() {
+            const currentUrl = window.location.href; // Obtener la URL actual
+            const encodedUrl = encodeURIComponent(currentUrl); // Codificar la URL para asegurarnos que sea válida
 
-if (whatsappButton) {
-    whatsappButton.onclick = function() {
-        const currentUrl = window.location.href; // Obtener la URL actual
-        const encodedUrl = encodeURIComponent(currentUrl); // Codificar la URL para asegurarnos que sea válida en el enlace
+            // Crear el enlace de WhatsApp con el texto y la URL actual
+            const whatsappLink = `https://api.whatsapp.com/send?phone=2411576300&text=Me%20interesa%20ver%20este%20diseño:%20${encodedUrl}`;
 
-        // Crear el enlace de WhatsApp con el texto y la URL actual
-        const whatsappLink = `https://api.whatsapp.com/send?phone=2411576300&text=Me%20interesa%20ver%20este%20diseño:%20${encodedUrl}`;
-
-        // Redirigir a WhatsApp con el enlace generado
-        window.location.href = whatsappLink;
-    };
-}
-
+            // Redirigir a WhatsApp con el enlace generado
+            window.location.href = whatsappLink;
+        };
+    }
 
     // Mostrar la categoría y el volumen (GYM / GYM VOL.1)
     if (category && vol) {
@@ -37,7 +35,7 @@ if (whatsappButton) {
 
         const categoryVolText = `${formattedCategory} / ${formattedVol}`;  // Formato final: GYM / GYM VOL.1
 
-        // Asignamos el texto a un elemento específico, por ejemplo, un <h3 id="category-vol">
+        // Asignamos el texto a un elemento específico
         const categoryVolElement = document.getElementById('category-vol');
         if (categoryVolElement) {
             categoryVolElement.textContent = categoryVolText;
@@ -45,21 +43,29 @@ if (whatsappButton) {
     }
 
     // Funcionalidad del zoom al hacer clic en el botón
-    document.getElementById('zoom-btn').addEventListener('click', function() {
-        const popup = document.getElementById('popup');
-        const popupImage = document.getElementById('popup-image');
+    const zoomButton = document.getElementById('zoom-btn');
+    if (zoomButton) {
+        zoomButton.addEventListener('click', function() {
+            openModal(image);
+        });
+    }
 
-        // Cambiar la imagen del pop-up con la del producto
-        popupImage.src = image;
+    // Función para abrir el modal y cargar la imagen seleccionada
+    function openModal(imageSrc) {
+        const modalImage = document.getElementById('modalImage-b');
+        const imageModal = document.getElementById('imageModal-b');
 
-        // Mostrar el pop-up
-        popup.style.display = 'flex';
-    });
-
-    // Cerrar el pop-up cuando se haga clic fuera de la imagen
-    document.getElementById('popup').addEventListener('click', function(event) {
-        if (event.target === this) {
-            this.style.display = 'none';
+        if (modalImage && imageModal) {
+            modalImage.src = imageSrc;
+            imageModal.style.display = "block";
         }
-    });
+    }
+
+    // Función para cerrar el modal
+    window.closeModal = function() {
+        const imageModal = document.getElementById('imageModal-b');
+        if (imageModal) {
+            imageModal.style.display = "none";
+        }
+    }
 };

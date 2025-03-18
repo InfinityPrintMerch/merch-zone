@@ -11,6 +11,8 @@
     <script src="../js/teme_toogle.js"></script>
     <script src="../js/navbar.js"></script>
     <script src="../js/page_load.js"></script>
+    <script src="../js/breadcrumbs.js"></script>
+    <script src="../js/search.js"></script>
     <link rel="stylesheet" href="../css/media_query_phone.css">
     <link rel="stylesheet" href="../css/keyframes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -71,9 +73,33 @@
             </div>
     </section>
 
-    <section class="productos-personalizables-b">
-      <h2>CATEGORIAS</h2>
-      </section>
+    <!-- Barra de Migas de Pan -->
+<nav class="breadcrumbs" id="breadcrumbs">
+    <!-- Aquí se generarán las migas de pan dinámicamente -->
+</nav>
+
+<div class="search-container">
+    <button class="back-btn" onclick="window.location.href='../categories/playeras_catalogo.html'">
+        <i class="fa-solid fa-left-long"></i>
+    </button>
+    <input type="text" id="search-bar" class="search-bar" placeholder="Buscar...">
+    <button class="filter-btn" id="reset-btn" style="display: none;">
+        <i class="fa-regular fa-circle-xmark"></i>
+    </button>
+</div>
+
+<!-- Paginación -->
+<div class="pagination" id="pagination-container" style="display: none;">
+    <button class="prev"><i class="fa-solid fa-circle-left"></i></button>
+    <div class="page-numbers"></div> <!-- Aquí se insertarán los números de página -->
+    <button class="next"><i class="fa-solid fa-circle-right"></i></button>
+</div>
+
+<div id="results-message-container"></div> <!-- Contenedor para el mensaje -->
+<section class="container-b" id="catalog-results">
+    <!-- Aquí se insertarán los resultados -->
+</section>
+
 
     <section class="section-catalog">
 

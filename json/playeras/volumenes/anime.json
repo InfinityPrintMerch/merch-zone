@@ -1440,6 +1440,16 @@
         "link": "catalogo.html?category=anime&vol=demon_slayer_vol_9"
     },
     {
+        "name": "Demon Slayer Vol. 10",
+        "designs": "11",
+        "hot": true,
+        "new": true,
+        "bestseller": false,
+        "date": "2025-03-17",
+        "image": "https://i.ibb.co/HTrBxspj/demon-slayer-vol-10.png",
+        "link": "catalogo.html?category=anime&vol=demon_slayer_vol_10"
+    },
+    {
         "name": "Devilman Vol. 1",
         "designs": "10",
         "hot": false,

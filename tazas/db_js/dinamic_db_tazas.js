@@ -1,41 +1,23 @@
 let currentPage = 1;
 const itemsPerPage = 20; // 20 productos por página
+let currentCategory, currentVolume;
 
-// Función para cargar productos de una colección
-const jsonPaths = {
-
-san_valentin: {
-  'amor_vol_1': 'json/data_base/san_valentin/amor_vol_1.json',
-  'san_valentin_vol_1': 'json/data_base/san_valentin/san_valentin_vol_1.json',
-  'san_valentin_vol_2': 'json/data_base/san_valentin/san_valentin_vol_2.json',
-  'dragon_ball_vol_1': 'json/data_base/san_valentin/dragon_ball_vol_1.json',
-  'dragon_ball_vol_2': 'json/data_base/san_valentin/dragon_ball_vol_2.json',
-  'flork_vol_1': 'json/data_base/san_valentin/flork_vol_1.json',
-  'flork_vol_2': 'json/data_base/san_valentin/flork_vol_2.json',
-  'parejas_vol_1': 'json/data_base/san_valentin/parejas_vol_1.json',
-  'stitch_vol_1': 'json/data_base/san_valentin/stitch_vol_1.json',
-  'aesthetic_vol_1': 'json/data_base/san_valentin/aesthetic_vol_1.json'
+function buildJsonFilePath(category, volume) {
+    return `json/data_base/${category}/${volume}.json`;
 }
-};
 
 function loadProducts(category, volume) {
-    const categoryPaths = jsonPaths[category];
-
-    if (!categoryPaths) {
-        alert('¡Diseños aún por cargar! x_x');
-        return;
-    }
-
-    const jsonFilePath = categoryPaths[volume];
-
-    if (!jsonFilePath) {
-        alert('¡Colección no válida! +_+');
-        return;
-    }
+    // Construir la ruta del archivo JSON
+    const jsonFilePath = buildJsonFilePath(category, volume);
 
     // Cargar el archivo JSON usando fetch
     fetch(jsonFilePath)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Error fetching ${jsonFilePath}: ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
             if (!data || data.length === 0) {
                 alert('No hay productos disponibles para esta colección.');
@@ -54,85 +36,64 @@ function loadProducts(category, volume) {
 
             currentPageItems.forEach(item => {
                 const div = document.createElement('div');
-                div.classList.add('box-h');
+                div.classList.add('box-h'); // Manteniendo la clase 'box-h'
                 div.setAttribute('data-name', item.name);
                 div.setAttribute('data-hot', item.hot);
                 div.setAttribute('data-new', item.new);
                 div.setAttribute('data-date', item.date);
                 div.setAttribute('data-image', item.image);
                 div.setAttribute('data-link', item.link);
-
+            
+                // Cambiamos la lógica para que al hacer clic redirija a una nueva página
+                div.onclick = function () {
+                    const image = item.image;
+                    const name = item.name;
+                    const link = item.link;
+            
+                    window.location.href = `design.html?image=${image}&name=${name}&link=${encodeURIComponent(link)}&category=${encodeURIComponent(category)}&vol=${encodeURIComponent(volume)}`;
+                };
+            
                 // Crear un contenedor para la imagen con un loader
                 const imgContainer = document.createElement('div');
-                imgContainer.classList.add('img-container-c');
-
+                imgContainer.classList.add('img-container-c'); // Manteniendo la clase 'img-container-c'
+            
                 // Agregar un loader animado (spinner)
                 const loader = document.createElement('div');
                 loader.classList.add('loader');
-
+            
                 // Crear la imagen
                 const img = document.createElement('img');
                 img.classList.add('hover-img');
                 img.src = item.image;
-                img.style.opacity = 0; // Hide the image initially
-
+                img.style.opacity = 0; // Ocultar la imagen inicialmente
+            
                 // Agregar loader e imagen al contenedor de la imagen
                 imgContainer.appendChild(loader);
                 imgContainer.appendChild(img);
-
+            
                 // Crear el texto con el nombre del diseño
-                const p = document.createElement('p');
-                p.classList.add('overlay-text-h');
-                p.innerText = item.name;
-
-                // Crear el botón de expansión
-                const expandButton = document.createElement('button');
-                expandButton.classList.add('btn-expand-b');
-                expandButton.innerHTML = '<i class="fa-solid fa-expand"></i>';
-                expandButton.setAttribute("data-text", "FULLSCREEN");
-                expandButton.onclick = function () {
-                    openModal(item);
-                };
-
-                // Crear botón de link
-                const whatsappButton = document.createElement('button');
-                whatsappButton.classList.add('btn-whatsapp-b');
-                whatsappButton.innerHTML = '<i class="fa-solid fa-star"></i>';
-                whatsappButton.setAttribute("data-text", "!LO QUIERO!");
-
-                whatsappButton.onclick = function () {
-                    const urlParams = new URLSearchParams(window.location.search);
-                    const category = urlParams.get('category');
-                    const vol = urlParams.get('vol');
-
-                    const image = item.image;
-                    const name = item.name;
-                    const link = item.link;
-
-                    window.location.href = `design.html?image=${image}&name=${name}&link=${encodeURIComponent(link)}&category=${encodeURIComponent(category)}&vol=${encodeURIComponent(vol)}`;
-                };
-
+                const overlayText = document.createElement('p');
+                overlayText.classList.add('overlay-text-h'); // Manteniendo la clase 'overlay-text-h'
+                overlayText.innerText = item.name;
+            
                 // Añadir elementos al contenedor del diseño
                 div.appendChild(imgContainer);
-                div.appendChild(p);
-                div.appendChild(expandButton);
-                div.appendChild(whatsappButton);
-
+                div.appendChild(overlayText);
+            
                 // Añadir el diseño al contenedor principal
                 container.appendChild(div);
-
-                // Load event listener after appending the image to the DOM
+            
+                // Cargar evento de la imagen después de añadirla al DOM
                 img.addEventListener('load', () => {
                     img.style.opacity = 1; // Fade in the image
                     loader.style.display = 'none'; // Hide the loader
-                  });
-  
-                  // Optional: Error handling
-                  img.addEventListener('error', (error) => {
+                });
+            
+                // Manejo de errores en la carga de la imagen
+                img.addEventListener('error', (error) => {
                     console.error('Error loading image:', item.image, error);
                     loader.style.display = 'none'; // Hide loader on error
-                    // Optionally show an error message or placeholder
-                  });
+                });
             });
 
             // Actualizar la paginación
@@ -143,8 +104,6 @@ function loadProducts(category, volume) {
             alert('Hubo un error al cargar los productos.');
         });
 }
-
-
 
 // Función para abrir el modal y cargar la imagen seleccionada
 function openModal(item) {
@@ -157,13 +116,6 @@ function openModal(item) {
 function closeModal() {
     document.getElementById('imageModal').style.display = "none";
 }
-
-// Función para abrir el link desde el atributo data-link
-function openLink(item) {
-    const linkUrl = item.link; // Acceder a la propiedad 'link' del objeto item
-    window.location.href = linkUrl; // Redirigir a la URL
-}
-
 
 // Función para actualizar los botones de paginación
 function updatePagination(totalItems) {
@@ -211,7 +163,6 @@ function updatePagination(totalItems) {
         pageNumbersContainer.appendChild(pageButton);
     }
 
-
     // Botón de "Siguiente"
     const nextButton = paginationContainer.querySelector('.next');
     nextButton.disabled = currentPage === totalPages;
@@ -222,8 +173,6 @@ function updatePagination(totalItems) {
         }
     });
 }
-
-
 
 // Obtener los parámetros de la URL
 function getURLParameter(name) {

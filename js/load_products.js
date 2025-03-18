@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function () {
             'artistas': {
                 title: 'ARTISTAS',
                 title_2: 'Artistas',
-                bannerImage: 'https://i.ibb.co/4ZbqTFdL/caricaturas.png',
+                bannerImage: 'https://i.ibb.co/gLYK69sh/artistas-text.png',
                 bannerSection: 'https://i.ibb.co/7K822Bd/banner-merch-d.png'
             },
             'animales': {
@@ -175,7 +175,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const categoryData = categoryTitleMap[category];
         if (categoryData) {
             document.getElementById('pageTitle').textContent = 'Merch Zone | ' + categoryData.title_2;
-            document.getElementById('categoryTitle').textContent = categoryData.title;
             document.getElementById('bannerImage').src = categoryData.bannerImage;
 
             if (bannerSection) {
@@ -186,66 +185,75 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         fetch(jsonFile)
-            .then(response => response.json())
-            .then(data => {
-                if (!data || data.length === 0) {
-                    console.warn(`No hay productos disponibles para la categoría ${category}.`);
-                    return;
+    .then(response => response.json())
+    .then(data => {
+        if (!data || data.length === 0) {
+            console.warn(`No hay productos disponibles para la categoría ${category}.`);
+            return;
+        }
+        productContainer.innerHTML = '';
+        allItems = data.map(item => {
+            const div = document.createElement('div');
+            div.classList.add('box-a');
+            div.setAttribute('data-name', item.name);
+            div.setAttribute('data-hot', item.hot);
+            div.setAttribute('data-new', item.new);
+            div.setAttribute('data-bestseller', item.bestseller);
+            div.setAttribute('data-date', item.date);
+            div.setAttribute('data-image', item.image);
+            div.setAttribute('data-link', item.link);
+            div.setAttribute('data-designs', item.designs);
+            div.style.display = 'none';
+
+            const imgContainer = document.createElement('div');
+            imgContainer.classList.add('img-container-b');
+
+            const loader = document.createElement('div');
+            loader.classList.add('loader');
+
+            const img = document.createElement('img');
+            img.classList.add('hover-img');
+            img.src = item.image;
+            img.alt = item.name;
+            img.style.opacity = 0;
+
+            imgContainer.appendChild(loader);
+            imgContainer.appendChild(img);
+
+            const p = document.createElement('p');
+            p.classList.add('overlay-text');
+            p.textContent = item.name;
+
+            div.appendChild(imgContainer);
+            div.appendChild(p);
+
+            // Evento para hacer el contenedor clickeable
+            div.addEventListener('click', () => {
+                const link = div.getAttribute('data-link');
+                if (link) {
+                    window.location.href = link; // Redirige si hay un enlace válido
                 }
-                productContainer.innerHTML = '';
-                allItems = data.map(item => {
-                    const div = document.createElement('div');
-                    div.classList.add('box-a');
-                    div.setAttribute('data-name', item.name);
-                    div.setAttribute('data-hot', item.hot);
-                    div.setAttribute('data-new', item.new);
-                    div.setAttribute('data-bestseller', item.bestseller);
-                    div.setAttribute('data-date', item.date);
-                    div.setAttribute('data-image', item.image);
-                    div.setAttribute('data-link', item.link);
-                    div.setAttribute('data-designs', item.designs);
-                    div.style.display = 'none';
+            });
 
-                    const imgContainer = document.createElement('div');
-                    imgContainer.classList.add('img-container-b');
+            img.addEventListener('load', () => {
+                img.style.opacity = 1;
+                loader.style.display = 'none';
+            });
 
-                    const loader = document.createElement('div');
-                    loader.classList.add('loader');
+            img.addEventListener('error', () => {
+                console.error(`Error al cargar la imagen: ${item.image}`);
+                loader.style.display = 'none';
+            });
 
-                    const img = document.createElement('img');
-                    img.classList.add('hover-img');
-                    img.src = item.image;
-                    img.alt = item.name;
-                    img.style.opacity = 0;
+            addButtonsAndText(div);
+            return div;
+        });
 
-                    imgContainer.appendChild(loader);
-                    imgContainer.appendChild(img);
+        filteredItems = [...allItems]; // Inicializa filteredItems con todos los elementos
+        añadirEtiquetasAFiltros();
+        updatePagination();
+    });
 
-                    const p = document.createElement('p');
-                    p.classList.add('overlay-text');
-                    p.textContent = item.name;
-
-                    div.appendChild(imgContainer);
-                    div.appendChild(p);
-
-                    img.addEventListener('load', () => {
-                        img.style.opacity = 1;
-                        loader.style.display = 'none';
-                    });
-
-                    img.addEventListener('error', () => {
-                        console.error(`Error al cargar la imagen: ${item.image}`);
-                        loader.style.display = 'none';
-                    });
-
-                    addButtonsAndText(div);
-                    return div;
-                });
-
-                filteredItems = [...allItems]; // Inicializa filteredItems con todos los elementos
-                añadirEtiquetasAFiltros();
-                updatePagination();
-            })
             
     }
 
@@ -287,35 +295,65 @@ document.addEventListener('DOMContentLoaded', function () {
             const pageNumbersContainer = pagination.querySelector('.page-numbers');
             const prevButton = pagination.querySelector('.prev');
             const nextButton = pagination.querySelector('.next');
-
+    
+            // Limpiar el contenedor de números de página
             pageNumbersContainer.innerHTML = '';
-
-            const maxVisiblePages = window.innerWidth < 768 ? 3 : 12;
+    
+            const isMobile = window.innerWidth < 768;
+            const maxVisiblePages = isMobile ? 3 : 12;
             let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
             let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-
-            if (endPage - startPage + 1 < maxVisiblePages) {
-                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    
+            if (isMobile) {
+                if (currentPage <= 3) {
+                    startPage = 1;
+                    endPage = Math.min(3, totalPages);
+                } else if (currentPage >= totalPages - 2) {
+                    startPage = totalPages - 2;
+                    endPage = totalPages;
+                } else {
+                    startPage = currentPage - 1;
+                    endPage = currentPage + 1;
+                }
             }
-
+    
+            // Crear botones de página
             if (startPage > 1) {
                 createPageButton(pageNumbersContainer, 1);
                 if (startPage > 2) createDots(pageNumbersContainer);
             }
-
+    
             for (let i = startPage; i <= endPage; i++) {
                 createPageButton(pageNumbersContainer, i);
             }
-
+    
             if (endPage < totalPages) {
                 if (endPage < totalPages - 1) createDots(pageNumbersContainer);
                 createPageButton(pageNumbersContainer, totalPages);
             }
-
+    
             prevButton.disabled = currentPage === 1;
             nextButton.disabled = currentPage === totalPages;
+    
+            // Añadir funcionalidad a las flechas
+            prevButton.onclick = function () {
+                if (currentPage > 1) {
+                    currentPage--;
+                    displayItems(currentPage);
+                    scrollToCatalog();
+                }
+            };
+    
+            nextButton.onclick = function () {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    displayItems(currentPage);
+                    scrollToCatalog();
+                }
+            };
         });
     }
+    
 
     function createPageButton(container, pageNumber) {
         const pageButton = document.createElement('button');
@@ -498,22 +536,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //showItems(currentPage); // Ya se llama a displayItems dentro de updatePagination que es llamado por loadProducts
 
     function addButtonsAndText(box) {
-        const expandButton = document.createElement('button');
-        expandButton.classList.add('btn-expand-b');
-        expandButton.innerHTML = '<i class="fa-solid fa-expand"></i>';
-        expandButton.setAttribute("data-text", "FULLSCREEN");
-        expandButton.onclick = function () {
-            openModal(box);
-        };
-
-        const linkButton = document.createElement('button');
-        linkButton.classList.add('btn-link-b');
-        linkButton.innerHTML = '<i class="fa-solid fa-book-open"></i>';
-        linkButton.setAttribute("data-text", "CATÁLOGO");
-        linkButton.onclick = function () {
-            openLink(box);
-        };
-
+        
         const textIconButton = document.createElement('button');
         textIconButton.classList.add('btn-text-icon');
         textIconButton.innerHTML = '<i class="fa-solid fa-layer-group"></i>';
@@ -522,24 +545,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const displayText = designsCount === '1' ? "ÚNICO" : `${designsCount} DISEÑOS`;
         textIconButton.setAttribute("data-text", displayText);
 
-        box.appendChild(expandButton);
-        box.appendChild(linkButton);
         box.appendChild(textIconButton);
-    }
-
-    function openModal(box) {
-        const imageSrc = box.getAttribute('data-image');
-        document.getElementById('modalImage-b').src = imageSrc;
-        document.getElementById('imageModal-b').style.display = "block";
-    }
-
-    function closeModal() {
-        document.getElementById('imageModal-b').style.display = "none";
-    }
-
-    function openLink(box) {
-        const linkUrl = box.getAttribute('data-link');
-        window.location.href = linkUrl;
     }
 
     // --- NUEVO CÓDIGO PARA EL BUSCADOR ---

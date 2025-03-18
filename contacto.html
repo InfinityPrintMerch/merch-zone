@@ -11,11 +11,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/keyframes.css">
+    <script src="js/page_load.js"></script>
     <link rel="stylesheet" href="css/media_query_phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/contacto.css"> <!-- CSS específico para esta página -->
 </head>
 <body>
+
+    <div class="page_loader" id="loader_page">
+        <iframe src="preloader/preloader_JS.html" width="80" height="80"></iframe>
+        <h1>CARGANDO</h1>
+    </div>
 
 <nav class="navbar">
     <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
@@ -25,11 +31,11 @@
         <div class="dropdown">
             <a href="#" class="dropbtn">Merch</a>
             <div class="dropdown-content">
-                <a href="playeras.html">Playeras</a>
-                <a href="tazas.html">Tazas</a>
-                <a href="gorras.html">Gorras</a>
-                <a href="sudaderas.html">Sudaderas</a>
-                <a href="posters.html">Pósters</a>
+                <a href="merch/playeras.html">Playeras</a>
+                <a href="merch/tazas.html">Tazas</a>
+                <a href="500.html">Gorras</a>
+                <a href="merch/sudaderas.html">Sudaderas</a>
+                <a href="500.html">Pósters</a>
             </div>
         </div>
         <a href="contacto.html" class="active-a">Contacto</a>
@@ -43,41 +49,101 @@
     <div class="hamburger" onclick="toggleMenu()">☰</div>
 </nav>
 
-<section class="banner">
-    <div>
-        <img src="https://i.ibb.co/9vc5mnh/merch-zone-b.png" alt="banner-text">
+<section class="banner contacto_background sin-overlay">
+
+</section>
+
+<section class="why-choose-us">
+    <h2>¿POR QUE ELEGIRNOS?</h2>
+    <div class="features">
+      <div class="feature">
+        <i class="fas fa-paint-brush icon"></i>
+        <div class="text">
+          <h3>Más de 20,000 diseños únicos</h3>
+          <p>En <strong>Infinity Print | Merch Zone</strong>, tenemos una extensa variedad de diseños de playeras, sudaderas, tazas y posters. ¡Lo que buscas, lo tenemos!</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fas fa-pencil-alt icon"></i>
+        <div class="text">
+          <h3>Personalización a tu gusto</h3>
+          <p>Nos encanta dar vida a tus ideas. Si tienes un diseño en mente, podemos crearlo especialmente para ti. Personaliza tus productos con el diseño que más te guste.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fas fa-cogs icon"></i>
+        <div class="text">
+          <h3>Calidad que se siente</h3>
+          <p>Usamos materiales de alta calidad para que tu playera, sudadera o taza sea resistente y cómoda. ¡La calidad está garantizada!</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fas fa-headset icon"></i>
+        <div class="text">
+          <h3>Atención al cliente como debe ser</h3>
+          <p>Estamos a tu disposición. Si tienes dudas sobre tallas, materiales o personalización, contáctanos y te ayudaremos rápidamente. ¡Tu satisfacción es nuestra prioridad!</p>
+        </div>
+      </div>
+
+    
+      
+    </div>
+  </section>
+  
+  
+
+
+<section class="contacto">
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235.18069644914513!2d-98.1422311!3d19.4171088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d020248aff4cbd%3A0xcef47e89cc49a947!2sAv%20Moctezuma%20201%2C%20Centro%2C%2090300%20Cdad.%20de%20Apizaco%2C%20Tlax.!5e0!3m2!1ses!2smx!4v1741192257002!5m2!1ses!2smx"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+    </div>
+    <div class="info-container">
+        <h2 class="titulo">CONTACTANOS</h2>
+        <div class="info-item">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <p>+52 241 157 6300</p>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <p>infinityprintmerch@gmail.com</p>
+        </div>
+        <div class="info-item">
+            <i class="far fa-clock" aria-hidden="true"></i>
+            <p>Lunes - Viernes | 9:00 a.m. - 8:00 p.m.</p>
+        </div>
+        <div class="info-item">
+            <i class="far fa-clock" aria-hidden="true"></i>
+            <p>Sábado | 10:00 a.m. - 5:00 p.m.</p>
+        </div>
+        <div class="info-item">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <p>instagram.com/infinityprintmerchmx</p>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <p>Av. Moctezuma No.201, Col. Centro, Apizaco, Tlax.</p>
+        </div>
     </div>
 </section>
 
-<section class="contact-section">
-    <h2>Contáctanos</h2>
-    <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos usando los siguientes métodos:</p>
-
-    <div class="contact-info">
-        <div class="contact-item">
-            <i class="fa-solid fa-phone"></i>
-            <p>+52 241 157 6300</p>
-        </div>
-        <div class="contact-item">
-            <i class="fa-solid fa-phone"></i>
-            <p>+52 241 417 0425</p>
-        </div>
-    </div>
-
-    <h3>Nuestra Ubicación</h3>
-<div class="maps-container"> <!-- Contenedor adicional para los mapas -->
-    <div class="maps">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235.18069644914513!2d-98.1422311!3d19.4171088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d020248aff4cbd%3A0xcef47e89cc49a947!2sAv%20Moctezuma%20201%2C%20Centro%2C%2090300%20Cdad.%20de%20Apizaco%2C%20Tlax.!5e0!3m2!1ses!2smx!4v1741192257002!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235.18450036868984!2d-98.14371069393506!3d19.41447954808812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d0202340d09d8d%3A0x73b6dbb96581130e!2sImprenta%20Arcoiris%20Apizaco!5e0!3m2!1ses!2smx!4v1741192313612!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+<div class="contact-section">
+    <h2>¡PONTE EN CONTACTO!</h2>
+    <div class="button-container">
+        <a href="https://wa.me/tu-numero" class="button-s whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://www.instagram.com/tu_usuario" class="button-s instagram">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
     </div>
 </div>
 
-   
-</section>
 
 <footer class="footer">
     <div class="footer-container">

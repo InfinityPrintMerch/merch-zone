@@ -367,5 +367,95 @@
         "date": "2025-01-18",
         "image": "https://i.ibb.co/TDc28vy6/streetwear-vol-41.png",
         "link": "catalogo.html?category=streetwear&vol=streetwear_vol_41"
+    },
+    {
+        "name": "StreetWear Vol.42",
+        "designs": 25,
+        "hot": true,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/994dH92h/streetwear-vol-42.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_42"
+    },
+    {
+        "name": "StreetWear Vol.43",
+        "designs": 58,
+        "hot": true,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/zHBCpK7n/streetwear-vol-43.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_43"
+    },
+    {
+        "name": "StreetWear Vol.44",
+        "designs": 30,
+        "hot": false,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/Lh0CH2Lk/streetwear-vol-44.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_44"
+    },
+    {
+        "name": "StreetWear Vol.45",
+        "designs": 30,
+        "hot": false,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/8Lg3KJhg/streetwear-vol-45.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_45"
+    },
+    {
+        "name": "StreetWear Vol.46",
+        "designs": 30,
+        "hot": false,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/V8423M5/streetwear-vol-46.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_46"
+    },
+    {
+        "name": "StreetWear Vol.47",
+        "designs": 30,
+        "hot": false,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/ZR6TDcSn/streetwear-vol-47.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_47"
+    },
+    {
+        "name": "StreetWear Vol.48",
+        "designs": 24,
+        "hot": true,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/cSRwbCRP/streetwear-vol-48.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_48"
+    },
+    {
+        "name": "StreetWear Vol.49",
+        "designs": 24,
+        "hot": true,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/sJWmRtWM/streetwear-vol-49.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_49"
+    },
+    {
+        "name": "StreetWear Vol.50",
+        "designs": 24,
+        "hot": true,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/DNLJH92/streetwear-vol-50.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_50"
+    },
+    {
+        "name": "StreetWear Vol.51",
+        "designs": 24,
+        "hot": true,
+        "new": true,
+        "date": "2025-03-15",
+        "image": "https://i.ibb.co/bMyqzwV4/streetwear-vol-51.png",
+        "link": "catalogo.html?category=streetwear&vol=streetwear_vol_51"
     }
 ]
