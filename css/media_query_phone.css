@@ -761,6 +761,13 @@
   font-weight: bold;
   position: relative;
 }
+
+.searching-message {
+  font-size: 14px;
+  margin: 5px 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
 }
 
 
