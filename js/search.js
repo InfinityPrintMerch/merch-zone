@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const searchBar = document.getElementById("search-bar");
     const catalogResults = document.querySelector(".container-b");
-    const catalogSection = document.querySelector(".section-catalog"); // 🔹 Referencia a la sección a ocultar
-    const paginationContainer = document.getElementById("pagination-container"); // Contenedor de la paginación
+    const catalogSection = document.querySelector(".section-catalog");
+    const paginationContainer = document.getElementById("pagination-container");
+    const loadingMessage = document.getElementById("loading-message"); // Mensaje de carga
     let allProducts = [];
     let filteredProducts = [];
     let currentPage = 1;
@@ -41,20 +42,25 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     // 📌 3. Buscar productos según la palabra clave ingresada
-    function searchProducts(query) {
+    async function searchProducts(query) {
+        loadingMessage.style.display = "block"; // Mostrar mensaje de carga
+        currentPage = 1; // Reiniciar a la primera página
+
+        if (allProducts.length === 0) await loadAllProducts(); // Cargar productos si no están cargados
+        
         query = query.toLowerCase();
         filteredProducts = allProducts.filter(product => 
             product.keywords.toLowerCase().includes(query) || product.sku.toLowerCase().includes(query)
         );
-        currentPage = 1; // Reiniciar a la primera página
-        displayResults(); // Mostrar los resultados
+        
+        displayResults();
+        loadingMessage.style.display = "none"; // Ocultar mensaje de carga
     }
-
 
     // 📌 4. Mostrar los resultados en la paginación
     function displayResults() {
-        const resultsMessageContainer = document.getElementById("results-message-container"); // 🔹 Contenedor del mensaje fuera de container-b
-        catalogResults.innerHTML = ""; // Limpiar los resultados anteriores
+        const resultsMessageContainer = document.getElementById("results-message-container");
+        catalogResults.innerHTML = "";
 
         const totalItems = filteredProducts.length;
 
@@ -63,11 +69,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             const resultsMessage = document.createElement("div");
             resultsMessage.classList.add("results-message");
             resultsMessage.innerHTML = `Se han encontrado <strong>${totalItems}</strong> resultados.`;
-            resultsMessageContainer.innerHTML = ''; // Limpiar el contenedor de resultados antes de agregar el nuevo mensaje
-            resultsMessageContainer.appendChild(resultsMessage); // Agregar mensaje al contenedor fuera de container-b
+            resultsMessageContainer.innerHTML = '';
+            resultsMessageContainer.appendChild(resultsMessage);
         } else {
-            // Si no hay resultados, limpiar el mensaje
-            resultsMessageContainer.innerHTML = ''; // Limpiar cualquier mensaje previo
+            resultsMessageContainer.innerHTML = '';
             catalogResults.innerHTML = "<div class='no-results'>No se encontraron resultados.</div>";
             return;
         }
@@ -89,24 +94,17 @@ document.addEventListener("DOMContentLoaded", async () => {
                 window.location.href = `../catalog/design.html?image=${item.image}&name=${item.name}&link=${encodeURIComponent(item.link)}`;
             };
 
-            // Contenedor de imagen
             const imgContainer = document.createElement("div");
             imgContainer.classList.add("img-container");
-
-            // Loader
             const loader = document.createElement("div");
             loader.classList.add("loader");
-
-            // Imagen
             const img = document.createElement("img");
             img.classList.add("hover-img");
             img.src = item.image;
-            img.style.opacity = 0; // Ocultar inicialmente
+            img.style.opacity = 0;
 
             imgContainer.appendChild(loader);
             imgContainer.appendChild(img);
-
-            // Texto
             const overlayText = document.createElement("p");
             overlayText.classList.add("overlay-text-b");
             overlayText.innerText = item.name;
@@ -116,18 +114,18 @@ document.addEventListener("DOMContentLoaded", async () => {
             catalogResults.appendChild(div);
 
             img.addEventListener("load", () => {
-                img.style.opacity = 1; // Mostrar imagen al cargar
-                loader.style.display = "none"; // Ocultar loader
+                img.style.opacity = 1;
+                loader.style.display = "none";
             });
 
             img.addEventListener("error", (error) => {
                 console.error("Error loading image:", item.image, error);
-                loader.style.display = "none"; // Ocultar loader si falla la imagen
+                loader.style.display = "none";
             });
         });
 
         updatePagination(totalItems);
-        paginationContainer.style.display = "flex"; // Mostrar la paginación cuando hay resultados
+        paginationContainer.style.display = "flex"; 
     }
 
     // 📌 5. Actualizar paginación
@@ -135,31 +133,27 @@ document.addEventListener("DOMContentLoaded", async () => {
         const totalPages = Math.ceil(totalItems / itemsPerPage);
         const paginationContainer = document.querySelector(".pagination");
         const pageNumbersContainer = paginationContainer.querySelector(".page-numbers");
-        pageNumbersContainer.innerHTML = ""; // Limpiar la paginación anterior
+        pageNumbersContainer.innerHTML = "";
 
         let startPage, endPage;
-        let maxPagesToShow = window.innerWidth <= 768 ? 3 : 4; // 3 para móvil y 4 para escritorio
+        let maxPagesToShow = window.innerWidth <= 768 ? 3 : 4;
 
-        // Mostrar primeros y últimos botones, con "..." si hay páginas intermedias
         if (totalPages <= maxPagesToShow) {
-            // Si hay menos de 4 o 3 páginas, mostrar todas
             startPage = 1;
             endPage = totalPages;
         } else {
-            // Si hay más de 4 páginas, mostrar puntos suspensivos solo al final
             if (currentPage <= 2) {
                 startPage = 1;
-                endPage = maxPagesToShow; // Mostrar las primeras 3 o 4 páginas
+                endPage = maxPagesToShow;
             } else if (currentPage + 1 >= totalPages) {
                 startPage = totalPages - (maxPagesToShow - 1);
-                endPage = totalPages; // Mostrar las últimas páginas
+                endPage = totalPages;
             } else {
-                startPage = currentPage - 1; // Página actual centrada
+                startPage = currentPage - 1;
                 endPage = currentPage + 2;
             }
         }
 
-        // Botón de "Anterior"
         const prevButton = paginationContainer.querySelector(".prev");
         prevButton.disabled = currentPage === 1;
         prevButton.onclick = () => {
@@ -180,7 +174,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             };
             pageNumbersContainer.appendChild(firstPageButton);
 
-            // Mostrar puntos suspensivos si hay páginas antes
             if (startPage > 2) {
                 const dots = document.createElement("span");
                 dots.textContent = "...";
@@ -188,7 +181,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
         }
 
-        // Botones de las páginas actuales
         for (let i = startPage; i <= endPage; i++) {
             const pageButton = document.createElement("button");
             pageButton.textContent = i;
@@ -201,13 +193,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             pageNumbersContainer.appendChild(pageButton);
         }
 
-        // Mostrar puntos suspensivos solo si hay más páginas después
         if (endPage < totalPages) {
             const dots = document.createElement("span");
             dots.textContent = "...";
             pageNumbersContainer.appendChild(dots);
-
-            // Agregar el último botón de página
             const lastPageButton = document.createElement("button");
             lastPageButton.textContent = totalPages;
             lastPageButton.classList.add("page-number");
@@ -218,7 +207,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             pageNumbersContainer.appendChild(lastPageButton);
         }
 
-        // Botón de "Siguiente"
         const nextButton = paginationContainer.querySelector(".next");
         nextButton.disabled = currentPage === totalPages;
         nextButton.onclick = () => {
@@ -231,20 +219,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // 📌 6. Detectar cambios en la barra de búsqueda
     searchBar.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") { // Solo se activa al presionar Enter
+        if (event.key === "Enter") {
             const query = searchBar.value.trim();
-    
+
             if (query.length > 0) {
-                catalogSection.style.display = "none"; // 🔹 Oculta las categorías
+                catalogSection.style.display = "none"; // Ocultar las categorías
                 searchProducts(query); // Iniciar la búsqueda
             } else {
-                catalogSection.style.display = "block"; // 🔹 Muestra las categorías cuando no hay búsqueda
-                catalogResults.innerHTML = ""; // Limpiar los resultados
-                paginationContainer.style.display = "none"; // Ocultar la paginación cuando no hay búsqueda
+                catalogSection.style.display = "block"; // Mostrar las categorías cuando no hay búsqueda
+                catalogResults.innerHTML = ""; // Limpiar resultados
+                paginationContainer.style.display = "none"; // Ocultar paginación cuando no hay búsqueda
             }
         }
     });
-
-    // 📌 7. Cargar productos al inicio
-    await loadAllProducts();
 });
