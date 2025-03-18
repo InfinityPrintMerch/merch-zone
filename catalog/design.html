@@ -9,9 +9,9 @@
     <script src="../js/teme_toogle.js"></script>
     <script src="../js/navbar.js"></script>
     <script src="../js/slide_elements.js"></script>
-    <script src="../js/popup.js"></script>
     <script src="../js/dinamic_designs.js"></script>
-    <script src="../js/zoom.js"></script>
+    <script src="../js/dinamic_image.js"></script>
+    <script src="../js/breadcrumbs.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/keyframes.css">
@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+
+    
 
   <nav class="navbar">
         <img src="https://i.ibb.co/Qk62VhV/mech-zone-logo.png" alt="Logo">
@@ -48,6 +50,11 @@
     <div class="hamburger" onclick="toggleMenu()">☰</div>
 </nav>
 
+<!-- Barra de Migas de Pan -->
+<nav class="breadcrumbs" id="breadcrumbs">
+    <!-- Aquí se generarán las migas de pan dinámicamente -->
+</nav>
+
 
 <!-- Este es el contenedor donde se mostrarán los datos -->
 <div class="wrapper">
@@ -69,8 +76,12 @@
 </div>
 
 
-
-
+<!-- Modal para ampliar imagen -->
+<div id="imageModal-b" class="modal-b" onclick="closeModal()">
+    <span class="close-b">&times;</span>
+    <img class="modal-content-b" id="modalImage-b">
+    <div id="caption"></div>
+</div>
 
 
 </body>
